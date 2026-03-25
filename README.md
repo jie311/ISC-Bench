@@ -70,7 +70,7 @@
 
 ---
 
-## 1️⃣ What is ISC?
+<h2 align="center">1️⃣ What is ISC?</h2>
 
 ### Demo
 
@@ -82,7 +82,7 @@ The demo GIF may take a moment to load.
 
 ---
 
-## 2️⃣ ISC Leaderboard
+<h2 align="center">2️⃣ ISC Leaderboard</h2>
 
 <p align="center">
   Current coverage against the <a href="https://arena.ai/leaderboard">Arena Leaderboard</a> overall Top 50, accessed on 2026-03-25.
@@ -211,7 +211,7 @@ The demo GIF may take a moment to load.
 
 ---
 
-## 3️⃣ ISC Quick Test
+<h2 align="center">3️⃣ ISC Quick Test</h2>
 
 56 prompt templates across 8 domains. Each one triggers any frontier LLM to generate harmful content. All 56 tested on 5 models — **every single one succeeded**. Ask the same questions directly, every model refuses.
 
@@ -294,7 +294,7 @@ cat templates/aiml_llamaguard_eval/prompt.txt
 
 All 56 templates follow the **TVD design pattern**. To design your own, see our [cookbook](cookbook/).
 
-## 4️⃣ Experiments
+<h2 align="center">4️⃣ Experiments</h2>
 
 Three evaluation modes. Full details in [`experiment/`](experiment/).
 
@@ -315,7 +315,7 @@ cd experiment/isc_agent && docker build -t isc-agent . && ./run.sh --model <mode
 
 ---
 
-## 5️⃣ The ISC Concept
+<h2 align="center">5️⃣ The ISC Concept</h2>
 
 <p align="center">
   <img src="assets/fig2_tvd_framework.png" width="100%">
@@ -350,7 +350,7 @@ More ISC examples:
 
 ---
 
-## 6️⃣ Setup
+<h2 align="center">6️⃣ Setup</h2>
 
 ```bash
 # Install uv (if not already installed)
@@ -363,7 +363,7 @@ cp .env.example .env   # add your OpenRouter API key
 
 Python 3.11+ and [uv](https://docs.astral.sh/uv/). All scripts use [PEP 723](https://peps.python.org/pep-0723/) — `uv run` handles everything. Docker only for agentic mode.
 
-## 7️⃣ Project Structure
+<h2 align="center">7️⃣ Project Structure</h2>
 
 | Directory | What | Guide |
 |-----------|------|-------|
@@ -371,7 +371,7 @@ Python 3.11+ and [uv](https://docs.astral.sh/uv/). All scripts use [PEP 723](htt
 | [`experiment/`](experiment/) | Reproduce paper: Single, ICL, Agentic | [→ How to run](experiment/README.md) |
 | [`cookbook/`](cookbook/) | Tutorials: ISC concepts, anchors, composability | [→ Notebooks](cookbook/) |
 
-## 8️⃣ FAQ
+<h2 align="center">8️⃣ FAQ</h2>
 
 <details>
 <summary><b>Q: ISC didn't trigger on my model.</b></summary>
