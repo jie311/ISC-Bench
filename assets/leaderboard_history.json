@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2026-03-22",
+    "total": 0,
+    "confirmed": 0,
+    "events": []
+  },
+  {
+    "date": "2026-03-25",
+    "total": 40,
+    "confirmed": 11,
+    "events": [
+      {"model": "Claude Opus 4.6", "by": "wuyoscar"},
+      {"model": "Claude Opus 4.5", "by": "wuyoscar"},
+      {"model": "Claude Sonnet 4.6", "by": "wuyoscar"},
+      {"model": "Gemini 3 Pro", "by": "wuyoscar"},
+      {"model": "GPT-5.2 Chat", "by": "wuyoscar"},
+      {"model": "o3", "by": "wuyoscar"},
+      {"model": "Grok 4.1", "by": "wuyoscar"},
+      {"model": "Kimi K2.5 Thinking", "by": "wuyoscar"},
+      {"model": "Qwen 3 Max Preview", "by": "wuyoscar"},
+      {"model": "DeepSeek V3.2", "by": "wuyoscar"},
+      {"model": "GLM-5", "by": "wuyoscar"},
+      {"model": "Qwen 3.5 397B", "by": "HanxunH"}
+    ]
+  }
+]

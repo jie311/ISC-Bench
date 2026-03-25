@@ -109,7 +109,7 @@ Coverage of [Arena Top 50](https://arena.ai/leaderboard) — updated 2026-03-25.
 | 22 | <img src="https://www.google.com/s2/favicons?domain=moonshot.ai&sz=32" width="14"> Kimi K2.5 Thinking | 1453 | 🔴 | [🔗](https://www.kimi.com/share/19ca8616-9e32-810d-8000-0000647caebf) | [@wuyoscar](https://github.com/wuyoscar) |
 | 23 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Sonnet 4.5 | 1453 | 🟢 |  |  |
 | 25 | <img src="https://www.google.com/s2/favicons?domain=baidu.com&sz=32" width="14"> ERNIE 5.0 | 1452 | 🟢 |  |  |
-| 26 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen 3.5 397B | 1452 | 🔴 | [🔗](https://chat.qwen.ai/s/9fb3a1d0-9b4a-440d-a81c-af5d3eb48420?fev=0.2.16) | [@HanxunH](https://github.com/HanxunH) |
+| 26 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen 3.5 397B | 1452 | 🔴 | [🔗](https://chat.qwen.ai/s/f4faf33a-a6b3-4503-8c9b-6d57ee39c0c6?fev=0.2.16) | [@HanxunH](https://github.com/HanxunH) |
 | 27 | <img src="https://www.google.com/s2/favicons?domain=baidu.com&sz=32" width="14"> ERNIE 5.0 Preview | 1450 | 🟢 |  |  |
 | 29 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 2.5 Pro | 1448 | 🟢 |  |  |
 | 30 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.1 | 1447 | 🟢 |  |  |
@@ -130,6 +130,10 @@ Coverage of [Arena Top 50](https://arena.ai/leaderboard) — updated 2026-03-25.
 | 47 | <img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14"> GLM-4.6 | 1426 | 🟢 |  |  |
 | 49 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> DeepSeek V3.2 | 1425 | 🔴 | [🔗](https://chat.deepseek.com/share/pbzirkyhfkvapyc3g0) | [@wuyoscar](https://github.com/wuyoscar) |
 | 50 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen 3 Max 2025-09-23 | 1424 | 🟢 |  |  |
+
+<p align="center">
+  <img src="assets/leaderboard_progress.svg" width="80%">
+</p>
 
 <details>
 <summary><b>📜 Leaderboard History</b></summary>
