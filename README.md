@@ -94,7 +94,7 @@ Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-0
 > **Rules**: Rankings are synced with [Arena](https://arena.ai/leaderboard) weekly. Submit your ISC case via the [issue template](.github/ISSUE_TEMPLATE/isc-submission.md) — include a public conversation link, the type of harmful content generated, and the domain. ISC is a low-conditional design concept — no automated optimization, no white-box access, just professional task framing that causes models to generate harmful content on their own. See our [paper](paper.pdf) for details.
 
 <p align="center">
-  <img src="assets/leaderboard_progress.svg?v=1774444663" width="80%">
+  <img src="assets/leaderboard_progress.svg?v=1774445800" width="80%">
 </p>
 
 | Rank | Model | Score | Jailbroken | Demo | By |
