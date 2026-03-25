@@ -10,7 +10,7 @@
 
 <h4 align="center">
   <a href="paper.pdf">📄 Paper</a> &nbsp;|&nbsp;
-  <a href="#-jailbroken-arena">🏆 Jailbroken Arena</a> &nbsp;|&nbsp;
+  <a href="#-jailbreakarena">🏆 JailbreakArena</a> &nbsp;|&nbsp;
   <a href="cookbook/">📓 Tutorial</a> &nbsp;|&nbsp;
   <a href="experiment/isc_agent/">🤖 ISC-Agent</a> &nbsp;|&nbsp;
   <a href="templates/">🔥 ISC-Bench</a>
@@ -49,7 +49,7 @@
 
 | Date | Update |
 |:-----|--------|
-| 🔥 v5 — 2026-03-25 | **Jailbroken Arena**: 330 models, progress chart, auto-generation scripts, community submissions |
+| 🔥 v5 — 2026-03-25 | **JailbreakArena**: 330 models, progress chart, auto-generation scripts, community submissions |
 | 🔥 v4 — 2026-03-25 | ICL benchmark switching, CLAUDE.md, nav bar redesign |
 | 🔥 v3 — 2026-03-25 | Leaderboard v2, contributor attribution, 10 confirmed ISC cases, submission template |
 | 🔥 v2 — 2026-03-25 | README polish, notebook fixes, outputs cleared |
@@ -62,7 +62,7 @@
 - [ ] **Project website** ← next
 - [ ] ISC Skill — domain knowledge + utility scripts
 - [ ] More ISC examples across models and contexts
-- [x] **Jailbroken Arena** — 330 models, 12 confirmed, auto-generation pipeline
+- [x] **JailbreakArena** — 330 models, 12 confirmed, auto-generation pipeline
 - [x] Community submissions via GitHub Issues + leaderboard history
 - [x] ICL benchmark switching (harmbench, strongreject, advbench)
 - [x] ISC-Bench: 56 TVD templates across 8 domains
@@ -85,7 +85,7 @@ The demo GIF may take a moment to load.
 
 ---
 
-## 🏆 Jailbroken Arena
+## 🏆 JailbreakArena
 
 Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-03-26. **14 / 330 confirmed under ISC.**
 
@@ -439,7 +439,7 @@ Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-0
 </details>
 
 <details>
-<summary><b>📜 Jailbroken Arena History</b></summary>
+<summary><b>📜 JailbreakArena History</b></summary>
 
 | Date | Model | By | Note |
 |:-----|-------|:--:|------|

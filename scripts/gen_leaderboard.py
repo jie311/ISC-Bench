@@ -171,7 +171,7 @@ def main() -> None:
     ext_rows = [gen_row(m, isc_cases) for m in arena[args.top:]]
 
     lines = [
-        "## 🏆 Jailbroken Arena",
+        "## 🏆 JailbreakArena",
         "",
         header,
         "",
@@ -196,7 +196,7 @@ def main() -> None:
     # Replace in README
     readme = README.read_text()
     # Find section boundaries
-    start = readme.index("## 🏆 Jailbroken Arena")
+    start = readme.index("## 🏆 JailbreakArena")
     # Find the next major section (---\n\n## )
     end_pattern = re.search(r'\n---\n\n## ⚡', readme[start:])
     if end_pattern:
