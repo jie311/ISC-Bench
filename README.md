@@ -10,7 +10,7 @@
 
 <h4 align="center">
   <a href="paper.pdf">📄 Paper</a> &nbsp;|&nbsp;
-  <a href="#-jailbreak-arena">🏆 Jailbreak Arena</a> &nbsp;|&nbsp;
+  <a href="#-jailbroken-arena">🏆 Jailbroken Arena</a> &nbsp;|&nbsp;
   <a href="cookbook/">📓 Tutorial</a> &nbsp;|&nbsp;
   <a href="experiment/isc_agent/">🤖 ISC-Agent</a> &nbsp;|&nbsp;
   <a href="templates/">🔥 ISC-Bench</a>
@@ -82,7 +82,7 @@ The demo GIF may take a moment to load.
 
 ---
 
-## 🏆 Jailbreak Arena
+## 🏆 Jailbroken Arena
 
 Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-03-25. **12 / 330 confirmed under ISC.**
 
