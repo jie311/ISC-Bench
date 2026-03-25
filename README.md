@@ -64,7 +64,7 @@
 ### Demo
 
 <p align="center">
-  <video src="assets/ISC_Video.mp4" width="800" autoplay muted loop playsinline></video>
+  <img src="assets/ISC_Video.gif" width="800">
 </p>
 
 ---
