@@ -2,13 +2,18 @@
   <img src="assets/isc_banner.png" width="1000">
 </p>
 <p align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg"></a>
-  <a href="paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-green"></a>
+  <a href="paper.pdf"><img src="https://img.shields.io/badge/📄_Read_the_Paper-PDF-green"></a>
   <img src="https://img.shields.io/badge/LLM_&_Agent_Safety-ISC-red">
-  <img src="https://img.shields.io/badge/Black_Box-Attack-black">
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg"></a>
 </p>
 <h1 align="center">Internal Safety Collapse in Frontier Large Language Models</h1>
+
+<h4 align="center">
+  <a href="paper.pdf">📄 Paper</a> &nbsp;|&nbsp;
+  <a href="cookbook/">📓 Tutorial</a> &nbsp;|&nbsp;
+  <a href="experiment/isc_agent/">🤖 ISC-Agent</a> &nbsp;|&nbsp;
+  <a href="templates/">🔥 ISC-Bench</a>
+</h4>
 
 <p align="center">
   <b>Yutao Wu</b><sup>1</sup>&nbsp;&nbsp;
@@ -47,36 +52,162 @@
 
 | Date | Update |
 |:-----|--------|
+| 🔥 2026-03-25 | README refresh: cleaner navigation, reorganized roadmap, and Top Frontier Large-Scale Models Under ISC leaderboard |
 | 🎉 2026-03-22 | Initial release — 56 templates, 3 experiment modes, tutorials |
 
-**Roadmap:**
-- 📓 Per-model attack notebooks (GPT, Claude, Gemini, Grok, GLM, Kimi, ...)
-- 🌐 More ISC examples across models and contexts
-- 🖥️ Project website
-- 🧰 ISC Skill — domain knowledge + utility scripts for ISC research
+## Roadmap
+
+- [x] ISC-Bench: 56 TVD templates across 8 domains
+- [x] 3 experiment modes (Single, ICL, Agentic)
+- [x] Tutorials (01-04)
+- [x] ISC demo video
+- [x] Paper PDF
+- [ ] Jailbreak Top 20 (Large Model In Progress)
+- [ ] Per-model attack notebooks (GPT, Claude, Gemini, Grok, GLM, Kimi, ...)
+- [ ] More ISC examples across models and contexts
+- [ ] Project website
+- [ ] ISC Skill — domain knowledge + utility scripts
 
 ---
 
-## 1. What is ISC?
+## 1️⃣ What is ISC?
+
+### Demo
+
+The demo GIF may take a moment to load.
 
 <p align="center">
   <img src="assets/ISC_Video.gif" width="800">
 </p>
 
-### More Demonstrations
+### 🔥 Top Frontier Large-Scale Models Under ISC
 
-| LLM | Conversation |
-|-----|-------------|
-| Qwen 3 Max | [Multilingual toxic dataset — death threats, hate speech, slurs across 5 languages](https://chat.qwen.ai/s/f1e5d846-018e-4a3d-94ff-418e34559497?fev=0.2.9) |
-| Grok 4.1 | [Pipe bomb assembly guide — dimensions, powder, fuse, shrapnel, detonation distance](https://grok.com/share/c2hhcmQtMi1jb3B5_54de710c-9331-4fca-a953-6c35775156fb) |
-| Gemini 3 Pro | [x64 bind-shell + reverse-TCP shellcode in raw hex — verified executable](https://gemini.google.com/share/320bf34b0334) |
-| Kimi 2.5 | [Lethal compounds with SMILES, LD50, killing mechanisms](https://www.kimi.com/share/19ca8616-9e32-810d-8000-0000647caebf) |
-| Claude 4.5 Opus | [All 13 policy-violation categories in one batch — medical dosing, fraud, violence, PII](https://claude.ai/share/1e3e997c-0315-46f1-9cbd-37157314a7ef) |
-| GPT-5.2 | [Fabricated news — anti-vaccine, election fraud, climate disinformation](https://chatgpt.com/share/69a3f6e1-24d8-800c-9581-3d1a7180ee55) |
+<p align="center">
+  Current coverage against the <a href="https://arena.ai/leaderboard">Arena Leaderboard</a> overall Top 50, accessed on 2026-03-25.
+  Replace <code>TODO</code> with the public demo link once the corresponding ISC conversation is ready.
+</p>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Model</th>
+      <th>Score</th>
+      <th>Under ISC</th>
+      <th width="40"></th>
+      <th>Rank</th>
+      <th>Model</th>
+      <th>Score</th>
+      <th>Under ISC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">2</td><td><img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14" alt="Anthropic"> Claude Opus 4.6</td><td align="center">1501</td><td>TODO</td>
+      <td></td>
+      <td align="center">27</td><td><img src="https://www.google.com/s2/favicons?domain=baidu.com&sz=32" width="14" alt="Baidu"> ERNIE 5.0 Preview</td><td align="center">1450</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">3</td><td><img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14" alt="Google"> Gemini 3.1 Pro Preview</td><td align="center">1493</td><td>TODO</td>
+      <td></td>
+      <td align="center">29</td><td><img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14" alt="Google"> Gemini 2.5 Pro</td><td align="center">1448</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">4</td><td><img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14" alt="xAI"> Grok 4.20 Beta</td><td align="center">1492</td><td>TODO</td>
+      <td></td>
+      <td align="center">30</td><td><img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14" alt="Anthropic"> Claude Opus 4.1</td><td align="center">1447</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">5</td><td><img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14" alt="Google"> Gemini 3 Pro</td><td align="center">1486</td><td>👾 <a href="https://gemini.google.com/share/320bf34b0334">Under ISC</a></td>
+      <td></td>
+      <td align="center">31</td><td><img src="https://www.google.com/s2/favicons?domain=mi.com&sz=32" width="14" alt="Xiaomi"> Mimo V2 Pro</td><td align="center">1445</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">6</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5.4 High</td><td align="center">1485</td><td>TODO</td>
+      <td></td>
+      <td align="center">32</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-4.5 Preview</td><td align="center">1444</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">7</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5.2 Chat</td><td align="center">1482</td><td>👾 <a href="https://chatgpt.com/share/69a3f6e1-24d8-800c-9581-3d1a7180ee55">Under ISC</a></td>
+      <td></td>
+      <td align="center">33</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> ChatGPT 4o Latest</td><td align="center">1443</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">9</td><td><img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14" alt="Google"> Gemini 3 Flash</td><td align="center">1475</td><td>TODO</td>
+      <td></td>
+      <td align="center">34</td><td><img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14" alt="Z.ai"> GLM-4.7</td><td align="center">1443</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">12</td><td><img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14" alt="Anthropic"> Claude Opus 4.5</td><td align="center">1469</td><td>👾 <a href="https://claude.ai/share/1e3e997c-0315-46f1-9cbd-37157314a7ef">Under ISC</a></td>
+      <td></td>
+      <td align="center">35</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5.2 High</td><td align="center">1442</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">13</td><td><img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14" alt="Anthropic"> Claude Sonnet 4.6</td><td align="center">1465</td><td>TODO</td>
+      <td></td>
+      <td align="center">36</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5.2</td><td align="center">1440</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">14</td><td><img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14" alt="Alibaba"> Qwen 3.5 Max Preview</td><td align="center">1464</td><td>TODO</td>
+      <td></td>
+      <td align="center">37</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5.1</td><td align="center">1439</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">15</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5.3 Chat</td><td align="center">1464</td><td>TODO</td>
+      <td></td>
+      <td align="center">38</td><td><img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14" alt="Google"> Gemini 3.1 Flash Lite Preview</td><td align="center">1438</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">17</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5.4</td><td align="center">1463</td><td>TODO</td>
+      <td></td>
+      <td align="center">39</td><td><img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14" alt="Alibaba"> Qwen 3 Max Preview</td><td align="center">1435</td><td>👾 <a href="https://chat.qwen.ai/s/f1e5d846-018e-4a3d-94ff-418e34559497?fev=0.2.9">Under ISC</a></td>
+    </tr>
+    <tr>
+      <td align="center">18</td><td><img src="https://www.google.com/s2/favicons?domain=bytedance.com&sz=32" width="14" alt="ByteDance"> Dola Seed 2.0 Preview</td><td align="center">1462</td><td>TODO</td>
+      <td></td>
+      <td align="center">40</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5 High</td><td align="center">1434</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">19</td><td><img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14" alt="xAI"> Grok 4.1</td><td align="center">1461</td><td>👾 <a href="https://grok.com/share/c2hhcmQtMi1jb3B5_54de710c-9331-4fca-a953-6c35775156fb">Under ISC</a></td>
+      <td></td>
+      <td align="center">41</td><td><img src="https://www.google.com/s2/favicons?domain=moonshot.ai&sz=32" width="14" alt="Moonshot"> Kimi K2.5 Instant</td><td align="center">1433</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">20</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5.1 High</td><td align="center">1455</td><td>TODO</td>
+      <td></td>
+      <td align="center">42</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> o3</td><td align="center">1432</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">21</td><td><img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14" alt="Z.ai"> GLM-5</td><td align="center">1455</td><td>TODO</td>
+      <td></td>
+      <td align="center">45</td><td><img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" width="14" alt="Amazon"> Amazon Nova Experimental Chat</td><td align="center">1429</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">22</td><td><img src="https://www.google.com/s2/favicons?domain=moonshot.ai&sz=32" width="14" alt="Moonshot"> Kimi K2.5 Thinking</td><td align="center">1453</td><td>👾 <a href="https://www.kimi.com/share/19ca8616-9e32-810d-8000-0000647caebf">Under ISC</a></td>
+      <td></td>
+      <td align="center">46</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5 Chat</td><td align="center">1426</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">23</td><td><img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14" alt="Anthropic"> Claude Sonnet 4.5</td><td align="center">1453</td><td>TODO</td>
+      <td></td>
+      <td align="center">47</td><td><img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14" alt="Z.ai"> GLM-4.6</td><td align="center">1426</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">25</td><td><img src="https://www.google.com/s2/favicons?domain=baidu.com&sz=32" width="14" alt="Baidu"> ERNIE 5.0</td><td align="center">1452</td><td>TODO</td>
+      <td></td>
+      <td align="center">49</td><td><img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14" alt="DeepSeek"> DeepSeek V3.2</td><td align="center">1425</td><td>TODO</td>
+    </tr>
+    <tr>
+      <td align="center">26</td><td><img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14" alt="Alibaba"> Qwen 3.5 397B</td><td align="center">1452</td><td>TODO</td>
+      <td></td>
+      <td align="center">50</td><td><img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14" alt="Alibaba"> Qwen 3 Max 2025-09-23</td><td align="center">1424</td><td>TODO</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## 2. ISC Quick Test
+## 2️⃣ ISC Quick Test
 
 56 prompt templates across 8 domains. Each one triggers any frontier LLM to generate harmful content. All 56 tested on 5 models — **every single one succeeded**. Ask the same questions directly, every model refuses.
 
@@ -159,7 +290,7 @@ cat templates/aiml_llamaguard_eval/prompt.txt
 
 All 56 templates follow the **TVD design pattern**. To design your own, see our [cookbook](cookbook/).
 
-## 3. Experiments
+## 3️⃣ Experiments
 
 Three evaluation modes. Full details in [`experiment/`](experiment/).
 
@@ -180,7 +311,7 @@ cd experiment/isc_agent && docker build -t isc-agent . && ./run.sh --model <mode
 
 ---
 
-## 4. The ISC Concept
+## 4️⃣ The ISC Concept
 
 <p align="center">
   <img src="assets/fig2_tvd_framework.png" width="100%">
@@ -215,24 +346,28 @@ More ISC examples:
 
 ---
 
-## Setup
+## 5️⃣ Setup
 
 ```bash
+# Install uv (if not already installed)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Clone and setup
 git clone https://github.com/wuyoscar/ISC-Bench.git && cd ISC-Bench
 cp .env.example .env   # add your OpenRouter API key
 ```
 
 Python 3.11+ and [uv](https://docs.astral.sh/uv/). All scripts use [PEP 723](https://peps.python.org/pep-0723/) — `uv run` handles everything. Docker only for agentic mode.
 
-## Project Structure
+## 6️⃣ Project Structure
 
 | Directory | What | Guide |
 |-----------|------|-------|
 | [`templates/`](templates/) | 56 TVD prompts across 8 domains | [→ Index](templates/README.md) |
 | [`experiment/`](experiment/) | Reproduce paper: Single, ICL, Agentic | [→ How to run](experiment/README.md) |
-| [`cookbook/`](cookbook/) | Tutorials: ISC concepts, anchors, composability | — |
+| [`cookbook/`](cookbook/) | Tutorials: ISC concepts, anchors, composability | [→ Notebooks](cookbook/) |
 
-## FAQ
+## 7️⃣ FAQ
 
 <details>
 <summary><b>Q: ISC didn't trigger on my model.</b></summary>
@@ -262,20 +397,6 @@ All input-level defenses show **100% failure** — prompt contains nothing to de
 
 </details>
 
----
-
-## TODO
-
-- [x] ISC-Bench: 56 TVD templates across 8 domains
-- [x] 3 experiment modes (Single, ICL, Agentic)
-- [x] Tutorials (01-04)
-- [x] ISC demo video
-- [x] Paper PDF
-- [ ] Per-model attack notebooks (GPT-4o, GPT-5.x, Claude, Gemini, Grok, GLM, Kimi)
-- [ ] More ISC examples across models and contexts
-- [ ] Project website (GitHub Pages)
-- [ ] ISC Skill — domain knowledge + utility scripts
-
 ## License
 
 **CC BY-NC-SA 4.0** — exclusively for academic research in AI safety. Commercial use and harmful content generation are prohibited.
@@ -290,6 +411,16 @@ All input-level defenses show **100% failure** — prompt contains nothing to de
   howpublished={\url{https://github.com/wuyoscar/ISC-Bench}}
 }
 ```
+
+## Star History
+
+<a href="https://star-history.com/#wuyoscar/ISC-Bench&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=wuyoscar/ISC-Bench&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=wuyoscar/ISC-Bench&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=wuyoscar/ISC-Bench&type=Date" />
+ </picture>
+</a>
 
 ## Contact
 
