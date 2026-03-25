@@ -177,7 +177,7 @@ The demo GIF may take a moment to load.
     <tr>
       <td align="center">20</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5.1 High</td><td align="center">1455</td><td>TODO</td>
       <td></td>
-      <td align="center">42</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> o3</td><td align="center">1432</td><td>TODO</td>
+      <td align="center">42</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> o3</td><td align="center">1432</td><td>👾 <a href="https://chatgpt.com/share/69c3b0a7-3554-839a-95a5-d22d60758dc9">Under ISC</a></td>
     </tr>
     <tr>
       <td align="center">21</td><td><img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14" alt="Z.ai"> GLM-5</td><td align="center">1455</td><td>TODO</td>
