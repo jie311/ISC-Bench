@@ -205,6 +205,8 @@ The demo GIF may take a moment to load.
   </tbody>
 </table>
 
+> **🏆 Triggered ISC on a model not listed here?** Submit your conversation link via [GitHub Issue](https://github.com/wuyoscar/ISC-Bench/issues/new?template=isc-submission.md&title=[ISC]+Model+Name) — we'll verify and add it to the leaderboard.
+
 ---
 
 ## 2️⃣ ISC Quick Test
