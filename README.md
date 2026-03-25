@@ -163,7 +163,7 @@ The demo GIF may take a moment to load.
       <td align="center">39</td><td><img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14" alt="Alibaba"> Qwen 3 Max Preview</td><td align="center">1435</td><td>👾 <a href="https://chat.qwen.ai/s/f1e5d846-018e-4a3d-94ff-418e34559497?fev=0.2.9">Under ISC</a></td>
     </tr>
     <tr>
-      <td align="center">18</td><td><img src="https://www.google.com/s2/favicons?domain=bytedance.com&sz=32" width="14" alt="ByteDance"> Dola Seed 2.0 Preview</td><td align="center">1462</td><td>TODO</td>
+      <td align="center">18</td><td><img src="https://www.google.com/s2/favicons?domain=volcengine.com&sz=32" width="14" alt="ByteDance"> Dola Seed 2.0 Preview</td><td align="center">1462</td><td>TODO</td>
       <td></td>
       <td align="center">40</td><td><img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14" alt="OpenAI"> GPT-5 High</td><td align="center">1434</td><td>TODO</td>
     </tr>
