@@ -2,10 +2,8 @@
   <img src="assets/isc_banner.png" width="1000">
 </p>
 <p align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg"></a>
-  <a href="paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-green"></a>
+  <a href="paper.pdf"><img src="https://img.shields.io/badge/📄_Read_the_Paper-PDF-green"></a>
   <img src="https://img.shields.io/badge/LLM_&_Agent_Safety-ISC-red">
-  <img src="https://img.shields.io/badge/Black_Box-Attack-black">
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg"></a>
 </p>
 <h1 align="center">Internal Safety Collapse in Frontier Large Language Models</h1>
@@ -47,13 +45,15 @@
 
 | Date | Update |
 |:-----|--------|
+| 🔥 2026-03-25 | |
 | 🎉 2026-03-22 | Initial release — 56 templates, 3 experiment modes, tutorials |
 
-**Roadmap:**
-- 📓 Per-model attack notebooks (GPT, Claude, Gemini, Grok, GLM, Kimi, ...)
-- 🌐 More ISC examples across models and contexts
-- 🖥️ Project website
-- 🧰 ISC Skill — domain knowledge + utility scripts for ISC research
+## Roadmap
+
+- [ ] Per-model attack notebooks (GPT, Claude, Gemini, Grok, GLM, Kimi, ...)
+- [ ] More ISC examples across models and contexts
+- [ ] Project website
+- [ ] ISC Skill — domain knowledge + utility scripts
 
 ---
 
@@ -218,6 +218,10 @@ More ISC examples:
 ## Setup
 
 ```bash
+# Install uv (if not already installed)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Clone and setup
 git clone https://github.com/wuyoscar/ISC-Bench.git && cd ISC-Bench
 cp .env.example .env   # add your OpenRouter API key
 ```
@@ -230,7 +234,7 @@ Python 3.11+ and [uv](https://docs.astral.sh/uv/). All scripts use [PEP 723](htt
 |-----------|------|-------|
 | [`templates/`](templates/) | 56 TVD prompts across 8 domains | [→ Index](templates/README.md) |
 | [`experiment/`](experiment/) | Reproduce paper: Single, ICL, Agentic | [→ How to run](experiment/README.md) |
-| [`cookbook/`](cookbook/) | Tutorials: ISC concepts, anchors, composability | — |
+| [`cookbook/`](cookbook/) | Tutorials: ISC concepts, anchors, composability | [→ Notebooks](cookbook/) |
 
 ## FAQ
 
@@ -290,6 +294,16 @@ All input-level defenses show **100% failure** — prompt contains nothing to de
   howpublished={\url{https://github.com/wuyoscar/ISC-Bench}}
 }
 ```
+
+## Star History
+
+<a href="https://star-history.com/#wuyoscar/ISC-Bench&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=wuyoscar/ISC-Bench&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=wuyoscar/ISC-Bench&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=wuyoscar/ISC-Bench&type=Date" />
+ </picture>
+</a>
 
 ## Contact
 
