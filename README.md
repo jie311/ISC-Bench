@@ -197,7 +197,7 @@ The demo GIF may take a moment to load.
     <tr>
       <td align="center">25</td><td><img src="https://www.google.com/s2/favicons?domain=baidu.com&sz=32" width="14" alt="Baidu"> ERNIE 5.0</td><td align="center">1452</td><td>TODO</td>
       <td></td>
-      <td align="center">49</td><td><img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14" alt="DeepSeek"> DeepSeek V3.2</td><td align="center">1425</td><td>TODO</td>
+      <td align="center">49</td><td><img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14" alt="DeepSeek"> DeepSeek V3.2</td><td align="center">1425</td><td>👾 <a href="https://chat.deepseek.com/share/pbzirkyhfkvapyc3g0">Under ISC</a></td>
     </tr>
     <tr>
       <td align="center">26</td><td><img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14" alt="Alibaba"> Qwen 3.5 397B</td><td align="center">1452</td><td>TODO</td>
