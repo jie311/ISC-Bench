@@ -63,6 +63,7 @@
 
 | Date | Update |
 |:-----|--------|
+| 🔥 v8 — 2026-03-26 | Community templates, file upload trigger, disclaimer, collapsible ISC-Bench tables |
 | 🎉 2026-03-26 | **Paper on arXiv!** [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509) |
 | 🔥 v7 — 2026-03-26 | 17 ISC cases confirmed, FAQ + submission guide, Grok/Dola/Gemini/Qwen/ERNIE jailbroken |
 | 🔥 v6 — 2026-03-26 | **Project website** launched, JailbreakArena interactive leaderboard |
@@ -478,9 +479,6 @@ Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-0
 ### 🌍 Community Templates
 
 New ISC cases discovered by the community — novel templates, trigger methods, and domains beyond the original 56.
-
-> [!NOTE]
-> **New trigger method discovered:** ISC can be triggered by uploading a file (e.g., JSON template with `???` placeholders) instead of pasting a prompt. The model treats the uploaded file as a task to complete and fills in harmful content — same TVD pattern, even lower barrier. See [#19](community/issue-19-gemini3flash-redteam-testgen/) for details.
 
 | Issue | Model | Contributor | Template | Domain |
 |:-----:|-------|:-----------:|----------|--------|
