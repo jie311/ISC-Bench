@@ -66,7 +66,7 @@
 
 To trigger ISC, we propose the **TVD framework** (Task + Validator + Data). Once you understand TVD, you can trigger ISC on virtually any frontier LLM.
 
-### Demo
+<h3 align="center">🎬 Demo</h3>
 
 <p align="center"><em>⏳ This demo may take a few seconds to load.</em></p>
 <p align="center">
