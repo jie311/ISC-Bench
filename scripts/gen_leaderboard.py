@@ -170,10 +170,18 @@ def main() -> None:
     # Extended table (rest)
     ext_rows = [gen_row(m, isc_cases) for m in arena[args.top:]]
 
+    chart = (
+        '<p align="center">\n'
+        '  <img src="assets/leaderboard_progress.svg" width="80%">\n'
+        '</p>'
+    )
+
     lines = [
         "## 🏆 JailbreakArena",
         "",
         header,
+        "",
+        chart,
         "",
         rules,
         "",
