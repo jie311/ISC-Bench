@@ -491,7 +491,7 @@ New ISC cases discovered by the community — novel templates, trigger methods, 
 > [!TIP]
 > Designed a new ISC template? [Submit it →](https://github.com/wuyoscar/ISC-Bench/issues/new?template=isc-submission.md&title=[ISC]+Model+Name) and we'll add it to the community collection with full attribution.
 
-### 📋 Official Templates (53 scenarios, 8 domains)
+### 📋 ISC-Bench Templates (53 scenarios, 8 domains)
 
 <details>
 <summary><b>🧬 Computational Biology (16)</b></summary>
