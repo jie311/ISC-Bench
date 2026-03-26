@@ -71,7 +71,7 @@
 
 ## 🏆 JailbreakArena
 
-Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-03-26. **16 / 330 confirmed under ISC.**
+Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-03-26. **17 / 330 confirmed under ISC.**
 
 > **Found ISC on an untested model?** [Submit via GitHub Issue →](https://github.com/wuyoscar/ISC-Bench/issues/new?template=isc-submission.md&title=[ISC]+Model+Name) — we'll verify and add you to the leaderboard.
 >
@@ -82,7 +82,7 @@ Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-0
 | 1 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.6 Thinking | 1502 | 🟢 |  |  |
 | 2 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.6 | 1501 | 🔴 | [🔗](https://claude.ai/share/407d33f5-4655-4479-b3e3-0a6dc6639d34) | [@wuyoscar](https://github.com/wuyoscar) |
 | 3 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 3.1 Pro Preview | 1493 | 🟢 |  |  |
-| 4 | <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14"> Grok 4.20 Beta | 1492 | 🟢 |  |  |
+| 4 | <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14"> Grok 4.20 Beta | 1492 | 🔴 | [🔗](https://grok.com/share/bGVnYWN5LWNvcHk_9735b6e9-5ff1-4318-b2c2-4860b6e8fb33) | [@HanxunH](https://github.com/HanxunH) |
 | 5 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 3 Pro | 1486 | 🔴 | [🔗](https://gemini.google.com/share/320bf34b0334) | [@wuyoscar](https://github.com/wuyoscar) |
 | 6 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> GPT-5.4 High | 1485 | 🟢 |  |  |
 | 7 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> GPT-5.2 Chat | 1482 | 🔴 | [🔗](https://chatgpt.com/share/69a3f6e1-24d8-800c-9581-3d1a7180ee55) | [@wuyoscar](https://github.com/wuyoscar) |
@@ -423,6 +423,7 @@ Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-0
 
 | Date | Model | By | Note |
 |:-----|-------|:--:|------|
+| 2026-03-26 | Grok 4.20 Beta | [@HanxunH](https://github.com/HanxunH) | Meta-ISC — guard model test case generation, hardcore variant ([#9](https://github.com/wuyoscar/ISC-Bench/issues/9)) |
 | 2026-03-26 | Dola Seed 2.0 Preview | [@HanxunH](https://github.com/HanxunH) | Meta-ISC — guard model test case generation ([#11](https://github.com/wuyoscar/ISC-Bench/issues/11)) |
 | 2026-03-26 | Gemini 3 Flash | [@HanxunH](https://github.com/HanxunH) | Novel template — financial misinformation / fake authority comms ([#12](https://github.com/wuyoscar/ISC-Bench/issues/12)) |
 | 2026-03-26 | Qwen 3 Max 2025-09-23 | [@HanxunH](https://github.com/HanxunH) | Custom TVD task — Cantera incineration ([#4](https://github.com/wuyoscar/ISC-Bench/issues/4)) |
