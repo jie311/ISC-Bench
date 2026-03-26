@@ -63,13 +63,11 @@
 
 | Date | Update |
 |:-----|--------|
-| 🔥 v8 — 2026-03-26 | Community templates, file upload trigger, disclaimer, collapsible ISC-Bench tables |
+| 🔥 v8 — 2026-03-26 | **New finding**: file upload triggers ISC — same TVD, lower barrier. Community templates, disclaimer |
 | 🎉 2026-03-26 | **Paper on arXiv!** [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509) |
-| 🔥 v7 — 2026-03-26 | 17 ISC cases confirmed, FAQ + submission guide, Grok/Dola/Gemini/Qwen/ERNIE jailbroken |
+| 🔥 v7 — 2026-03-26 | 17 ISC cases confirmed, FAQ + submission guide, Grok/Dola/Gemini/Qwen/ERNIE |
 | 🔥 v6 — 2026-03-26 | **Project website** launched, JailbreakArena interactive leaderboard |
-| 🔥 v5 — 2026-03-25 | **JailbreakArena**: 330 models, progress chart, auto-generation scripts, community submissions |
-| 🔥 v4 — 2026-03-25 | ICL benchmark switching, CLAUDE.md, nav bar redesign |
-| 🔥 v3 — 2026-03-25 | Leaderboard v2, contributor attribution, 10 confirmed ISC cases, submission template |
+| 🔥 v5 — 2026-03-25 | **JailbreakArena**: 330 models, progress chart, community submissions |
 | 🎉 v1 — 2026-03-22 | Initial release — 56 templates, 3 experiment modes, tutorials |
 
 <sub>[Full changelog →](CHANGELOG.md)</sub>
