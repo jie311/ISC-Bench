@@ -3,20 +3,23 @@
 </p>
 <p align="center">
   <a href="https://arxiv.org/abs/2603.23509"><img src="https://img.shields.io/badge/arXiv-2603.23509-b31b1b.svg"></a>
-  <a href="https://arxiv.org/abs/2603.23509"><img src="https://img.shields.io/badge/arXiv-2603.23509-b31b1b.svg"></a>
   <img src="https://img.shields.io/badge/LLM_&_Agent_安全-ISC-red">
-  <a href="README.md"><img src="https://img.shields.io/badge/lang-EN-blue"></a>
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/lang-EN-blue"></a>
 </p>
 <h1 align="center">前沿大语言模型中的内在安全崩塌</h1>
 
-<h4 align="center">
-  <a href="paper.pdf">📄 论文</a> &nbsp;|&nbsp;
-  <a href="#-jailbreakarena">🏆 JailbreakArena</a> &nbsp;|&nbsp;
+<p align="center">
+  🌐 <a href="https://wuyoscar.github.io/ISC-Bench/"><b>项目主页</b></a> &nbsp;·&nbsp;
+  🏆 <a href="https://wuyoscar.github.io/ISC-Bench/#arena"><b>JailbreakArena 排行榜</b></a>
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2603.23509">📄 论文</a> &nbsp;|&nbsp;
   <a href="cookbook/">📓 教程</a> &nbsp;|&nbsp;
   <a href="experiment/isc_agent/">🤖 ISC-Agent</a> &nbsp;|&nbsp;
   <a href="templates/">🔥 ISC-Bench</a>
-</h4>
+</p>
 
 <p align="center">
   <b>Yutao Wu</b><sup>1</sup>&nbsp;&nbsp;
@@ -46,6 +49,10 @@
 > ISC 可以将任何前沿 LLM 变成**有害数据生成器** — 有毒化合物、可执行的漏洞利用代码、致命药物靶点、生物武器序列 — 大规模、几分钟内完成。我们测试的所有模型均受影响：**GPT、Claude、Gemini、Grok、Llama、DeepSeek、Mistral、Qwen、GLM、Kimi、MiniMax、Doubao**。
 >
 > *我们观察到的输出与 2023 年早期未对齐模型的表现高度相似。*
+
+<p align="center">
+  <code>🤖 让你的 AI 助手（Claude Code、Cursor 等）阅读 <a href="SKILL.md">SKILL.md</a> 来了解本项目。</code>
+</p>
 
 ## 最新动态
 
