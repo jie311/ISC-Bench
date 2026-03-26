@@ -63,7 +63,7 @@
 
 | Date | Update |
 |:-----|--------|
-| 🔥 v9 — 2026-03-26 | ⭐ **200 stars**, 4 contributors! GPT-5.3 Chat jailbroken by @zry29, Gemini 3 Flash by @bboylyg. 18/330 confirmed |
+| 🔥 v9 — 2026-03-26 | ⭐ **200 stars**, 4 contributors! GPT-5.3 Chat by [@zry29](https://github.com/zry29), Gemini 3 Flash by [@bboylyg](https://github.com/bboylyg). 18/330 confirmed |
 | 🔥 v8 — 2026-03-26 | [File upload triggers ISC](community/issue-19-gemini3flash-redteam-testgen/) — same TVD, lower barrier. Disclaimer, community reproductions |
 | 🎉 2026-03-26 | **Paper on arXiv!** [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509) |
 | 🔥 v7 — 2026-03-26 | 17 ISC cases, FAQ + submission guide, Grok/Dola/Gemini/Qwen/ERNIE |
