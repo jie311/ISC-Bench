@@ -103,7 +103,6 @@ Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-0
   <img src="assets/leaderboard_progress.svg" width="80%">
 </p>
 
-> [!IMPORTANT]
 > **Found ISC on an untested model?** [Submit via GitHub Issue →](https://github.com/wuyoscar/ISC-Bench/issues/new?template=isc-submission.md&title=[ISC]+Model+Name) — we'll verify and add you to the leaderboard.
 >
 > **Rules**: Rankings are synced with [Arena](https://arena.ai/leaderboard) weekly. Submit your ISC case via the [issue template](.github/ISSUE_TEMPLATE/isc-submission.md) — include a public conversation link, the type of harmful content generated, and the domain. ISC is a low-conditional design concept — just a professional task that causes models to generate harmful content on their own. See our [paper](https://arxiv.org/abs/2603.23509) for details.
@@ -118,7 +117,7 @@ Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-0
 | 6 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> GPT-5.4 High | 1485 | 🟢 |  |  |
 | 7 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> GPT-5.2 Chat | 1482 | 🔴 | [🔗](https://chatgpt.com/share/69a3f6e1-24d8-800c-9581-3d1a7180ee55) | [@wuyoscar](https://github.com/wuyoscar) |
 | 8 | <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14"> Grok 4.20 Reasoning | 1481 | 🟢 |  |  |
-| 9 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 3 Flash | 1475 | 🔴 | [🔗](https://gemini.google.com/share/e7ef0097c0e8) | [@HanxunH](https://github.com/HanxunH) |
+| 9 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 3 Flash | 1475 | 🔴 | [🔗₁](https://gemini.google.com/share/e7ef0097c0e8) [🔗₂](https://gemini.google.com/share/8104b6ebe9e8) | [@HanxunH](https://github.com/HanxunH) [@bboylyg](https://github.com/bboylyg) |
 | 10 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.5 Thinking | 1474 | 🟢 |  |  |
 | 11 | <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14"> Grok 4.1 Thinking | 1472 | 🟢 |  |  |
 | 12 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.5 | 1469 | 🔴 | [🔗](https://claude.ai/share/1e3e997c-0315-46f1-9cbd-37157314a7ef) | [@wuyoscar](https://github.com/wuyoscar) |
@@ -454,6 +453,7 @@ Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-0
 
 | Date | Model | By | Note |
 |:-----|-------|:--:|------|
+| 2026-03-26 | Gemini 3 Flash (2nd demo) | [@bboylyg](https://github.com/bboylyg) | Red-team test case generator + file upload trigger ([#19](https://github.com/wuyoscar/ISC-Bench/issues/19)) |
 | 2026-03-26 | Grok 4.20 Beta | [@HanxunH](https://github.com/HanxunH) | Meta-ISC — guard model test case generation, hardcore variant ([#9](https://github.com/wuyoscar/ISC-Bench/issues/9)) |
 | 2026-03-26 | Dola Seed 2.0 Preview | [@HanxunH](https://github.com/HanxunH) | Meta-ISC — guard model test case generation ([#11](https://github.com/wuyoscar/ISC-Bench/issues/11)) |
 | 2026-03-26 | Gemini 3 Flash | [@HanxunH](https://github.com/HanxunH) | Novel template — financial misinformation / fake authority comms ([#12](https://github.com/wuyoscar/ISC-Bench/issues/12)) |
