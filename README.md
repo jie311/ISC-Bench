@@ -94,6 +94,10 @@
 
 Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-03-26. **17 / 330 confirmed under ISC.**
 
+<p align="center">
+  <img src="assets/leaderboard_progress.svg" width="80%">
+</p>
+
 > **Found ISC on an untested model?** [Submit via GitHub Issue →](https://github.com/wuyoscar/ISC-Bench/issues/new?template=isc-submission.md&title=[ISC]+Model+Name) — we'll verify and add you to the leaderboard.
 >
 > **Rules**: Rankings are synced with [Arena](https://arena.ai/leaderboard) weekly. Submit your ISC case via the [issue template](.github/ISSUE_TEMPLATE/isc-submission.md) — include a public conversation link, the type of harmful content generated, and the domain. ISC is a low-conditional design concept — just a professional task that causes models to generate harmful content on their own. See our [paper](paper.pdf) for details.
