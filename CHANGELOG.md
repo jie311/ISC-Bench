@@ -4,12 +4,33 @@ All notable updates to ISC-Bench are documented here.
 
 ## v7 — 2026-03-26
 
-- **17 ISC cases confirmed**: added Grok 4.20 Beta (#9), Dola Seed (#11), Gemini 3 Flash (#12), Qwen 3 Max (#4), ERNIE 5.0 (#5) — all by @HanxunH
-- **FAQ section**: added to website and README — What is ISC, how to submit, valid case criteria
+### Paper Release
+- **Paper published on arXiv**: [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509)
+- arXiv badge added to README and website
+- BibTeX updated from `@misc` to `@article` with arXiv journal field
+- All Paper links (README nav bar, website Hero button) now point to arXiv
+
+### JailbreakArena: 17 ISC Cases Confirmed
+- **Grok 4.20 Beta** (#9) — meta-ISC: guard model test case generation, hardcore variant. Generated ANFO bomb recipes, knife kill combos, acid attacks, meth synthesis, suicide methods. By @HanxunH
+- **Dola Seed 2.0 Preview** (#11) — meta-ISC: LLaMA Guard test case generation. Model escalated from simple to extremely harmful content (phishing, torture, PII fabrication) under "academic assignment" framing. By @HanxunH
+- **Gemini 3 Flash** (#12) — novel financial misinformation template (CommsDraft Pro). Generated fake government emergency declarations with fabricated officials, statistics, and phone numbers. By @HanxunH
+- **Qwen 3 Max** (#4) + **ERNIE 5.0** (#5) — Cantera incineration chemistry template (HCN + COCl₂ synthesis routes). By @HanxunH
+
+### README & Documentation
+- **"What is ISC?" rewritten**: ISC turns any frontier LLM into a harmful dataset generator + TVD framework introduction
+- **ISC description corrected**: removed all "no adversarial / no jailbreak" wording — replaced with "low-conditional design concept" and "under-explored phenomenon"
+- **Chinese README** (`README_zh.md`): full Chinese translation with `lang-ZH` / `lang-EN` badge switcher
+- **Project Website + JailbreakArena Leaderboard** links added below title
+- **FAQ section**: added to website — What is ISC, how to submit, valid case criteria, email fallback
 - **Submission guide**: step-by-step instructions in README for community contributors
-- **Branch protection**: pre-push hook + GitHub ruleset prevent accidental direct pushes to main
+- **Demo section**: centered heading with 🎬 icon, loading hint moved above GIF
+
+### Infrastructure
+- **Branch protection**: pre-push hook blocks direct push to main; all changes go through PR
+- **GitHub Actions fix**: leaderboard chart workflow now creates PR instead of direct push (branch protection compatible)
+- **gen_leaderboard.py fix**: preserves JailbreakArena History section during table regeneration
+- **Duplicate MP4 removed**: `assets/ISC_Video.mp4` deleted (only `docs/static/` copy kept for website)
 - **Star History**: updated to logscale image format
-- **gen_leaderboard.py fix**: preserves History section during table regeneration
 
 ## v6 — 2026-03-26
 

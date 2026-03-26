@@ -158,8 +158,8 @@ def main() -> None:
         "> **Rules**: Rankings are synced with [Arena](https://arena.ai/leaderboard) weekly. "
         "Submit your ISC case via the [issue template](.github/ISSUE_TEMPLATE/isc-submission.md) "
         "— include a public conversation link, the type of harmful content generated, and the domain. "
-        "No adversarial prompts or jailbreaks — ISC triggers through legitimate professional tasks only. "
-        "See our [paper](paper.pdf) for details."
+        "ISC is a low-conditional design concept — just a professional task that causes models to generate harmful content on their own. "
+        "See our [paper](https://arxiv.org/abs/2603.23509) for details."
     )
 
     table_header = "| Rank | Model | Score | Jailbroken | Demo | By |\n|:----:|-------|:-----:|:------:|:----:|:--:|"
