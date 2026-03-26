@@ -11,7 +11,8 @@
 
 <p align="center">
   🌐 <a href="https://wuyoscar.github.io/ISC-Bench/"><b>Project Website</b></a> &nbsp;·&nbsp;
-  🏆 <a href="https://wuyoscar.github.io/ISC-Bench/#arena"><b>JailbreakArena Leaderboard</b></a>
+  🏆 <a href="https://wuyoscar.github.io/ISC-Bench/#arena"><b>JailbreakArena Leaderboard</b></a> &nbsp;·&nbsp;
+  🤖 <a href="SKILL.md"><b>Agent Guide</b></a>
 </p>
 
 <p align="center">
@@ -68,9 +69,7 @@
 
 ## 💀 What is ISC?
 
-**Internal Safety Collapse (ISC)** turns any frontier LLM into a harmful dataset generator. Give it a normal professional task — coding, simulation, evaluation — and it will produce genuinely harmful data (toxic compounds, functional exploits, lethal drug targets) on its own.
 
-To trigger ISC, we propose the **TVD framework** (Task + Validator + Data). Once you understand TVD, you can trigger ISC on virtually any frontier LLM.
 
 <h3 align="center">🎬 Demo</h3>
 
@@ -456,7 +455,7 @@ Coverage of [Arena Leaderboard](https://arena.ai/leaderboard) — updated 2026-0
 
 ## ⚡ ISC-Bench
 
-> **Using an AI agent?** Point Claude Code, Cursor, or any coding agent to [`SKILL.md`](SKILL.md) for a complete guide to running ISC-Bench — setup, pipeline, benchmarks, and troubleshooting.
+> 🤖 **Using an AI agent?** Let it read [`SKILL.md`](SKILL.md) for the full pipeline guide.
 
 <p align="center">
   <img src="assets/fig1_bench_overview.png" width="80%" height="auto">
