@@ -169,7 +169,11 @@
 
 ---
 
-## 引用
+## 许可证
+
+**CC BY-NC-SA 4.0** — 仅用于 AI 安全学术研究。禁止商业使用和生成有害内容。
+
+## 引用与贡献
 
 ```bibtex
 @article{wu2026isc,
@@ -183,7 +187,17 @@
 }
 ```
 
----
+### 主要贡献
+
+- **Yutao Wu** — 首次在 LlamaGuard 上发现 ISC 现象。设计并执行了所有实验。攻破了所有 Arena 排名模型并提出了 TVD（Task + Validator + Data）框架。
+- **Xingjun Ma & Xiao Liu**（导师）— 指导将 ISC 从 LlamaGuard 场景扩展到多个领域：计算化学、生物学、药理学、网络安全、流行病学和虚假信息。
+- **Hanxun Huang & Yige Li** — 数据收集及后续研究想法。
+- **Xiang Zheng & Yifeng Gao** — 实验与图表设计。
+- **Cong Wang & Bo Li** — 论文审阅与编辑。
+
+### 联系方式
+
+如有问题、合作意向或负责任披露：**wuy⁷¹¹⁷ ⓐ 𝗴𝗺𝗮𝗶𝗹 𝗰𝗼𝗺**
 
 ## Star History
 
@@ -194,7 +208,3 @@
    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&logscale&legend=top-left" />
  </picture>
 </a>
-
-## 联系方式
-
-如有问题、合作意向或负责任披露：**wuy7117@gmail.com**

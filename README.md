@@ -754,7 +754,7 @@ However, ISC is a **pattern**, not a fixed format. Any domain knowledge works as
 
 **CC BY-NC-SA 4.0** — exclusively for academic research in AI safety. Commercial use and harmful content generation are prohibited.
 
-## Citation
+## Citation & Contributions
 
 ```bibtex
 @article{wu2026isc,
@@ -766,6 +766,18 @@ However, ISC is a **pattern**, not a fixed format. Any domain knowledge works as
 }
 ```
 
+### Main Contributions
+
+- **Yutao Wu** — First discovered the ISC phenomenon on LlamaGuard. Designed and conducted all experiments. Jailbroken all Arena-ranked models and proposed the TVD (Task + Validator + Data) framework.
+- **Xingjun Ma & Xiao Liu** (Supervisors) — Advised expanding ISC beyond the LlamaGuard scenario to multiple domains: computational chemistry, biology, pharmacology, cybersecurity, epidemiology, and misinformation. Guided the research direction and scope.
+- **Hanxun Huang & Yige Li** — Led data collection across all domains. Curated harmful data anchors for 56 templates and contributed follow-up research ideas.
+- **Xiang Zheng & Yifeng Gao** — Responsible for experiments, evaluation pipelines, and figure design.
+- **Cong Wang & Bo Li** — Reviewed and edited the paper.
+
+### Contact
+
+For questions, collaborations, or responsible disclosure: **wuy⁷¹¹⁷ ⓐ 𝗴𝗺𝗮𝗶𝗹 𝗰𝗼𝗺**
+
 ## Star History
 
 <a href="https://www.star-history.com/?repos=wuyoscar%2FISC-Bench&type=date&logscale=&legend=top-left">
@@ -775,7 +787,3 @@ However, ISC is a **pattern**, not a fixed format. Any domain knowledge works as
    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&logscale&legend=top-left" />
  </picture>
 </a>
-
-## Contact
-
-For questions, collaborations, or responsible disclosure: **wuy⁷¹¹⁷ ⓐ 𝗴𝗺𝗮𝗶𝗹 𝗰𝗼𝗺**

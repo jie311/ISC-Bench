@@ -377,7 +377,7 @@ Sin embargo, ISC es un **patron**, no un formato fijo. Cualquier conocimiento de
 
 **CC BY-NC-SA 4.0** — exclusivamente para investigacion academica en seguridad de IA. El uso comercial y la generacion de contenido danino estan prohibidos.
 
-## Cita
+## Cita y Contribuciones
 
 ```bibtex
 @article{wu2026isc,
@@ -389,6 +389,18 @@ Sin embargo, ISC es un **patron**, no un formato fijo. Cualquier conocimiento de
 }
 ```
 
+### Contribuciones Principales
+
+- **Yutao Wu** — Descubrio por primera vez el fenomeno ISC en LlamaGuard. Diseno y realizo todos los experimentos. Vulnero todos los modelos del ranking Arena y propuso el marco TVD (Task + Validator + Data).
+- **Xingjun Ma & Xiao Liu** (Supervisores) — Asesoraron la expansion de ISC mas alla del escenario LlamaGuard a multiples dominios: quimica computacional, biologia, farmacologia, ciberseguridad, epidemiologia y desinformacion.
+- **Hanxun Huang & Yige Li** — Recopilacion de datos e ideas de investigacion de seguimiento.
+- **Xiang Zheng & Yifeng Gao** — Experimentos y diseno de figuras.
+- **Cong Wang & Bo Li** — Revision y edicion del articulo.
+
+### Contacto
+
+Para preguntas, colaboraciones o divulgacion responsable: **wuy⁷¹¹⁷ ⓐ 𝗴𝗺𝗮𝗶𝗹 𝗰𝗼𝗺**
+
 ## Star History
 
 <a href="https://www.star-history.com/?repos=wuyoscar%2FISC-Bench&type=date&logscale=&legend=top-left">
@@ -398,7 +410,3 @@ Sin embargo, ISC es un **patron**, no un formato fijo. Cualquier conocimiento de
    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&logscale&legend=top-left" />
  </picture>
 </a>
-
-## Contacto
-
-Para preguntas, colaboraciones o divulgacion responsable: **wuy7117@gmail.com**

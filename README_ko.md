@@ -377,7 +377,7 @@ Python 3.11+ 및 [uv](https://docs.astral.sh/uv/)가 필요합니다. 모든 스
 
 **CC BY-NC-SA 4.0** — AI 안전 학술 연구 목적으로만 사용 가능합니다. 상업적 사용 및 유해 콘텐츠 생성은 금지됩니다.
 
-## 인용
+## 인용 및 기여
 
 ```bibtex
 @article{wu2026isc,
@@ -389,7 +389,17 @@ Python 3.11+ 및 [uv](https://docs.astral.sh/uv/)가 필요합니다. 모든 스
 }
 ```
 
----
+### 주요 기여
+
+- **Yutao Wu** — LlamaGuard에서 ISC 현상을 최초로 발견. 모든 실험을 설계 및 수행. 전체 Arena 랭킹 모델을 탈옥하고 TVD (Task + Validator + Data) 프레임워크를 제안.
+- **Xingjun Ma & Xiao Liu** (지도교수) — ISC를 LlamaGuard 시나리오에서 다중 분야로 확장하도록 지도: 전산 화학, 생물학, 약리학, 사이버 보안, 역학, 허위 정보.
+- **Hanxun Huang & Yige Li** — 데이터 수집 및 후속 연구 아이디어.
+- **Xiang Zheng & Yifeng Gao** — 실험 및 그림 디자인.
+- **Cong Wang & Bo Li** — 논문 검토 및 편집.
+
+### 연락처
+
+질문, 협력 또는 책임 있는 공개: **wuy⁷¹¹⁷ ⓐ 𝗴𝗺𝗮𝗶𝗹 𝗰𝗼𝗺**
 
 ## Star History
 
@@ -400,7 +410,3 @@ Python 3.11+ 및 [uv](https://docs.astral.sh/uv/)가 필요합니다. 모든 스
    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&logscale&legend=top-left" />
  </picture>
 </a>
-
-## 연락처
-
-질문, 협력 또는 책임 있는 공개: **wuy7117@gmail.com**
