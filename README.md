@@ -115,8 +115,8 @@ This table tracks **publicly archived cases in this repo**, not every internal t
 | Rank | Model | Arena Score | Jailbroken | Link | By |
 |:----:|-------|:-----:|:------:|:----:|:--:|
 | 1 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.6 Thinking | 1502 | 🟢 |  |  |
-| 2 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.6 | 1501 | 🔴 | [🔗](https://claude.ai/share/407d33f5-4655-4479-b3e3-0a6dc6639d34) | [@wuyoscar](https://github.com/wuyoscar) |
-| 3 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 3.1 Pro Preview | 1493 | 🔴 | [🔗](https://github.com/wuyoscar/ISC-Bench/issues/42) | [@wuyoscar](https://github.com/wuyoscar) |
+| 2 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.6 | 1501 | 🔴 | [🔗](community/issue-48-claudeopus46-agent-qwenguard/) | [@wuyoscar](https://github.com/wuyoscar) |
+| 3 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 3.1 Pro Preview | 1493 | 🔴 | [🔗](community/issue-42-gemini31pro-agent-qwenguard/) | [@wuyoscar](https://github.com/wuyoscar) |
 | 4 | <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14"> Grok 4.20 Beta | 1492 | 🔴 | [🔗](https://grok.com/share/bGVnYWN5LWNvcHk_9735b6e9-5ff1-4318-b2c2-4860b6e8fb33) | [@HanxunH](https://github.com/HanxunH) |
 | 5 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 3 Pro | 1486 | 🔴 | [🔗](https://gemini.google.com/share/320bf34b0334) | [@wuyoscar](https://github.com/wuyoscar) |
 | 6 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> GPT-5.4 High | 1485 | 🟢 |  |  |
