@@ -15,8 +15,8 @@
 <h1 align="center">Internal Safety Collapse in Frontier Large Language Models</h1>
 
 <h3 align="center">
-  🌐 <a href="https://wuyoscar.github.io/ISC-Bench/">Project Website</a> &nbsp;·&nbsp;
-  🏆 <a href="https://wuyoscar.github.io/ISC-Bench/#arena">JailbreakArena Leaderboard</a>
+  🌐 <a href="https://wuyoscar.github.io/ISC-Bench/">Project Website & JailbreakArena Leaderboard</a> &nbsp;·&nbsp;
+  💬 <a href="https://github.com/wuyoscar/ISC-Bench/discussions">Discussions</a>
 </h3>
 
 <p align="center">
