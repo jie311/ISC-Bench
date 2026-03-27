@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/isc_banner.png" width="1000">
+  <a href="https://wuyoscar.github.io/ISC-Bench/"><img src="assets/isc_banner.png" width="1000"></a>
 </p>
 <p align="center">
   <a href="https://arxiv.org/abs/2603.23509"><img src="https://img.shields.io/badge/arXiv-2603.23509-b31b1b.svg"></a>
@@ -78,11 +78,11 @@
 
 | Date | Update |
 |:-----|--------|
-| 🎉 v9 — 2026-03-26 | 🎆 **350+ stars within 24 hours!** |
-| 🔥 v8 — 2026-03-26 | [File upload triggers ISC](community/issue-19-gemini3flash-redteam-testgen/) — same TVD, lower barrier. Disclaimer, community reproductions |
-| 🎉 2026-03-26 | **Paper on arXiv!** [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509) |
-| 🔥 v7 — 2026-03-26 | 17 ISC cases, FAQ + submission guide, Grok/Dola/Gemini/Qwen/ERNIE |
-| 🔥 v6 — 2026-03-26 | **Project website** launched, JailbreakArena interactive leaderboard |
+| 🎆 2026-03-27 | **500+ stars in 48 hours!** 22/330 models confirmed |
+| 🔴 2026-03-27 | [@fresh-ma](https://github.com/fresh-ma) jailbroke **Claude Sonnet 4.5 Thinking** (~20 pages of text, 42 misinformation samples), **Claude Sonnet 4.5**, and **Kimi K2.5 Instant** (~4 pages novel). [@zry29](https://github.com/zry29) jailbroke **GPT-5.4** via file upload |
+| 🔧 2026-03-27 | README overhaul: community quotes, Rules of the Game, composable templates, simplified disclaimer |
+| 🎆 2026-03-26 | **350+ stars within 24 hours** |
+| 📄 2026-03-26 | **Paper on arXiv!** [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509) |
 | 🎉 v1 — 2026-03-22 | Initial release — 56 templates, 3 experiment modes, tutorials |
 
 <sub>[Full changelog →](CHANGELOG.md)</sub>
@@ -466,10 +466,10 @@
 
 | Date | Model | By | Note |
 |:-----|-------|:--:|------|
-| 2026-03-27 | Claude Sonnet 4.5 (2nd demo) | [@fresh-ma](https://github.com/fresh-ma) | Detoxify benchmark — 500+ token per category, escalation on follow-up ([#25](https://github.com/wuyoscar/ISC-Bench/issues/25)) |
-| 2026-03-27 | Claude Sonnet 4.5 Thinking | [@fresh-ma](https://github.com/fresh-ma) | 30k+ token, 42 misinformation samples — genocide denial, medical fraud, hate propaganda ([#27](https://github.com/wuyoscar/ISC-Bench/issues/27)) |
+| 2026-03-27 | Claude Sonnet 4.5 (2nd demo) | [@fresh-ma](https://github.com/fresh-ma) | Detoxify benchmark — ~half page per category, escalation on follow-up ([#25](https://github.com/wuyoscar/ISC-Bench/issues/25)) |
+| 2026-03-27 | Claude Sonnet 4.5 Thinking | [@fresh-ma](https://github.com/fresh-ma) | ~20 pages of text, 42 misinformation samples — genocide denial, medical fraud, hate propaganda ([#27](https://github.com/wuyoscar/ISC-Bench/issues/27)) |
 | 2026-03-27 | GPT-5.4 | [@zry29](https://github.com/zry29) | File upload + tool agent — ISC-Bench template ([#28](https://github.com/wuyoscar/ISC-Bench/issues/28)) |
-| 2026-03-27 | Kimi K2.5 Instant | [@fresh-ma](https://github.com/fresh-ma) | Erotic fiction moderation — 5800 token harmful novel generation ([#31](https://github.com/wuyoscar/ISC-Bench/issues/31)) |
+| 2026-03-27 | Kimi K2.5 Instant | [@fresh-ma](https://github.com/fresh-ma) | Erotic fiction moderation — ~4 pages harmful novel generation ([#31](https://github.com/wuyoscar/ISC-Bench/issues/31)) |
 | 2026-03-26 | GPT-5.3 Chat | [@zry29](https://github.com/zry29) | Modified `aiml_openai_moderation` — harassment, violence, self-harm ([#22](https://github.com/wuyoscar/ISC-Bench/issues/22)) |
 | 2026-03-26 | Gemini 3 Flash (2nd demo) | [@bboylyg](https://github.com/bboylyg) | Red-team test case generator + file upload trigger ([#19](https://github.com/wuyoscar/ISC-Bench/issues/19)) |
 | 2026-03-26 | Grok 4.20 Beta | [@HanxunH](https://github.com/HanxunH) | Meta-ISC — guard model test case generation, hardcore variant ([#9](https://github.com/wuyoscar/ISC-Bench/issues/9)) |
@@ -498,10 +498,10 @@ Community members who learned the ISC concept and successfully reproduced it on 
 
 | Issue | Model | Contributor | Method | Domain | Type |
 |:-----:|-------|:-----------:|--------|--------|:----:|
-| [#27](https://github.com/wuyoscar/ISC-Bench/issues/27) | Claude Sonnet 4.5 Thinking | [@fresh-ma](https://github.com/fresh-ma) | Modified `media_mbfc_bias` — 30k+ token, 42 misinformation samples | Media & Comms | ② |
-| [#25](https://github.com/wuyoscar/ISC-Bench/issues/25) | Claude Sonnet 4.5 (2nd) | [@fresh-ma](https://github.com/fresh-ma) | Detoxify benchmark — 500+ token escalation | AI Safety & ML | ② |
+| [#27](https://github.com/wuyoscar/ISC-Bench/issues/27) | Claude Sonnet 4.5 Thinking | [@fresh-ma](https://github.com/fresh-ma) | Modified `media_mbfc_bias` — ~20 pages of text, 42 misinformation samples | Media & Comms | ② |
+| [#25](https://github.com/wuyoscar/ISC-Bench/issues/25) | Claude Sonnet 4.5 (2nd) | [@fresh-ma](https://github.com/fresh-ma) | Detoxify benchmark — ~half page per category, escalation on follow-up | AI Safety & ML | ② |
 | [#28](https://github.com/wuyoscar/ISC-Bench/issues/28) | GPT-5.4 | [@zry29](https://github.com/zry29) | File upload + tool agent — ISC-Bench template | AI Safety & ML | ② |
-| [#31](https://github.com/wuyoscar/ISC-Bench/issues/31) | Kimi K2.5 Instant | [@fresh-ma](https://github.com/fresh-ma) | Erotic fiction moderation pipeline — 5800 token harmful novel | AI Safety & ML | ② |
+| [#31](https://github.com/wuyoscar/ISC-Bench/issues/31) | Kimi K2.5 Instant | [@fresh-ma](https://github.com/fresh-ma) | Erotic fiction moderation pipeline — ~4 pages harmful novel | AI Safety & ML | ② |
 | [#22](https://github.com/wuyoscar/ISC-Bench/issues/22) | GPT-5.3 Chat | [@zry29](https://github.com/zry29) | Modified `aiml_openai_moderation` | AI Safety & ML | ② |
 | [#19](community/issue-19-gemini3flash-redteam-testgen/) | Gemini 3 Flash | [@bboylyg](https://github.com/bboylyg) | Red-team test case gen (file upload) | AI Safety & ML | ③ |
 | [#12](https://github.com/wuyoscar/ISC-Bench/issues/12) | Gemini 3 Flash | [@HanxunH](https://github.com/HanxunH) | CommsDraft Pro (fake govt declarations) | Media & Comms | ③ |
