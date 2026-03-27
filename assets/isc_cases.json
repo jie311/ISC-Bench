@@ -1,6 +1,6 @@
 {
   "Claude Opus 4.6": {
-    "demos": [{"link": "community/issue-48-claudeopus46-agent-qwenguard/", "by": "wuyoscar"}]
+    "demos": [{"link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-48-claudeopus46-agent-qwenguard", "by": "wuyoscar"}]
   },
   "Claude Opus 4.5": {
     "demos": [{"link": "https://claude.ai/share/1e3e997c-0315-46f1-9cbd-37157314a7ef", "by": "wuyoscar"}]
@@ -72,6 +72,6 @@
     ]
   },
   "Gemini 3.1 Pro Preview": {
-    "demos": [{"link": "community/issue-42-gemini31pro-agent-qwenguard/", "by": "wuyoscar"}]
+    "demos": [{"link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-42-gemini31pro-agent-qwenguard", "by": "wuyoscar"}]
   }
 }
