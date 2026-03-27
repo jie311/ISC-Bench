@@ -55,5 +55,8 @@
   },
   "GPT-5.3 Chat": {
     "demos": [{"link": "https://chatgpt.com/share/69c4b2b4-9b48-83a0-849d-b17b0e438565", "by": "zry29"}]
+  },
+  "Kimi K2.5 Instant": {
+    "demos": [{"link": "https://www.kimi.com/share/19d2aeb1-2d62-80c2-8000-00007710d688", "by": "fresh-ma"}]
   }
 }
