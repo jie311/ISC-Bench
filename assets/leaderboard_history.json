@@ -27,7 +27,7 @@
   {
     "date": "2026-03-26",
     "total": 330,
-    "confirmed": 20,
+    "confirmed": 21,
     "events": [
       {"model": "Qwen 3 Max 2025-09-23", "by": "HanxunH"},
       {"model": "ERNIE 5.0", "by": "HanxunH"},
@@ -36,7 +36,8 @@
       {"model": "Grok 4.20 Beta", "by": "HanxunH"},
       {"model": "GPT-5.3 Chat", "by": "zry29"},
       {"model": "Kimi K2.5 Instant", "by": "fresh-ma"},
-      {"model": "GPT-5.4", "by": "zry29"}
+      {"model": "GPT-5.4", "by": "zry29"},
+      {"model": "Claude Sonnet 4.5 Thinking", "by": "fresh-ma"}
     ]
   }
 ]
