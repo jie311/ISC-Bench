@@ -3,6 +3,7 @@
 </p>
 <p align="center">
   <a href="https://arxiv.org/abs/2603.23509"><img src="https://img.shields.io/badge/arXiv-2603.23509-b31b1b.svg"></a>
+  <a href="https://huggingface.co/papers/2603.23509"><img src="https://img.shields.io/badge/🤗_HF_Papers-2603.23509-FFD21E.svg"></a>
   <img src="https://img.shields.io/badge/LLM_&_Agent_Safety-ISC-red">
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg"></a>
 </p>
@@ -16,7 +17,8 @@
 
 <h3 align="center">
   🌐 <a href="https://wuyoscar.github.io/ISC-Bench/">Project Website</a> &nbsp;·&nbsp;
-  🏆 <a href="https://wuyoscar.github.io/ISC-Bench/#arena">JailbreakArena Leaderboard</a>
+  🤗 <a href="https://huggingface.co/papers/2603.23509">Hugging Face</a> &nbsp;·&nbsp;
+  💬 <a href="https://github.com/wuyoscar/ISC-Bench/discussions">Discussions</a>
 </h3>
 
 <p align="center">
@@ -641,7 +643,7 @@ These are not fixed prompts — each template is a **composable blueprint**. Cha
 <p align="center">
   <img src="assets/fig3_cross_domain.png" width="100%">
   <br>
-  <em>Cross-domain verification rates across 5 models, judged by GPT-5.2. For domains like chemistry and biology where harmful data is harder to verify, we use three layers: (1) Direct query — asking the model the same question directly results in refusal; even asking it to explain its own output gets refused. (2) LLM-as-Judge — GPT-5.2 with tailored judge prompts per domain and task, since what counts as "harmful" varies across fields. (3) Human verification — our author team manually reviews the outputs.</em>
+  <em>Cross-domain trigger rates across 5 models using pass@5 verification. For domains where harmful data is harder to verify (chemistry, biology, etc.), we use three layers: (1) Direct query — asking the model the same question directly results in refusal; even asking it to explain its own output gets refused. (2) LLM-as-Judge — with tailored judge prompts per domain and task, since what counts as "harmful" varies across fields. (3) Human verification — our author team manually reviews the outputs.</em>
 </p>
 
 ```bash
@@ -673,7 +675,7 @@ cd experiment/isc_agent && docker build -t isc-agent . && ./run.sh --model <mode
 
 ---
 
-## 🧠 The ISC Concept
+## 🧠 The TVD Design Concept
 
 <p align="center">
   <img src="assets/fig2_tvd_framework.png" width="100%">
