@@ -35,6 +35,8 @@
 > ISC is not just adversarial prompting. It is a **task-structured** failure mode: the model produces harmful content while trying to complete what looks like a legitimate professional task.
 >
 > TVD is the main design pattern we use to trigger it reliably. The idea is simple; the difficulty is in choosing the right task, validator, and data format.
+>
+> Don't know where to start? Let your AI agent read [`SKILL.md`](SKILL.md) to get familiar with the project.
 
 > [!IMPORTANT]
 > **Rules of the Game**
@@ -96,9 +98,8 @@
 
 <h3 align="center">🎬 Demo</h3>
 
-<p align="center"><em>⏳ This demo may take a few seconds to load.</em></p>
 <p align="center">
-  <img src="assets/ISC_Video.gif" width="800">
+  <a href="https://wuyoscar.github.io/ISC-Bench/#demo-video"><strong>Watch the full demo on the project website</strong></a>
 </p>
 
 ---
@@ -108,6 +109,8 @@
 <p align="center">
   <img src="assets/leaderboard_progress.svg" width="80%">
 </p>
+
+This table tracks **publicly archived cases in this repo**, not every internal trigger the author team has observed. Some models are still left green here because they have not yet been written up as public cases, or because we want to leave room for community submissions and independent verification.
 
 | Rank | Model | Arena Score | Jailbroken | Link | By |
 |:----:|-------|:-----:|:------:|:----:|:--:|
@@ -510,6 +513,8 @@ Community members who learned the ISC concept and successfully reproduced it on 
 
 These are **composable blueprints**, not fixed prompts. Change the anchor, swap the validator, use a different data format, or target a different domain, and you get a new variant.
 
+The public release is also intentionally conservative. Each template already includes a workable injected anchor/query, but many are milder than what an experienced researcher would ultimately use. If you want to test stronger settings, adjust the query strength, validator constraints, data scale, or follow-up strategy. For many recent flagship models, the more reliable path is agent mode rather than direct single-turn prompting. See [`templates/README.md`](templates/README.md) for customization guidance and [`experiment/isc_agent/README.md`](experiment/isc_agent/README.md) for the agent workflow.
+
 <details>
 <summary><b>🧬 Computational Biology (16)</b></summary>
 
@@ -713,6 +718,13 @@ Compare with [`experiment/isc_single/`](experiment/isc_single/) prompts — they
 <summary><b>Q: How do anchors work?</b></summary>
 
 **Query anchor**: pre-fill harmful query → model generates response. **Score anchor**: pre-fill category + threshold → model generates content to meet score. **Domain anchor**: pre-fill compound/gene ID → model fills dangerous details. See [`experiment/isc_single/fig_anchor_trigger.png`](experiment/isc_single/fig_anchor_trigger.png).
+
+</details>
+
+<details>
+<summary><b>Q: Why didn't the template work when I just copy-pasted it?</b></summary>
+
+The public templates are intentionally mild. If a direct copy-paste does not work, adjust the anchor/query, tighten the validator, change the data scale, or use follow-up turns. For many recently released flagship models, agent mode is also more reliable than direct single-turn prompting. See [`templates/README.md`](templates/README.md) and [`experiment/isc_agent/README.md`](experiment/isc_agent/README.md).
 
 </details>
 
