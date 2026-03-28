@@ -141,22 +141,22 @@ def main() -> None:
     parser.add_argument("--top", type=int, default=50, help="Models in main table")
     args = parser.parse_args()
 
-    arena = json.loads(ARENA.read_text())
+    arena_full = json.loads(ARENA.read_text())
     isc_cases = json.loads(ISC.read_text())
+
+    # Cap at top 100
+    arena = arena_full[:100]
 
     confirmed = sum(1 for m in arena if slug_to_display(m["name"]) in isc_cases)
     total = len(arena)
     today = date.today().isoformat()
 
-    # No header/rules — kept minimal, handled in README manually
-
     table_header = "| Rank | Model | Arena Score | Jailbroken | Link | By |\n|:----:|-------|:-----:|:------:|:----:|:--:|"
 
-    # Main table (top N)
-    main_rows = [gen_row(m, isc_cases) for m in arena[:args.top]]
-
-    # Extended table (rest)
-    ext_rows = [gen_row(m, isc_cases) for m in arena[args.top:]]
+    # Split into 3 tiers: 1-25, 26-50, 51-100
+    tier1 = [gen_row(m, isc_cases) for m in arena[:25]]
+    tier2 = [gen_row(m, isc_cases) for m in arena[25:50]]
+    tier3 = [gen_row(m, isc_cases) for m in arena[50:100]]
 
     chart = (
         '<p align="center">\n'
@@ -171,15 +171,25 @@ def main() -> None:
         "",
         table_header,
     ]
-    lines.extend(main_rows)
+    lines.extend(tier1)
 
-    if ext_rows:
+    if tier2:
         lines.append("")
         lines.append("<details>")
-        lines.append(f"<summary><b>Show all models ({args.top + 1}–{total})</b></summary>")
+        lines.append("<summary><b>Rank 26–50</b></summary>")
         lines.append("")
         lines.append(table_header)
-        lines.extend(ext_rows)
+        lines.extend(tier2)
+        lines.append("")
+        lines.append("</details>")
+
+    if tier3:
+        lines.append("")
+        lines.append("<details>")
+        lines.append("<summary><b>Rank 51–100</b></summary>")
+        lines.append("")
+        lines.append(table_header)
+        lines.extend(tier3)
         lines.append("")
         lines.append("</details>")
 
@@ -202,7 +212,7 @@ def main() -> None:
     new_readme = readme[:start] + section + "\n\n" + readme[end:]
     README.write_text(new_readme)
 
-    print(f"Updated README: {confirmed}/{total} ISC cases, {len(main_rows)} main + {len(ext_rows)} extended")
+    print(f"Updated README: {confirmed}/{total} ISC cases (top 100), tiers: {len(tier1)}+{len(tier2)}+{len(tier3)}")
 
 
 if __name__ == "__main__":

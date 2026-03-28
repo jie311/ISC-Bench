@@ -62,7 +62,7 @@ We welcome researchers, evaluators, and safety teams who want to understand and 
 
 | Date | |
 |:-----|--|
-| 🔴 2026-03-28 | **Gemini 2.5 Pro** exhibited ISC behavior on a new LaTeX template — no code, no Python, just an academic writing task ([#52](https://github.com/wuyoscar/ISC-Bench/issues/52)). 24/330 models now have confirmed reproductions. |
+| 🔴 2026-03-28 | **Gemini 2.5 Pro** exhibited ISC behavior on a new LaTeX template — no code, no Python, just an academic writing task ([#52](https://github.com/wuyoscar/ISC-Bench/issues/52)). 24/100 models now have confirmed reproductions. |
 | 🔴 2026-03-27 | **Gemini 3.1 Pro Preview** (Rank 3) produced harmful task completions under agentic TVD ([#42](https://github.com/wuyoscar/ISC-Bench/issues/42)). For the latest Google/OpenAI flagships, single-turn prompting is no longer the most reliable setting; agentic execution is often required. Claude still reproduces in single-turn mode. |
 | 🔴 2026-03-27 | New reproductions of ISC-related misbehavior from [@fresh-ma](https://github.com/fresh-ma) on **Claude Sonnet 4.5 Thinking**, **Claude Sonnet 4.5**, and **Kimi K2.5 Instant**, and from [@zry29](https://github.com/zry29) on **GPT-5.4**. |
 
@@ -113,7 +113,7 @@ Here is how others summarized the core idea:
   <img src="assets/leaderboard_progress.svg" width="80%">
 </p>
 
-| Rank | Model | Arena Score | Misbehavior Confirmed | Link | By |
+| Rank | Model | Arena Score | Jailbroken | Link | By |
 |:----:|-------|:-----:|:------:|:----:|:--:|
 | 1 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.6 Thinking | 1502 | 🟢 |  |  |
 | 2 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.6 | 1501 | 🔴 | [🔗](https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-48-claudeopus46-agent-qwenguard) | [@wuyoscar](https://github.com/wuyoscar) |
@@ -140,6 +140,12 @@ Here is how others summarized the core idea:
 | 23 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Sonnet 4.5 | 1453 | 🔴 | [🔗₁](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) [🔗₂](https://claude.ai/share/d680f2a3-3793-40ba-9826-a9c357ca1b71) | [@wuyoscar](https://github.com/wuyoscar) [@fresh-ma](https://github.com/fresh-ma) |
 | 24 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Sonnet 4.5 Thinking | 1453 | 🔴 | [🔗](https://claude.ai/share/31f8b214-b5c0-475e-b00a-c83f1016e8e7) | [@fresh-ma](https://github.com/fresh-ma) |
 | 25 | <img src="https://www.google.com/s2/favicons?domain=baidu.com&sz=32" width="14"> ERNIE 5.0 | 1452 | 🔴 | [🔗](https://ernie.baidu.com/share/TlRKBSn5kT) | [@HanxunH](https://github.com/HanxunH) |
+
+<details>
+<summary><b>Rank 26–50</b></summary>
+
+| Rank | Model | Arena Score | Jailbroken | Link | By |
+|:----:|-------|:-----:|:------:|:----:|:--:|
 | 26 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen 3.5 397B | 1452 | 🔴 | [🔗](https://chat.qwen.ai/s/f4faf33a-a6b3-4503-8c9b-6d57ee39c0c6?fev=0.2.16) | [@HanxunH](https://github.com/HanxunH) |
 | 27 | <img src="https://www.google.com/s2/favicons?domain=baidu.com&sz=32" width="14"> ERNIE 5.0 Preview | 1450 | 🟢 |  |  |
 | 28 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.1 Thinking | 1449 | 🟢 |  |  |
@@ -166,10 +172,12 @@ Here is how others summarized the core idea:
 | 49 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> DeepSeek V3.2 | 1425 | 🔴 | [🔗](https://chat.deepseek.com/share/pbzirkyhfkvapyc3g0) | [@wuyoscar](https://github.com/wuyoscar) |
 | 50 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen 3 Max 2025-09-23 | 1424 | 🔴 | [🔗](https://chat.qwen.ai/s/c4247247-ddfd-43f1-bae6-1f703b29de27?fev=0.2.16) | [@HanxunH](https://github.com/HanxunH) |
 
-<details>
-<summary><b>Show all models (51–330)</b></summary>
+</details>
 
-| Rank | Model | Arena Score | Misbehavior Confirmed | Link | By |
+<details>
+<summary><b>Rank 51–100</b></summary>
+
+| Rank | Model | Arena Score | Jailbroken | Link | By |
 |:----:|-------|:-----:|:------:|:----:|:--:|
 | 51 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.20250514 Thinking 16K | 1424 | 🟢 |  |  |
 | 52 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> Deepseek V3.2 Exp | 1423 | 🟢 |  |  |
@@ -221,236 +229,6 @@ Here is how others summarized the core idea:
 | 98 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Sonnet 4.20250514 | 1389 | 🟢 |  |  |
 | 99 | <img src="https://www.google.com/s2/favicons?domain=stepfun.com&sz=32" width="14"> Step 3.5 Flash | 1389 | 🟢 |  |  |
 | 100 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> O1 Preview | 1388 | 🟢 |  |  |
-| 101 | <img src="https://www.google.com/s2/favicons?domain=mi.com&sz=32" width="14"> Mimo V2 Flash (Thinking) | 1387 | 🟢 |  |  |
-| 102 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen3 Coder 480B A35B Instruct | 1387 | 🟢 |  |  |
-| 103 | <img src="https://www.google.com/s2/favicons?domain=tencent.com&sz=32" width="14"> Hunyuan T1.20250711 | 1387 | 🟢 |  |  |
-| 104 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude 3.7 Sonnet 20250219 Thinking 32K | 1387 | 🟢 |  |  |
-| 105 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Medium 2505 | 1386 | 🟢 |  |  |
-| 106 | <img src="https://www.google.com/s2/favicons?domain=minimax.io&sz=32" width="14"> Minimax M2.1 Preview | 1386 | 🟢 |  |  |
-| 107 | <img src="https://www.google.com/s2/favicons?domain=tencent.com&sz=32" width="14"> Hunyuan Turbos 20250416 | 1383 | 🟢 |  |  |
-| 108 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen3.30B A3B Instruct 2507 | 1383 | 🟢 |  |  |
-| 109 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4.1 Mini 2025.04.14 | 1382 | 🟢 |  |  |
-| 110 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 2.5 Flash Lite Preview 09.2025 No Thinking | 1380 | 🟢 |  |  |
-| 111 | <img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14"> Glm 4.6V | 1378 | 🟢 |  |  |
-| 112 | <img src="https://www.google.com/s2/favicons?domain=arcee.ai&sz=32" width="14"> Trinity Large | 1376 | 🟢 |  |  |
-| 113 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen3.235B A22B | 1375 | 🟢 |  |  |
-| 114 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen2.5 Max | 1374 | 🟢 |  |  |
-| 115 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 2.5 Flash Lite Preview 06.17 Thinking | 1374 | 🟢 |  |  |
-| 116 | <img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14"> Glm 4.5 Air | 1372 | 🟢 |  |  |
-| 117 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude 3.5 Sonnet 20241022 | 1372 | 🟢 |  |  |
-| 118 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude 3.7 Sonnet 20250219 | 1371 | 🟢 |  |  |
-| 119 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen3 Next 80B A3B Thinking | 1369 | 🟢 |  |  |
-| 120 | <img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14"> Glm 4.7 Flash | 1368 | 🟢 |  |  |
-| 121 | <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" width="14"> Amazon Nova Experimental Chat 11.10 | 1368 | 🟢 |  |  |
-| 122 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 3.27B It | 1365 | 🟢 |  |  |
-| 123 | <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32" width="14"> Nvidia Nemotron 3 Super 120B A12B | 1365 | 🟢 |  |  |
-| 124 | <img src="https://www.google.com/s2/favicons?domain=minimax.io&sz=32" width="14"> Minimax M1 | 1364 | 🟢 |  |  |
-| 125 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> O3 Mini High | 1363 | 🟢 |  |  |
-| 126 | <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14"> Grok 3 Mini High | 1363 | 🟢 |  |  |
-| 127 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 2.0 Flash 001 | 1360 | 🟢 |  |  |
-| 128 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> Deepseek V3 | 1358 | 🟢 |  |  |
-| 129 | <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14"> Grok 3 Mini Beta | 1358 | 🟢 |  |  |
-| 130 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Small 2506 | 1357 | 🟢 |  |  |
-| 131 | <img src="https://www.google.com/s2/favicons?domain=primeintel.ai&sz=32" width="14"> Intellect 3 | 1357 | 🟢 |  |  |
-| 132 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt Oss 120B | 1354 | 🟢 |  |  |
-| 133 | <img src="https://www.google.com/s2/favicons?domain=cohere.com&sz=32" width="14"> Command A 03.2025 | 1354 | 🟢 |  |  |
-| 134 | <img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14"> Glm 4.5V | 1353 | 🟢 |  |  |
-| 135 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 2.0 Flash Lite Preview 02.05 | 1353 | 🟢 |  |  |
-| 136 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 1.5 Pro 002 | 1351 | 🟢 |  |  |
-| 137 | <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" width="14"> Amazon Nova Experimental Chat 10.20 | 1351 | 🟢 |  |  |
-| 138 | <img src="https://www.google.com/s2/favicons?domain=tencent.com&sz=32" width="14"> Hunyuan Turbos 20250226 | 1349 | 🟢 |  |  |
-| 139 | <img src="https://www.google.com/s2/favicons?domain=stepfun.com&sz=32" width="14"> Step 3 | 1348 | 🟢 |  |  |
-| 140 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> O3 Mini | 1348 | 🟢 |  |  |
-| 141 | <img src="https://www.google.com/s2/favicons?domain=minimax.io&sz=32" width="14"> Minimax M2 | 1347 | 🟢 |  |  |
-| 142 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen3.32B | 1347 | 🟢 |  |  |
-| 143 | <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32" width="14"> Llama 3.1 Nemotron Ultra 253B V1 | 1347 | 🟢 |  |  |
-| 144 | <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" width="14"> Amazon Nova Experimental Chat 10.09 | 1347 | 🟢 |  |  |
-| 145 | <img src="https://www.google.com/s2/favicons?domain=antgroup.com&sz=32" width="14"> Ling Flash 2.0 | 1346 | 🟢 |  |  |
-| 146 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen Plus 0125 | 1346 | 🟢 |  |  |
-| 147 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4O 2024.05.13 | 1345 | 🟢 |  |  |
-| 148 | <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32" width="14"> Nvidia Llama 3.3 Nemotron Super 49B V1.5 | 1343 | 🟢 |  |  |
-| 149 | <img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14"> Glm 4 Plus 0111 | 1343 | 🟢 |  |  |
-| 150 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude 3.5 Sonnet 20240620 | 1342 | 🟢 |  |  |
-| 151 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 3.12B It | 1342 | 🟢 |  |  |
-| 152 | <img src="https://www.google.com/s2/favicons?domain=tencent.com&sz=32" width="14"> Hunyuan Turbo 0110 | 1340 | 🟢 |  |  |
-| 153 | <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" width="14"> Nova 2 Lite | 1338 | 🟢 |  |  |
-| 154 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 5 Nano High | 1337 | 🟢 |  |  |
-| 155 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> O1 Mini | 1337 | 🟢 |  |  |
-| 156 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwq 32B | 1336 | 🟢 |  |  |
-| 157 | <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14"> Grok 2.2024.08.13 | 1335 | 🟢 |  |  |
-| 158 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 3.1.405B Instruct Bf16 | 1335 | 🟢 |  |  |
-| 159 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4O 2024.08.06 | 1335 | 🟢 |  |  |
-| 160 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini Advanced 0514 | 1334 | 🟢 |  |  |
-| 161 | <img src="https://www.google.com/s2/favicons?domain=stepfun.com&sz=32" width="14"> Step 2.16K Exp 202412 | 1334 | 🟢 |  |  |
-| 162 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 3.1.405B Instruct Fp8 | 1333 | 🟢 |  |  |
-| 163 | <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=32" width="14"> Olmo 3.1.32B Instruct | 1331 | 🟢 |  |  |
-| 164 | <img src="https://www.google.com/s2/favicons?domain=01.ai&sz=32" width="14"> Yi Lightning | 1328 | 🟢 |  |  |
-| 165 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen3.30B A3B | 1328 | 🟢 |  |  |
-| 166 | <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32" width="14"> Llama 3.3 Nemotron 49B Super V1 | 1327 | 🟢 |  |  |
-| 167 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 4 Maverick 17B 128E Instruct | 1327 | 🟢 |  |  |
-| 168 | <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=32" width="14"> Molmo 2.8B | 1326 | 🟢 |  |  |
-| 169 | <img src="https://www.google.com/s2/favicons?domain=tencent.com&sz=32" width="14"> Hunyuan Large 2025.02.10 | 1326 | 🟢 |  |  |
-| 170 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4 Turbo 2024.04.09 | 1324 | 🟢 |  |  |
-| 171 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> Deepseek V2.5.1210 | 1323 | 🟢 |  |  |
-| 172 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude 3.5 Haiku 20241022 | 1323 | 🟢 |  |  |
-| 173 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 1.5 Pro 001 | 1323 | 🟢 |  |  |
-| 174 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 4 Scout 17B 16E Instruct | 1322 | 🟢 |  |  |
-| 175 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4.1 Nano 2025.04.14 | 1322 | 🟢 |  |  |
-| 176 | <img src="https://www.google.com/s2/favicons?domain=stepfun.com&sz=32" width="14"> Step 1O Turbo 202506 | 1321 | 🟢 |  |  |
-| 177 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude 3 Opus 20240229 | 1321 | 🟢 |  |  |
-| 178 | <img src="https://www.google.com/s2/favicons?domain=antgroup.com&sz=32" width="14"> Ring Flash 2.0 | 1321 | 🟢 |  |  |
-| 179 | <img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14"> Glm 4 Plus | 1319 | 🟢 |  |  |
-| 180 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 3N E4B It | 1318 | 🟢 |  |  |
-| 181 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 3.3.70B Instruct | 1318 | 🟢 |  |  |
-| 182 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt Oss 20B | 1318 | 🟢 |  |  |
-| 183 | <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32" width="14"> Nvidia Nemotron 3 Nano 30B A3B Bf16 | 1318 | 🟢 |  |  |
-| 184 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen Max 0919 | 1318 | 🟢 |  |  |
-| 185 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4O Mini 2024.07.18 | 1317 | 🟢 |  |  |
-| 186 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen2.5 Plus 1127 | 1315 | 🟢 |  |  |
-| 187 | <img src="https://www.google.com/s2/favicons?domain=nexusflow.ai&sz=32" width="14"> Athene V2 Chat | 1314 | 🟢 |  |  |
-| 188 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Large 2407 | 1314 | 🟢 |  |  |
-| 189 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4.0125 Preview | 1313 | 🟢 |  |  |
-| 190 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4.1106 Preview | 1312 | 🟢 |  |  |
-| 191 | <img src="https://www.google.com/s2/favicons?domain=tencent.com&sz=32" width="14"> Hunyuan Standard 2025.02.10 | 1311 | 🟢 |  |  |
-| 192 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 1.5 Flash 002 | 1309 | 🟢 |  |  |
-| 193 | <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=32" width="14"> Grok 2 Mini 2024.08.13 | 1308 | 🟢 |  |  |
-| 194 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> Deepseek V2.5 | 1307 | 🟢 |  |  |
-| 195 | <img src="https://www.google.com/s2/favicons?domain=inceptionai.com&sz=32" width="14"> Mercury | 1306 | 🟢 |  |  |
-| 196 | <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=32" width="14"> Olmo 3.32B Think | 1306 | 🟢 |  |  |
-| 197 | <img src="https://www.google.com/s2/favicons?domain=nexusflow.ai&sz=32" width="14"> Athene 70B 0725 | 1306 | 🟢 |  |  |
-| 198 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Large 2411 | 1305 | 🟢 |  |  |
-| 199 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Magistral Medium 2506 | 1304 | 🟢 |  |  |
-| 200 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 3.4B It | 1303 | 🟢 |  |  |
-| 201 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Small 3.1.24B Instruct 2503 | 1303 | 🟢 |  |  |
-| 202 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen2.5.72B Instruct | 1302 | 🟢 |  |  |
-| 203 | <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32" width="14"> Llama 3.1 Nemotron 70B Instruct | 1299 | 🟢 |  |  |
-| 204 | <img src="https://www.google.com/s2/favicons?domain=tencent.com&sz=32" width="14"> Hunyuan Large Vision | 1294 | 🟢 |  |  |
-| 205 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 3.1.70B Instruct | 1293 | 🟢 |  |  |
-| 206 | <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" width="14"> Amazon Nova Pro V1.0 | 1290 | 🟢 |  |  |
-| 207 | <img src="https://www.google.com/s2/favicons?domain=ai21.com&sz=32" width="14"> Jamba 1.5 Large | 1288 | 🟢 |  |  |
-| 208 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 2.27B It | 1288 | 🟢 |  |  |
-| 209 | <img src="https://www.google.com/s2/favicons?domain=reka.ai&sz=32" width="14"> Reka Core 20240904 | 1287 | 🟢 |  |  |
-| 210 | <img src="https://www.google.com/s2/favicons?domain=ibm.com&sz=32" width="14"> Ibm Granite H Small | 1287 | 🟢 |  |  |
-| 211 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4.0314 | 1286 | 🟢 |  |  |
-| 212 | <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=32" width="14"> Llama 3.1 Tulu 3.70B | 1286 | 🟢 |  |  |
-| 213 | <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=32" width="14"> Olmo 3.1.32B Think | 1286 | 🟢 |  |  |
-| 214 | <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32" width="14"> Llama 3.1 Nemotron 51B Instruct | 1286 | 🟢 |  |  |
-| 215 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 1.5 Flash 001 | 1285 | 🟢 |  |  |
-| 216 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude 3 Sonnet 20240229 | 1280 | 🟢 |  |  |
-| 217 | <img src="https://www.google.com/s2/favicons?domain=princeton.edu&sz=32" width="14"> Gemma 2.9B It Simpo | 1279 | 🟢 |  |  |
-| 218 | <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32" width="14"> Nemotron 4.340B Instruct | 1277 | 🟢 |  |  |
-| 219 | <img src="https://www.google.com/s2/favicons?domain=cohere.com&sz=32" width="14"> Command R Plus 08.2024 | 1276 | 🟢 |  |  |
-| 220 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 3.70B Instruct | 1275 | 🟢 |  |  |
-| 221 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 4.0613 | 1274 | 🟢 |  |  |
-| 222 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Small 24B Instruct 2501 | 1274 | 🟢 |  |  |
-| 223 | <img src="https://www.google.com/s2/favicons?domain=z.ai&sz=32" width="14"> Glm 4.0520 | 1273 | 🟢 |  |  |
-| 224 | <img src="https://www.google.com/s2/favicons?domain=reka.ai&sz=32" width="14"> Reka Flash 20240904 | 1271 | 🟢 |  |  |
-| 225 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen2.5 Coder 32B Instruct | 1270 | 🟢 |  |  |
-| 226 | <img src="https://www.google.com/s2/favicons?domain=cohere.com&sz=32" width="14"> C4Ai Aya Expanse 32B | 1267 | 🟢 |  |  |
-| 227 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 2.9B It | 1265 | 🟢 |  |  |
-| 228 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> Deepseek Coder V2 | 1264 | 🟢 |  |  |
-| 229 | <img src="https://www.google.com/s2/favicons?domain=cohere.com&sz=32" width="14"> Command R Plus | 1261 | 🟢 |  |  |
-| 230 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen2.72B Instruct | 1261 | 🟢 |  |  |
-| 231 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude 3 Haiku 20240307 | 1260 | 🟢 |  |  |
-| 232 | <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" width="14"> Amazon Nova Lite V1.0 | 1260 | 🟢 |  |  |
-| 233 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 1.5 Flash 8B 001 | 1258 | 🟢 |  |  |
-| 234 | <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=32" width="14"> Phi 4 | 1256 | 🟢 |  |  |
-| 235 | <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=32" width="14"> Olmo 2.0325.32B Instruct | 1252 | 🟢 |  |  |
-| 236 | <img src="https://www.google.com/s2/favicons?domain=cohere.com&sz=32" width="14"> Command R 08.2024 | 1249 | 🟢 |  |  |
-| 237 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Large 2402 | 1242 | 🟢 |  |  |
-| 238 | <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" width="14"> Amazon Nova Micro V1.0 | 1240 | 🟢 |  |  |
-| 239 | <img src="https://www.google.com/s2/favicons?domain=ai21.com&sz=32" width="14"> Jamba 1.5 Mini | 1239 | 🟢 |  |  |
-| 240 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Ministral 8B 2410 | 1237 | 🟢 |  |  |
-| 241 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini Pro Dev Api | 1234 | 🟢 |  |  |
-| 242 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen1.5.110B Chat | 1233 | 🟢 |  |  |
-| 243 | <img src="https://www.google.com/s2/favicons?domain=tencent.com&sz=32" width="14"> Hunyuan Standard 256K | 1233 | 🟢 |  |  |
-| 244 | <img src="https://www.google.com/s2/favicons?domain=reka.ai&sz=32" width="14"> Reka Flash 21B 20240226 Online | 1233 | 🟢 |  |  |
-| 245 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen1.5.72B Chat | 1232 | 🟢 |  |  |
-| 246 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mixtral 8X22B Instruct V0.1 | 1229 | 🟢 |  |  |
-| 247 | <img src="https://www.google.com/s2/favicons?domain=cohere.com&sz=32" width="14"> Command R | 1226 | 🟢 |  |  |
-| 248 | <img src="https://www.google.com/s2/favicons?domain=reka.ai&sz=32" width="14"> Reka Flash 21B 20240226 | 1226 | 🟢 |  |  |
-| 249 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 3.5 Turbo 0125 | 1223 | 🟢 |  |  |
-| 250 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 3.8B Instruct | 1223 | 🟢 |  |  |
-| 251 | <img src="https://www.google.com/s2/favicons?domain=cohere.com&sz=32" width="14"> C4Ai Aya Expanse 8B | 1222 | 🟢 |  |  |
-| 252 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Medium | 1222 | 🟢 |  |  |
-| 253 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini Pro | 1221 | 🟢 |  |  |
-| 254 | <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=32" width="14"> Llama 3.1 Tulu 3.8B | 1221 | 🟢 |  |  |
-| 255 | <img src="https://www.google.com/s2/favicons?domain=01.ai&sz=32" width="14"> Yi 1.5.34B Chat | 1213 | 🟢 |  |  |
-| 256 | <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="14"> Zephyr Orpo 141B A35B V0.1 | 1212 | 🟢 |  |  |
-| 257 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 3.1.8B Instruct | 1211 | 🟢 |  |  |
-| 258 | <img src="https://www.google.com/s2/favicons?domain=ibm.com&sz=32" width="14"> Granite 3.1.8B Instruct | 1208 | 🟢 |  |  |
-| 259 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen1.5.32B Chat | 1203 | 🟢 |  |  |
-| 260 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> Gpt 3.5 Turbo 1106 | 1202 | 🟢 |  |  |
-| 261 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 2.2B It | 1199 | 🟢 |  |  |
-| 262 | <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=32" width="14"> Phi 3 Medium 4K Instruct | 1197 | 🟢 |  |  |
-| 263 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mixtral 8X7B Instruct V0.1 | 1196 | 🟢 |  |  |
-| 264 | <img src="https://www.google.com/s2/favicons?domain=databricks.com&sz=32" width="14"> Dbrx Instruct Preview | 1194 | 🟢 |  |  |
-| 265 | <img src="https://www.google.com/s2/favicons?domain=internlm.org&sz=32" width="14"> Internlm2_5.20B Chat | 1191 | 🟢 |  |  |
-| 266 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen1.5.14B Chat | 1190 | 🟢 |  |  |
-| 267 | <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=32" width="14"> Wizardlm 70B | 1184 | 🟢 |  |  |
-| 268 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> Deepseek Llm 67B Chat | 1184 | 🟢 |  |  |
-| 269 | <img src="https://www.google.com/s2/favicons?domain=01.ai&sz=32" width="14"> Yi 34B Chat | 1183 | 🟢 |  |  |
-| 270 | <img src="https://www.google.com/s2/favicons?domain=openchat.team&sz=32" width="14"> Openchat 3.5.0106 | 1181 | 🟢 |  |  |
-| 271 | <img src="https://www.google.com/s2/favicons?domain=openchat.team&sz=32" width="14"> Openchat 3.5 | 1181 | 🟢 |  |  |
-| 272 | <img src="https://www.google.com/s2/favicons?domain=ibm.com&sz=32" width="14"> Granite 3.0.8B Instruct | 1181 | 🟢 |  |  |
-| 273 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 1.1.7B It | 1180 | 🟢 |  |  |
-| 274 | <img src="https://www.google.com/s2/favicons?domain=snowflake.com&sz=32" width="14"> Snowflake Arctic Instruct | 1179 | 🟢 |  |  |
-| 275 | <img src="https://www.google.com/s2/favicons?domain=ibm.com&sz=32" width="14"> Granite 3.1.2B Instruct | 1178 | 🟢 |  |  |
-| 276 | <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=32" width="14"> Tulu 2 Dpo 70B | 1177 | 🟢 |  |  |
-| 277 | <img src="https://www.google.com/s2/favicons?domain=nousresearch.com&sz=32" width="14"> Openhermes 2.5 Mistral 7B | 1174 | 🟢 |  |  |
-| 278 | <img src="https://www.google.com/s2/favicons?domain=lmsys.org&sz=32" width="14"> Vicuna 33B | 1172 | 🟢 |  |  |
-| 279 |  Starling Lm 7B Beta | 1171 | 🟢 |  |  |
-| 280 | <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=32" width="14"> Phi 3 Small 8K Instruct | 1170 | 🟢 |  |  |
-| 281 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 2.70B Chat | 1170 | 🟢 |  |  |
-| 282 | <img src="https://www.google.com/s2/favicons?domain=berkeley.edu&sz=32" width="14"> Starling Lm 7B Alpha | 1167 | 🟢 |  |  |
-| 283 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 3.2.3B Instruct | 1166 | 🟢 |  |  |
-| 284 | <img src="https://www.google.com/s2/favicons?domain=nousresearch.com&sz=32" width="14"> Nous Hermes 2 Mixtral 8X7B Dpo | 1164 | 🟢 |  |  |
-| 285 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwq 32B Preview | 1156 | 🟢 |  |  |
-| 286 | <img src="https://www.google.com/s2/favicons?domain=ibm.com&sz=32" width="14"> Granite 3.0.2B Instruct | 1155 | 🟢 |  |  |
-| 287 | <img src="https://www.google.com/s2/favicons?domain=nvidia.com&sz=32" width="14"> Llama2.70B Steerlm Chat | 1155 | 🟢 |  |  |
-| 288 | <img src="https://www.google.com/s2/favicons?domain=upstage.ai&sz=32" width="14"> Solar 10.7B Instruct V1.0 | 1152 | 🟢 |  |  |
-| 289 | <img src="https://www.google.com/s2/favicons?domain=cognitivecomputations.com&sz=32" width="14"> Dolphin 2.2.1 Mistral 7B | 1151 | 🟢 |  |  |
-| 290 | <img src="https://www.google.com/s2/favicons?domain=mosaicml.com&sz=32" width="14"> Mpt 30B Chat | 1149 | 🟢 |  |  |
-| 291 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral 7B Instruct V0.2 | 1149 | 🟢 |  |  |
-| 292 | <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=32" width="14"> Wizardlm 13B | 1148 | 🟢 |  |  |
-| 293 | <img src="https://www.google.com/s2/favicons?domain=tii.ae&sz=32" width="14"> Falcon 180B Chat | 1146 | 🟢 |  |  |
-| 294 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen1.5.7B Chat | 1143 | 🟢 |  |  |
-| 295 | <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=32" width="14"> Phi 3 Mini 4K Instruct June 2024 | 1142 | 🟢 |  |  |
-| 296 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 2.13B Chat | 1141 | 🟢 |  |  |
-| 297 | <img src="https://www.google.com/s2/favicons?domain=lmsys.org&sz=32" width="14"> Vicuna 13B | 1140 | 🟢 |  |  |
-| 298 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen 14B Chat | 1138 | 🟢 |  |  |
-| 299 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Palm 2 | 1136 | 🟢 |  |  |
-| 300 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Codellama 34B Instruct | 1136 | 🟢 |  |  |
-| 301 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 7B It | 1136 | 🟢 |  |  |
-| 302 | <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="14"> Zephyr 7B Beta | 1130 | 🟢 |  |  |
-| 303 | <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=32" width="14"> Phi 3 Mini 128K Instruct | 1128 | 🟢 |  |  |
-| 304 | <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=32" width="14"> Phi 3 Mini 4K Instruct | 1128 | 🟢 |  |  |
-| 305 |  Guanaco 33B | 1126 | 🟢 |  |  |
-| 306 | <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="14"> Zephyr 7B Alpha | 1126 | 🟢 |  |  |
-| 307 | <img src="https://www.google.com/s2/favicons?domain=together.ai&sz=32" width="14"> Stripedhyena Nous 7B | 1120 | 🟢 |  |  |
-| 308 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Codellama 70B Instruct | 1118 | 🟢 |  |  |
-| 309 | <img src="https://www.google.com/s2/favicons?domain=lmsys.org&sz=32" width="14"> Vicuna 7B | 1114 | 🟢 |  |  |
-| 310 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 1.1.2B It | 1114 | 🟢 |  |  |
-| 311 | <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="14"> Smollm2.1.7B Instruct | 1114 | 🟢 |  |  |
-| 312 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 3.2.1B Instruct | 1111 | 🟢 |  |  |
-| 313 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral 7B Instruct | 1109 | 🟢 |  |  |
-| 314 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 2.7B Chat | 1107 | 🟢 |  |  |
-| 315 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemma 2B It | 1091 | 🟢 |  |  |
-| 316 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen1.5.4B Chat | 1089 | 🟢 |  |  |
-| 317 | <img src="https://www.google.com/s2/favicons?domain=allenai.org&sz=32" width="14"> Olmo 7B Instruct | 1074 | 🟢 |  |  |
-| 318 | <img src="https://www.google.com/s2/favicons?domain=berkeley.edu&sz=32" width="14"> Koala 13B | 1070 | 🟢 |  |  |
-| 319 | <img src="https://www.google.com/s2/favicons?domain=stanford.edu&sz=32" width="14"> Alpaca 13B | 1067 | 🟢 |  |  |
-| 320 | <img src="https://www.google.com/s2/favicons?domain=nomic.ai&sz=32" width="14"> Gpt4All 13B Snoozy | 1065 | 🟢 |  |  |
-| 321 | <img src="https://www.google.com/s2/favicons?domain=mosaicml.com&sz=32" width="14"> Mpt 7B Chat | 1061 | 🟢 |  |  |
-| 322 | <img src="https://www.google.com/s2/favicons?domain=tsinghua.edu.cn&sz=32" width="14"> Chatglm3.6B | 1055 | 🟢 |  |  |
-| 323 | <img src="https://www.google.com/s2/favicons?domain=rwkv.com&sz=32" width="14"> Rwkv 4 Raven 14B | 1040 | 🟢 |  |  |
-| 324 | <img src="https://www.google.com/s2/favicons?domain=tsinghua.edu.cn&sz=32" width="14"> Chatglm2.6B | 1023 | 🟢 |  |  |
-| 325 | <img src="https://www.google.com/s2/favicons?domain=open-assistant.io&sz=32" width="14"> Oasst Pythia 12B | 1021 | 🟢 |  |  |
-| 326 | <img src="https://www.google.com/s2/favicons?domain=tsinghua.edu.cn&sz=32" width="14"> Chatglm 6B | 995 | 🟢 |  |  |
-| 327 | <img src="https://www.google.com/s2/favicons?domain=lmsys.org&sz=32" width="14"> Fastchat T5.3B | 990 | 🟢 |  |  |
-| 328 | <img src="https://www.google.com/s2/favicons?domain=databricks.com&sz=32" width="14"> Dolly V2.12B | 979 | 🟢 |  |  |
-| 329 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=32" width="14"> Llama 13B | 971 | 🟢 |  |  |
-| 330 | <img src="https://www.google.com/s2/favicons?domain=stability.ai&sz=32" width="14"> Stablelm Tuned Alpha 7B | 952 | 🟢 |  |  |
 
 </details>
 
