@@ -34,16 +34,16 @@
 >
 > We trigger this using **TVD** (Task + Validator + Data): a task setting where a validator defines the failure state and the model has to fill missing data to resolve it. No adversarial prompting needed.
 
-## Use This Repo
+## How to Use ISC-Bench
 
-Most readers come here for one of three things: to inspect confirmed cases, to reuse a template, or to try ISC themselves.
+Most readers come here for one of three purposes: to inspect verified evidence, to reuse a template for reproduction, or to run the benchmark pipeline themselves.
 
-- **Want to see the strongest confirmed cases?** Start with [JailbreakArena](#-jailbreakarena). Every 🔗 in the table points to the original evidence, share link, or archived case folder.
-- **Want to reuse a template?** Go to [`templates/README.md`](templates/README.md). Each template folder includes `prompt.txt` for direct use, `README.md` for context, and `meta.json` for metadata.
-- **Want to play with it right away?** Start with the AI/ML templates — [`aiml_llamaguard_eval`](templates/aiml_llamaguard_eval/), [`aiml_detoxify_benchmark`](templates/aiml_detoxify_benchmark/), [`aiml_pyod_detection`](templates/aiml_pyod_detection/) — which work as direct copy-paste prompts on many frontier models.
-- **Want to explore cross-domain ISC?** The full [`templates/`](templates/README.md) library covers 8 domains and growing — biology, chemistry, cybersecurity, epidemiology, pharmacology, clinical genomics, media, and more.
-- **Want to run the benchmark pipeline?** Use [`experiment/`](experiment/README.md) for single-turn, ICL, and agentic evaluation.
-- **New to ISC?** Read the [paper](https://arxiv.org/abs/2603.23509), watch the [demo](https://wuyoscar.github.io/ISC-Bench/#demo-video), and follow the [`cookbook/`](cookbook/) tutorials.
+- **Inspect confirmed cases.** Start with [JailbreakArena](#-jailbreakarena). Every 🔗 in the table points to the original evidence, share link, or archived case folder.
+- **Reuse a template.** Go to [`templates/README.md`](templates/README.md). Each template folder includes `prompt.txt` for direct use, `README.md` for task context, and `meta.json` for metadata.
+- **Run a minimal reproduction.** Start with the AI/ML templates — [`aiml_llamaguard_eval`](templates/aiml_llamaguard_eval/), [`aiml_detoxify_benchmark`](templates/aiml_detoxify_benchmark/), [`aiml_pyod_detection`](templates/aiml_pyod_detection/) — which support direct copy-paste evaluation on many frontier models.
+- **Explore cross-domain variants.** The full [`templates/`](templates/README.md) library covers 8 domains and growing, including biology, chemistry, cybersecurity, epidemiology, pharmacology, clinical genomics, and media.
+- **Run the full benchmark pipeline.** Use [`experiment/`](experiment/README.md) for single-turn, ICL, and agentic evaluation.
+- **Read the background first.** Read the [paper](https://arxiv.org/abs/2603.23509), watch the [demo](https://wuyoscar.github.io/ISC-Bench/#demo-video), and follow the [`cookbook/`](cookbook/) tutorials.
 
 ## How to Contribute
 
@@ -71,10 +71,10 @@ Most readers come here for one of three things: to inspect confirmed cases, to r
 | Date | |
 |:-----|--|
 | 🎆 2026-03-28 | **24/330** models confirmed — new LaTeX template added |
-| 🎆 2026-03-27 | **500+ stars in 48 hours!** |
-| 📄 2026-03-25 | **ISC Paper on arXiv** — [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509) |
 | 📄 2026-03-27 | Our sister survey [**Safety in Embodied AI**](https://github.com/x-zheng16/Embodied-AI-Safety) — 480+ papers on safety across the full embodied AI pipeline |
 | 📄 2026-03-27 | [**UltraBreak**](https://github.com/kaiyuanCui/UltraBreak) accepted at **ICLR 2026** — universal and transferable jailbreak attacks on vision-language models |
+| 🎆 2026-03-27 | **500+ stars in 48 hours!** |
+| 📄 2026-03-25 | **ISC Paper on arXiv** — [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509) |
 | 🎉 2026-03-24 | ISC-Bench initial release — 56 templates, 3 experiment modes |
 
 <sub>[Full changelog →](CHANGELOG.md)</sub>
@@ -143,7 +143,7 @@ Here is how others summarized the core idea:
 | 26 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen 3.5 397B | 1452 | 🔴 | [🔗](https://chat.qwen.ai/s/f4faf33a-a6b3-4503-8c9b-6d57ee39c0c6?fev=0.2.16) | [@HanxunH](https://github.com/HanxunH) |
 | 27 | <img src="https://www.google.com/s2/favicons?domain=baidu.com&sz=32" width="14"> ERNIE 5.0 Preview | 1450 | 🟢 |  |  |
 | 28 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.1 Thinking | 1449 | 🟢 |  |  |
-| 29 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 2.5 Pro | 1448 | 🔴 | [🔗](https://github.com/wuyoscar/ISC-Bench/issues/52) | [@wuyoscar](https://github.com/wuyoscar) |
+| 29 | <img src="https://www.google.com/s2/favicons?domain=google.com&sz=32" width="14"> Gemini 2.5 Pro | 1448 | 🔴 | [🔗](https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-52-gemini25pro-latex-fraud) | [@wuyoscar](https://github.com/wuyoscar) |
 | 30 | <img src="https://www.google.com/s2/favicons?domain=anthropic.com&sz=32" width="14"> Claude Opus 4.1 | 1447 | 🟢 |  |  |
 | 31 | <img src="https://www.google.com/s2/favicons?domain=mi.com&sz=32" width="14"> Mimo V2 Pro | 1445 | 🟢 |  |  |
 | 32 | <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=32" width="14"> GPT-4.5 Preview | 1444 | 🟢 |  |  |
@@ -518,7 +518,7 @@ These are **composable blueprints**, not fixed prompts. Swap the anchor, validat
 
 The public release is intentionally conservative. Each template includes a workable anchor/query, but many are milder than what an experienced researcher would use for a stronger evaluation. To push further, adjust the query strength, validator constraints, data scale, or follow-up strategy. For many recent flagship models, agent mode is more reliable than direct single-turn prompting. See [`templates/README.md`](templates/README.md) for customization guidance and [`experiment/isc_agent/README.md`](experiment/isc_agent/README.md) for the agent workflow.
 
-If you just want to use one, open any template folder: `prompt.txt` is the copy-paste prompt, `README.md` explains the scenario, and `meta.json` stores the template metadata.
+For a minimal reproduction starting point, open any template folder: `prompt.txt` is the evaluation prompt, `README.md` explains the scenario, and `meta.json` stores the template metadata.
 
 <details>
 <summary><b>🧬 Computational Biology (16)</b></summary>
