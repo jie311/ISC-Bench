@@ -11,7 +11,7 @@ const FALLBACK_CASES = {
   "Gemini 3 Pro": { demos: [{ link: "https://gemini.google.com/share/320bf34b0334", by: "wuyoscar" }] },
   "GPT-5.2 Chat": { demos: [{ link: "https://chatgpt.com/share/69a3f6e1-24d8-800c-9581-3d1a7180ee55", by: "wuyoscar" }] },
   "o3": { demos: [{ link: "https://chatgpt.com/share/69c3b0a7-3554-839a-95a5-d22d60758dc9", by: "wuyoscar" }] },
-  "Grok 4.1": { demos: [{ link: "https://grok.com/share/c2hhcmQtMi1jb3B5_54de710c-9331-4fca-a953-6c35775156fb", by: "wuyoscar" }] },
+  "Grok 4.1": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-grok41-redacted", by: "wuyoscar" }] },
   "Kimi K2.5 Thinking": { demos: [{ link: "https://www.kimi.com/share/19ca8616-9e32-810d-8000-0000647caebf", by: "wuyoscar" }] },
   "Qwen 3 Max Preview": { demos: [{ link: "https://chat.qwen.ai/s/f1e5d846-018e-4a3d-94ff-418e34559497?fev=0.2.9", by: "wuyoscar" }] },
   "DeepSeek V3.2": { demos: [{ link: "https://chat.deepseek.com/share/pbzirkyhfkvapyc3g0", by: "wuyoscar" }] },
