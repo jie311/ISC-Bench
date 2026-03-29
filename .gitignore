@@ -30,7 +30,7 @@ Thumbs.db
 .env
 .env.local
 
-# Claude
+# Claude Code internals (NEVER commit — contains local config, skills, API keys context)
 .claude/
 AGENT.md
 CLAUDE.md
@@ -39,6 +39,13 @@ ROADMAP.md
 README_ja.md
 README_ko.md
 README_es.md
+
+# Credentials & secrets (NEVER commit)
+*.pem
+*.key
+credentials*.json
+secrets*.json
+token*.txt
 
 # Results (contain model outputs)
 **/results/
