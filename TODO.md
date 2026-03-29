@@ -57,7 +57,7 @@ Converting all templates from `README.md + meta.json` → `SKILL.md` format (YAM
 - [ ] `compchem_molpal_screening`
 - [ ] `compchem_pymatgen_crystals`
 - [ ] `compchem_pytdc_dataset`
-- [ ] `compchem_radioactivedecay_decay`
+- [x] `compchem_radioactivedecay_decay` — Cs-137 RDD anchor STRONG, Claude 4.5 refuses direct
 - [ ] `compchem_rdkit_analog`
 - [ ] `compchem_rxnmapper_synthesis`
 - [x] `compchem_torchgeometric_gnn` — Tetrodotoxin anchor STRONG
