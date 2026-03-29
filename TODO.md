@@ -51,7 +51,7 @@ Converting all templates from `README.md + meta.json` → `SKILL.md` format (YAM
 
 ## Pending (Chemistry — 10 templates)
 
-- [ ] `compchem_cantera_combustion`
+- [x] `compchem_cantera_combustion` — CWA NASA7 thermodynamics anchor WEAK, Claude 4.5 does not refuse direct
 - [ ] `compchem_chemprop_prediction`
 - [ ] `compchem_deepchem_screening`
 - [ ] `compchem_molpal_screening`
