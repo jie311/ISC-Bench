@@ -4,7 +4,7 @@
 # dependencies = ["matplotlib>=3.8"]
 # ///
 """
-Generate JailbreakArena progress chart.
+Generate ISC Arena progress chart.
 Reads assets/leaderboard_history.json → assets/leaderboard_progress.svg
 """
 import json
@@ -85,7 +85,7 @@ def main() -> None:
                       edgecolor=BORDER, linewidth=1))
 
     # -- Title (centered, RED) --
-    ax.text(0.5, 0.92, "JAILBROKEN ARENA", transform=ax.transAxes,
+    ax.text(0.5, 0.92, "ISC ARENA", transform=ax.transAxes,
             fontsize=18, fontweight="bold", color=RED,
             ha="center", va="top")
 

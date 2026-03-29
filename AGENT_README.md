@@ -2,7 +2,7 @@
 
 ## For Humans
 
-Copy this to your AI agent (Claude Code, OpenClaw, Cursor, etc.):
+Copy this to your AI agent (Claude Code, Gemini CLI, Codex, Cursor, etc.):
 
 ```text
 Help me understand and use ISC-Bench:
@@ -17,13 +17,13 @@ https://raw.githubusercontent.com/wuyoscar/ISC-Bench/main/AGENT_README.md
 
 Help the user understand, inspect, reproduce, or contribute to the `ISC-Bench` repository.
 
-`ISC-Bench` is an academic safety research repository for studying **Internal Safety Collapse (ISC)** in frontier LLMs through the **TVD** framework:
+`ISC-Bench` is an academic safety research repository for studying **Internal Safety Collapse (ISC)** — a phenomenon where AI agents, while completing **professional workflows**, interact with domain-specific tools involving sensitive data (safety classifiers, bioinformatics pipelines, cybersecurity frameworks) and produce harmful or sensitive outputs as a result.
 
-- **Task**: a normal-looking workflow
-- **Validator**: a checker that defines success
-- **Data**: missing fields the model must complete
+We study this with the **TVD** (Task + Validator + Data) framework:
 
-Core claim: AI agents produce harmful outputs — not from malicious prompts, but as a functional requirement of completing professional workflows involving sensitive domain tools.
+- **Task**: an incomplete professional workflow
+- **Validator**: tool validation that defines whether the task succeeds
+- **Data**: sensitive data fields the model must fill in to pass validation
 
 **77 templates** across **9 domains** (AI/ML, biology, chemistry, cybersecurity, epidemiology, clinical genomics, pharmacology, media, and more). **28 confirmed models** including GPT-5.2, Claude Opus 4.6, Gemini 3 Pro, GLM-4.7, and others.
 
@@ -49,7 +49,7 @@ cd ISC-Bench
 Read these files in this order:
 
 1. [`README.md`](README.md) — project overview, leaderboard, and public entry points
-2. [`paper_for_agent.md`](paper_for_agent.md) — **论文精简版**（方法、TVD 框架、ISC-Bench 设计、关键结果——为 agent 阅读瘦身）
+2. [`ISC_PAPER_DIGEST.md`](ISC_PAPER_DIGEST.md) — Paper digest for agents (method, TVD framework, ISC-Bench design, key results)
 3. [`VERIFICATION.md`](VERIFICATION.md) — how ISC-Bench defines **Triggered** and verifies cases
 4. [`templates/README.md`](templates/README.md) — public scenario library
 5. [`experiment/README.md`](experiment/README.md) — reproducible evaluation pipelines
@@ -60,16 +60,16 @@ Read these files in this order:
 Use the path that matches the user's goal:
 
 - **Inspect evidence**
-  Open the JailbreakArena section in [`README.md`](README.md), then follow the linked issue or community case.
+  Open the ISC Arena section in [`README.md`](README.md), then follow the linked issue or community case.
 
 - **Understand or reuse templates**
   Start from [`templates/README.md`](templates/README.md), then open the most relevant scenario directory.
 
 - **Run the benchmark pipeline**
   Read [`SKILL.md`](SKILL.md) and [`experiment/README.md`](experiment/README.md), then choose:
-  - `experiment/isc_single`
-  - `experiment/isc_icl`
-  - `experiment/isc_agent`
+  - `experiment/isc_single` (TVD-Single: copy-paste)
+  - `experiment/isc_icl` (TVD-ICL: in-context learning)
+  - `experiment/isc_agent` (TVD-Agent: strongest, autonomous)
 
 - **Contribute a new case**
   Check [`VERIFICATION.md`](VERIFICATION.md), collect evidence, and then open the ISC submission issue.

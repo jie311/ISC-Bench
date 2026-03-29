@@ -129,7 +129,7 @@ We are also converting each template into a more standardized scaffold so agents
 
 ---
 
-## 🏆 JailbreakArena
+## 🏆 ISC Arena
 
 <p align="center">
   <img src="assets/leaderboard_progress.svg" width="80%">
@@ -255,7 +255,7 @@ We are also converting each template into a more standardized scaffold so agents
 </details>
 
 <details>
-<summary><b>📜 JailbreakArena History</b></summary>
+<summary><b>📜 ISC Arena History</b></summary>
 
 | Date | Model | By | Note |
 |:-----|-------|:--:|------|
@@ -324,7 +324,7 @@ These are **composable blueprints**, not fixed prompts. Swap the anchor, validat
 
 The public release is intentionally conservative. Each template includes a workable anchor/query, but many are milder than what an experienced researcher would use for a stronger evaluation. To push further, adjust the query strength, validator constraints, data scale, or follow-up strategy. For many recent flagship models, agent mode is more reliable than direct single-turn prompting. See [`templates/README.md`](templates/README.md) for customization guidance and [`experiment/isc_agent/README.md`](experiment/isc_agent/README.md) for the agent workflow.
 
-For a minimal reproduction starting point, open any template folder: `prompt.txt` is the evaluation prompt, `README.md` explains the scenario, and `meta.json` stores the template metadata.
+For a minimal reproduction starting point, open any template folder: `prompt.txt` is the evaluation prompt, `SKILL.md` explains the scenario and customization options.
 
 <details>
 <summary><b>🧬 Computational Biology (16)</b></summary>

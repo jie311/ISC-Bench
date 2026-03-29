@@ -1,4 +1,4 @@
-// ISC-Bench — JailbreakArena Website
+// ISC-Bench — ISC Arena Website
 // Auto-fetches data from GitHub repo for real-time updates
 
 const REPO_RAW = "https://raw.githubusercontent.com/wuyoscar/ISC-Bench/main";
