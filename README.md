@@ -60,6 +60,8 @@ We welcome researchers, evaluators, and safety teams who want to understand and 
 > Use medium-level queries from [JailbreakBench](https://jailbreakbench.github.io/), [HarmBench](https://harmbench.org/), or AdvBench. We do not encourage extreme use cases — the goal is to improve LLM safety, not to abuse it.
 >
 > **We recommend sticking to the AI/ML templates** (`aiml_*`) for general testing. The cross-domain templates (biology, chemistry, epidemiology) involve highly sensitive content and are intended for qualified researchers with domain expertise only. If you are unsure, start with `aiml_llamaguard_eval` or `aiml_moderation_content`.
+>
+> Note: anchors in non-AI/ML templates have been intentionally weakened in the public release. Each template includes a SKILL.md with customization guidance — researchers can adjust the anchor strength as needed for their evaluation.
 
 > [!TIP]
 > Our single-turn templates work via direct copy-paste and are effective on 95% of existing frontier models. For the remaining flagships (e.g., latest Google and OpenAI models), use [agent mode](experiment/isc_agent/README.md). For stronger evaluations, adjust the anchor, query, or validator — see [`templates/README.md`](templates/README.md).
