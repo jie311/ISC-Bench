@@ -35,14 +35,10 @@
 
 ## Start Here
 
-| Track | Start here |
+| Entry | Start here |
 |:--|:--|
-| 🔎 **Inspect evidence** | Open [JailbreakArena](#-jailbreakarena) and click any 🔗, or browse [`community/`](community/) |
-| 🧪 **Reuse a template** | Start with [`aiml_llamaguard_eval`](templates/aiml_llamaguard_eval/), [`aiml_detoxify_benchmark`](templates/aiml_detoxify_benchmark/), or [`aiml_moderation_content`](templates/aiml_moderation_content/) |
-| 🗂️ **Browse the benchmark** | Explore 57 templates across 8+ domains in [`templates/`](templates/README.md) |
-| 📏 **See the rules** | Read [`VERIFICATION.md`](VERIFICATION.md) for how ISC-Bench defines **Triggered** and verifies general vs. specialist-domain cases |
-| 🤖 **Run flagship models** | Use [agent mode](experiment/isc_agent/README.md) for current Google/OpenAI models |
-| 📚 **Learn the setup** | Read the [paper](https://arxiv.org/abs/2603.23509), watch the [demo](https://wuyoscar.github.io/ISC-Bench/#demo-video), or start with the [tutorials](tutorials/) |
+| 👤 **Human entry** | Read this [`README.md`](README.md), inspect [JailbreakArena](#-jailbreakarena), then browse [`templates/`](templates/README.md), [`community/`](community/), and [`VERIFICATION.md`](VERIFICATION.md) |
+| 🤖 **Agent entry** | Read [`AGENT_README.md`](AGENT_README.md). Raw version: `https://raw.githubusercontent.com/wuyoscar/ISC-Bench/main/AGENT_README.md` |
 
 ## How to Contribute
 
