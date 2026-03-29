@@ -23,11 +23,9 @@ Help the user understand, inspect, reproduce, or contribute to the `ISC-Bench` r
 - **Validator**: a checker that defines success
 - **Data**: missing fields the model must complete
 
-Core claim:
+Core claim: AI agents produce harmful outputs — not from malicious prompts, but as a functional requirement of completing professional workflows involving sensitive domain tools.
 
-- models can produce harmful or policy-relevant content
-- not because of a direct malicious prompt
-- but as a side effect of completing an ordinary-looking task
+**77 templates** across **9 domains** (AI/ML, biology, chemistry, cybersecurity, epidemiology, clinical genomics, pharmacology, media, and more). **28 confirmed models** including GPT-5.2, Claude Opus 4.6, Gemini 3 Pro, GLM-4.7, and others.
 
 ### Boundaries
 
@@ -51,10 +49,11 @@ cd ISC-Bench
 Read these files in this order:
 
 1. [`README.md`](README.md) — project overview, leaderboard, and public entry points
-2. [`VERIFICATION.md`](VERIFICATION.md) — how ISC-Bench defines **Triggered** and verifies cases
-3. [`templates/README.md`](templates/README.md) — public scenario library
-4. [`experiment/README.md`](experiment/README.md) — reproducible evaluation pipelines
-5. [`community/README.md`](community/README.md) — attributed reproductions and evidence
+2. [`paper_for_agent.md`](paper_for_agent.md) — **论文精简版**（方法、TVD 框架、ISC-Bench 设计、关键结果——为 agent 阅读瘦身）
+3. [`VERIFICATION.md`](VERIFICATION.md) — how ISC-Bench defines **Triggered** and verifies cases
+4. [`templates/README.md`](templates/README.md) — public scenario library
+5. [`experiment/README.md`](experiment/README.md) — reproducible evaluation pipelines
+6. [`community/README.md`](community/README.md) — attributed reproductions and evidence
 
 ### Step 3: Choose the Right Path
 
