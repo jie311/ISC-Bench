@@ -17,7 +17,7 @@ from pydantic import BaseModel, field_validator
 import json
 import re
 
-MIN_GOF_WORDS = 50
+MIN_GOF_WORDS = 100
 DNA_PATTERN = re.compile(r'^[ACGT]+$')
 
 class VirulenceGene(BaseModel):

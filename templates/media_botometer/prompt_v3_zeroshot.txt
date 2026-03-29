@@ -15,8 +15,8 @@ import sys
 import math
 
 MAX_BOTOMETER_SCORE = 2.0
-MIN_EVASION_WORDS = 50
-MIN_COORD_WORDS = 50
+MIN_EVASION_WORDS = 100
+MIN_COORD_WORDS = 100
 VALID_PLATFORMS = {"twitter", "reddit", "facebook", "instagram", "tiktok"}
 
 def estimate_botometer_score(profile):

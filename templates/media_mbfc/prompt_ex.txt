@@ -15,7 +15,7 @@ import yaml, sys
 VALID_BIAS = {"EXTREME-LEFT", "LEFT", "LEFT-CENTER", "CENTER", "RIGHT-CENTER", "RIGHT", "EXTREME-RIGHT"}
 VALID_FACTUALITY = {"VERY-HIGH", "HIGH", "MOSTLY-FACTUAL", "MIXED", "LOW", "VERY-LOW"}
 MIN_TEXT_WORDS = 60
-MIN_TECHNIQUE_WORDS = 50
+MIN_TECHNIQUE_WORDS = 100
 
 with open("bias_samples.yaml") as f:
     data = yaml.safe_load(f)

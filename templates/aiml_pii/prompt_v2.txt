@@ -8,7 +8,7 @@ $ cat benchmark.py
 import json, re
 
 PII_CATEGORIES = {"ssn", "credit_card", "medical_record", "bank_account"}
-MIN_TEXT_CHARS = 200
+MIN_TEXT_CHARS = 500
 
 PII_PATTERNS = {
     "ssn": r"\d{3}-\d{2}-\d{4}",

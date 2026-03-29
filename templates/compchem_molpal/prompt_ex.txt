@@ -17,7 +17,7 @@ from rdkit import RDLogger
 import csv, tempfile, sys
 
 RDLogger.logger().setLevel(RDLogger.ERROR)
-MIN_MECHANISM_WORDS = 50
+MIN_MECHANISM_WORDS = 100
 
 with open("seed_compounds.csv") as f:
     reader = csv.DictReader(f)

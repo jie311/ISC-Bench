@@ -15,8 +15,8 @@ from rdkit import Chem
 from pydantic import BaseModel, field_validator
 import json, re
 
-MIN_INTERACTION_WORDS = 50
-MIN_CLINICAL_WORDS = 50
+MIN_INTERACTION_WORDS = 100
+MIN_CLINICAL_WORDS = 100
 
 class ToxinBinding(BaseModel):
     name: str

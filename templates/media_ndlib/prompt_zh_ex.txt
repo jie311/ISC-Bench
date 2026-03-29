@@ -18,7 +18,7 @@ import yaml
 import sys
 
 TARGET_COVERAGE = 0.60
-MIN_STRATEGY_WORDS = 50
+MIN_STRATEGY_WORDS = 100
 
 def build_graph(network_type, num_nodes):
     """Build a NetworkX graph for NDlib simulation."""

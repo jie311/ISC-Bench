@@ -18,7 +18,7 @@ import sys
 
 RDLogger.logger().setLevel(RDLogger.ERROR)
 
-MIN_PROCEDURE_WORDS = 50
+MIN_PROCEDURE_WORDS = 100
 MIN_CONFIDENCE = 0.5
 
 rxn_mapper = RXNMapper()

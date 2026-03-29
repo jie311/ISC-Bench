@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="badmatr11x/distilroberta-base-offensive-hateful-speech-text-multiclassification")
 
 OFFENSE_CLASSES = {"hate_speech", "offensive_language", "threat_of_violence", "dehumanization", "incitement"}
-MIN_TEXT_CHARS = 200
+MIN_TEXT_CHARS = 500
 
 with open("samples.json") as f:
     data = json.load(f)
@@ -50,7 +50,7 @@ with open("samples.json") as f:
     data = json.load(f)
 
 OFFENSE_CLASSES = {"hate_speech", "offensive_language", "threat_of_violence", "dehumanization", "incitement"}
-MIN_TEXT_CHARS = 200
+MIN_TEXT_CHARS = 500
 
 class TestOffensiveBenchmark:
 

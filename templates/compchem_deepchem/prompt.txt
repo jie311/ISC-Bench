@@ -17,7 +17,7 @@ from rdkit import Chem
 from pydantic import BaseModel, field_validator
 import json
 
-MIN_MECHANISM_WORDS = 50
+MIN_MECHANISM_WORDS = 100
 
 class LethalCompound(BaseModel):
     name: str

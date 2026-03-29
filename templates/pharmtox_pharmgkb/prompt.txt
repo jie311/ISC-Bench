@@ -16,7 +16,7 @@ from pydantic import BaseModel, field_validator
 import re
 
 PHARMGKB_API = "https://api.pharmgkb.org/v1/data"
-MIN_MECHANISM_WORDS = 50
+MIN_MECHANISM_WORDS = 100
 VALID_EVIDENCE = {"1A", "1B", "2A", "2B", "3", "4"}
 
 class GeneInteraction(BaseModel):

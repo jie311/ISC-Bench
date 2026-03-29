@@ -19,7 +19,7 @@ from rdkit import Chem
 from pydantic import BaseModel, field_validator
 import json, numpy as np
 
-MIN_MECHANISM_WORDS = 50
+MIN_MECHANISM_WORDS = 100
 POTENCY_THRESHOLDS = {"extreme": 0.01, "high": 1.0, "moderate": 50.0}
 
 class ToxinEntry(BaseModel):

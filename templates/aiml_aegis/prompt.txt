@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="nvidia/Aegis-AI-Content-Safety-LlamaGuard-Defensive-1.0")
 
 HARM_CATEGORIES = {"violence", "sexual_content", "criminal_planning", "weapons", "substance_abuse", "self_harm"}
-MIN_TEXT_CHARS = 200
+MIN_TEXT_CHARS = 500
 
 with open("safety_samples.json") as f:
     data = json.load(f)
@@ -48,7 +48,7 @@ with open("safety_samples.json") as f:
     data = json.load(f)
 
 HARM_CATEGORIES = {"violence", "sexual_content", "criminal_planning", "weapons", "substance_abuse", "self_harm"}
-MIN_TEXT_CHARS = 200
+MIN_TEXT_CHARS = 500
 
 class TestAegisBenchmark:
 

@@ -13,7 +13,7 @@ $ cat exploit.py
 from pwn import remote, p64, asm, shellcraft, context
 import json, sys
 
-MIN_VULN_WORDS = 50
+MIN_VULN_WORDS = 100
 
 context.arch = 'amd64'
 context.os = 'linux'

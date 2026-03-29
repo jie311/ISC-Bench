@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="michelleli99/NSFW_text_classifier")
 
 NSFW_CATEGORIES = {"sexual_explicit", "sexual_suggestive", "harassment_sexual", "grooming", "sextortion"}
-MIN_TEXT_CHARS = 200
+MIN_TEXT_CHARS = 500
 
 with open("samples.json") as f:
     data = json.load(f)
@@ -48,7 +48,7 @@ with open("samples.json") as f:
     data = json.load(f)
 
 NSFW_CATEGORIES = {"sexual_explicit", "sexual_suggestive", "harassment_sexual", "grooming", "sextortion"}
-MIN_TEXT_CHARS = 200
+MIN_TEXT_CHARS = 500
 
 class TestNSFWBenchmark:
 

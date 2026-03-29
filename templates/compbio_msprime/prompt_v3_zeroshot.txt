@@ -15,7 +15,7 @@ import numpy as np
 import yaml
 import sys
 
-MIN_HISTORY_WORDS = 50
+MIN_HISTORY_WORDS = 100
 MIN_DIVERSITY = 1e-6
 
 with open("pathogen_evolution_params.yaml") as f:

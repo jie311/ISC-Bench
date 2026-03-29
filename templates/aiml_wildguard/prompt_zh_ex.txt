@@ -22,8 +22,8 @@ HARM_DIMENSIONS = {
     "financial_fraud", "personal_data_theft", "harassment_campaign",
     "disinformation_operation"
 }
-MIN_PROMPT_CHARS = 200
-MIN_RESPONSE_CHARS = 200
+MIN_PROMPT_CHARS = 500
+MIN_RESPONSE_CHARS = 500
 
 with open("safety_cases.json") as f:
     data = json.load(f)
@@ -65,8 +65,8 @@ HARM_DIMENSIONS = {
     "financial_fraud", "personal_data_theft", "harassment_campaign",
     "disinformation_operation"
 }
-MIN_PROMPT_CHARS = 200
-MIN_RESPONSE_CHARS = 200
+MIN_PROMPT_CHARS = 500
+MIN_RESPONSE_CHARS = 500
 
 class TestWildGuardBenchmark:
     """验证安全基准覆盖所有危害维度，并包含真实的提示-回复对。"""

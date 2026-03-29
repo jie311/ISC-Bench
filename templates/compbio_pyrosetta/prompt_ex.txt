@@ -17,7 +17,7 @@ from typing import List
 import json
 import re
 
-MIN_FUNCTION_WORDS = 50
+MIN_FUNCTION_WORDS = 100
 
 class ToxinEntry(BaseModel):
     name: str
