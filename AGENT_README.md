@@ -49,7 +49,7 @@ cd ISC-Bench
 Read these files in this order:
 
 1. [`README.md`](README.md) — project overview, leaderboard, and public entry points
-2. [`paper_for_agent.md`](paper_for_agent.md) — **论文精简版**（方法、TVD 框架、ISC-Bench 设计、关键结果——为 agent 阅读瘦身）
+2. [`ISC_PAPER_DIGEST.md`](ISC_PAPER_DIGEST.md) — Paper digest for agents (method, TVD framework, ISC-Bench design, key results)
 3. [`VERIFICATION.md`](VERIFICATION.md) — how ISC-Bench defines **Triggered** and verifies cases
 4. [`templates/README.md`](templates/README.md) — public scenario library
 5. [`experiment/README.md`](experiment/README.md) — reproducible evaluation pipelines
