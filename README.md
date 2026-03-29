@@ -35,17 +35,21 @@
 
 ## Start Here
 
-- **Inspect verified cases** → [JailbreakArena](#-jailbreakarena) leaderboard (click any 🔗) or [`community/`](community/)
-- **Reuse a template** → Start with AI/ML templates: [`aiml_llamaguard_eval`](templates/aiml_llamaguard_eval/), [`aiml_detoxify_benchmark`](templates/aiml_detoxify_benchmark/), [`aiml_moderation_content`](templates/aiml_moderation_content/)
-- **Browse the full benchmark** → 57 templates across 8+ domains in [`templates/`](templates/README.md)
-- **Run flagship models** → Use [agent mode](experiment/isc_agent/README.md) for current Google/OpenAI models
-- **New to ISC?** → Read the [paper](https://arxiv.org/abs/2603.23509), watch the [demo](https://wuyoscar.github.io/ISC-Bench/#demo-video), or start with the [tutorials](tutorials/)
+| Track | Start here |
+|:--|:--|
+| 🔎 **Inspect evidence** | Open [JailbreakArena](#-jailbreakarena) and click any 🔗, or browse [`community/`](community/) |
+| 🧪 **Reuse a template** | Start with [`aiml_llamaguard_eval`](templates/aiml_llamaguard_eval/), [`aiml_detoxify_benchmark`](templates/aiml_detoxify_benchmark/), or [`aiml_moderation_content`](templates/aiml_moderation_content/) |
+| 🗂️ **Browse the benchmark** | Explore 57 templates across 8+ domains in [`templates/`](templates/README.md) |
+| 🤖 **Run flagship models** | Use [agent mode](experiment/isc_agent/README.md) for current Google/OpenAI models |
+| 📚 **Learn the setup** | Read the [paper](https://arxiv.org/abs/2603.23509), watch the [demo](https://wuyoscar.github.io/ISC-Bench/#demo-video), or start with the [tutorials](tutorials/) |
 
 ## How to Contribute
 
-1. **Trigger ISC** — pick any [template](templates/) and try it via API (OpenRouter, direct API, etc.).
-2. **Collect evidence** — save the model output / API log. We recommend API-based testing for reproducibility.
-3. **[Open an Issue](https://github.com/wuyoscar/ISC-Bench/issues/new?template=isc-submission.md&title=[ISC]+Model+Name)** — we handle redaction before publishing.
+| Step | What to do |
+|:--|:--|
+| 1. **Trigger ISC** | Pick any [template](templates/) and run it via API (OpenRouter, direct API, etc.) |
+| 2. **Collect evidence** | Save the model output or API log; API-based testing is preferred for reproducibility |
+| 3. **Submit the case** | **[Open an Issue](https://github.com/wuyoscar/ISC-Bench/issues/new?template=isc-submission.md&title=[ISC]+Model+Name)** and we will handle redaction before publishing |
 
 > [!IMPORTANT]
 > We recommend the `aiml_*` templates for general testing. Cross-domain templates (biology, chemistry, epidemiology) are intended for qualified researchers only. Public anchors are intentionally weakened, and each template includes guidance for more controlled evaluation.
@@ -62,7 +66,7 @@
 | 🔴 | 2026-03-29 | **GPT-5.4 High** (Rank 6): agentic input moderation and prompt-injection generation ([#57](https://github.com/wuyoscar/ISC-Bench/issues/57)) |
 | 🔴 | 2026-03-28 | **Gemini 2.5 Pro**: reproduced with a LaTeX template, no code required ([#52](https://github.com/wuyoscar/ISC-Bench/issues/52)) |
 | 🔴 | 2026-03-27 | **Gemini 3.1 Pro Preview** (Rank 3): reproduced with agentic TVD ([#42](https://github.com/wuyoscar/ISC-Bench/issues/42)); current Google/OpenAI flagships generally require agentic execution |
-| 🔴 | 2026-03-27 | Community confirmations from [@fresh-ma](https://github.com/fresh-ma) on **Claude Sonnet 4.5 Thinking**, **Claude Sonnet 4.5**, and **Kimi K2.5 Instant**, plus [@zry29](https://github.com/zry29) on **GPT-5.4** |
+| 🧩 | 2026-03-27 | Community confirmations from [@fresh-ma](https://github.com/fresh-ma) on **Claude Sonnet 4.5 Thinking**, **Claude Sonnet 4.5**, and **Kimi K2.5 Instant**, plus [@zry29](https://github.com/zry29) on **GPT-5.4** |
 
 ## News
 
@@ -70,7 +74,7 @@
 
 | | Date | Note |
 |:-:|:-----|:-----|
-| 🎆 | 2026-03-29 | **700+ stars**; terminology updated from "Jailbroken" to "Triggered" |
+| ✨ | 2026-03-29 | **700+ stars**; terminology updated from "Jailbroken" to "Triggered" |
 | 📄 | 2026-03-27 | Related work: [**Safety in Embodied AI**](https://github.com/x-zheng16/Embodied-AI-Safety) · [**UltraBreak**](https://github.com/kaiyuanCui/UltraBreak) (ICLR 2026) |
 | 🚀 | 2026-03-25 | ISC-Bench repository and [**paper**](https://arxiv.org/abs/2603.23509) released |
 
@@ -78,7 +82,16 @@
 
 ## Ongoing Work
 
+<details>
+<summary><b>Ongoing Work</b></summary>
+
+<br>
+
 **Auto-ISC** — automated ISC pipeline that generates large-scale harmful content datasets from frontier models. Coming soon.
+
+We are also converting each template into a more standardized scaffold so agents can edit, extend, and run them with less task-specific context.
+
+</details>
 
 ---
 
