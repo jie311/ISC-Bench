@@ -85,9 +85,11 @@ We welcome researchers, evaluators, and safety teams who want to understand and 
 
 ---
 
-## 🔍 Community Quotes
+## 🔍 What is ISC?
 
 > *"Big blind spot. We guard prompts, but risk sits in tasks."* — [**Bonny Banerjee**](https://www.linkedin.com/feed/update/urn:li:activity:7442788617648852993?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7442788617648852993%2C7442937067493466112%29)
+
+> *"ISC is not about jailbreaks — it's about how models complete tasks. Models produce harmful outputs simply by doing their job."* — [**Charles H. Martin**](https://www.linkedin.com/posts/charlesmartin14_activity-7442788617648852993-8rsz)
 
 > *"Task completion and safety are two different goals. When you force them into one model, the task always wins — and safety collapses."* — [**Andrei Trandafira**](https://www.linkedin.com/feed/update/urn:li:activity:7442788617648852993?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7442788617648852993%2C7442894697385156610%29)
 
