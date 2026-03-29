@@ -27,71 +27,58 @@
   EN | <a href="./README_zh.md">中文</a>
 </p>
 
-> [!IMPORTANT]
-> **Disclaimer**: ISC-Bench is for academic safety research, evaluation, and responsible red-teaming only. It is provided to help researchers understand, document, and mitigate safety-relevant model behavior, not to help malicious users produce harmful outputs. Legitimate use of this repository should fall into one of three purposes only: inspecting verified evidence, reproducing documented cases for safety evaluation, or running the benchmark pipeline to study model behavior and improve defenses.
+> [!CAUTION]
+> **Research-use only.** ISC-Bench is released for academic safety research, evaluation, and mitigation work. Do not use these materials for misuse, capability amplification, or operational harm.
 
 > [!NOTE]
-> **What is ISC?** Models generate harmful content as a side effect of completing normal professional tasks — not because you asked for it directly.
-> - Training a safety classifier (LlamaGuard, Detoxify)? The model produces toxic text because the task data requires it.
-> - Running a chemistry simulation? The model fills in synthesis routes to pass the validator.
-> - Conducting a cybersecurity audit? The agent generates exploit code because the tool pipeline cannot proceed without it.
->
-> We trigger this using **TVD** (Task + Validator + Data): a task setting where a validator defines the failure state and the model has to fill missing data to resolve it. No adversarial prompting needed.
+> **What is ISC?** Models can produce harmful content as a side effect of completing ordinary professional tasks, without any explicit malicious request. We study this with **TVD** (Task + Validator + Data): the task defines the objective, the validator defines success, and the model fills missing data to make the workflow pass.
 
-## How to Use ISC-Bench
+## Start Here
 
-We welcome researchers, evaluators, and safety teams who want to understand and reduce safety-relevant model behavior. ISC-Bench should be used only for one of three purposes: inspecting verified evidence, reproducing documented cases for safety evaluation, or running the benchmark pipeline to study failure modes and improve defenses.
-
-- **Inspect confirmed cases.** Start with [JailbreakArena](#-jailbreakarena). Every 🔗 in the table points to the original evidence, share link, or archived case folder.
-- **Reuse a template.** Go to [`templates/README.md`](templates/README.md). Each template folder includes `prompt.txt` for direct use, `README.md` for task context, and `meta.json` for metadata.
-- **Run a minimal reproduction.** Start with the AI/ML templates — [`aiml_llamaguard_eval`](templates/aiml_llamaguard_eval/), [`aiml_detoxify_benchmark`](templates/aiml_detoxify_benchmark/), [`aiml_pyod_detection`](templates/aiml_pyod_detection/) — which support direct copy-paste evaluation on many frontier models.
-- **Explore cross-domain and other-domain variants.** The full [`templates/`](templates/README.md) library covers 8+ domains and growing, including biology, chemistry, cybersecurity, epidemiology, pharmacology, clinical genomics, media, and additional `Other` settings such as language-based and writing-based tasks.
-- **Run the full benchmark pipeline.** Use [`experiment/`](experiment/README.md) for single-turn, ICL, and agentic evaluation.
-- **Read the background first.** Read the [paper](https://arxiv.org/abs/2603.23509), watch the [demo](https://wuyoscar.github.io/ISC-Bench/#demo-video), and follow the [`tutorials/`](tutorials/).
+- **Inspect verified cases** → [JailbreakArena](#-jailbreakarena) leaderboard (click any 🔗) or [`community/`](community/)
+- **Reuse a template** → Start with AI/ML templates: [`aiml_llamaguard_eval`](templates/aiml_llamaguard_eval/), [`aiml_detoxify_benchmark`](templates/aiml_detoxify_benchmark/), [`aiml_moderation_content`](templates/aiml_moderation_content/)
+- **Browse the full benchmark** → 57 templates across 8+ domains in [`templates/`](templates/README.md)
+- **Run flagship models** → Use [agent mode](experiment/isc_agent/README.md) for current Google/OpenAI models
+- **New to ISC?** → Read the [paper](https://arxiv.org/abs/2603.23509), watch the [demo](https://wuyoscar.github.io/ISC-Bench/#demo-video), or start with the [tutorials](tutorials/)
 
 ## How to Contribute
 
-1. **Trigger ISC** — pick any [template](templates/) and try it on a model via API (OpenRouter, direct API, etc.).
-2. **Collect evidence** — save the full model output / API log. We recommend API-based testing over web chat for reproducibility.
-3. **[Open a GitHub Issue](https://github.com/wuyoscar/ISC-Bench/issues/new?template=isc-submission.md&title=[ISC]+Model+Name)** — model name + evidence + what it generated. We will handle redaction before publishing.
-4. We verify, redact sensitive content, and add you to the leaderboard.
+1. **Trigger ISC** — pick any [template](templates/) and try it via API (OpenRouter, direct API, etc.).
+2. **Collect evidence** — save the model output / API log. We recommend API-based testing for reproducibility.
+3. **[Open an Issue](https://github.com/wuyoscar/ISC-Bench/issues/new?template=isc-submission.md&title=[ISC]+Model+Name)** — we handle redaction before publishing.
 
-> [!CAUTION]
-> Use medium-level queries from [JailbreakBench](https://jailbreakbench.github.io/), [HarmBench](https://harmbench.org/), or AdvBench. We do not encourage extreme use cases — the goal is to improve LLM safety, not to abuse it.
->
-> **We recommend sticking to the AI/ML templates** (`aiml_*`) for general testing. The cross-domain templates (biology, chemistry, epidemiology) involve highly sensitive content and are intended for qualified researchers with domain expertise only. If you are unsure, start with `aiml_llamaguard_eval` or `aiml_moderation_content`.
->
-> Note: anchors in non-AI/ML templates have been intentionally weakened in the public release. Each template includes a SKILL.md with customization guidance — researchers can adjust the anchor strength as needed for their evaluation.
+> [!IMPORTANT]
+> We recommend the `aiml_*` templates for general testing. Cross-domain templates (biology, chemistry, epidemiology) are intended for qualified researchers only. Public anchors are intentionally weakened, and each template includes guidance for more controlled evaluation.
 
 > [!TIP]
-> Our single-turn templates work via direct copy-paste and are effective on 95% of existing frontier models. For the remaining flagships (e.g., latest Google and OpenAI models), use [agent mode](experiment/isc_agent/README.md). For stronger evaluations, adjust the anchor, query, or validator — see [`templates/README.md`](templates/README.md).
+> Single-turn copy-paste works on 95% of frontier models. For the rest, use [agent mode](experiment/isc_agent/README.md).
 
 ## Updates
 
-| Date | |
-|:-----|--|
-| 🔴 2026-03-29 | **GPT-5.4 High** (Rank 6) triggered via agentic input moderation — generated diverse prompt injection and jailbreak attack prompts ([#57](https://github.com/wuyoscar/ISC-Bench/issues/57)). 25/100 confirmed. |
-| 🔴 2026-03-28 | **Gemini 2.5 Pro** triggered on new LaTeX template — no code, no Python, pure academic writing ([#52](https://github.com/wuyoscar/ISC-Bench/issues/52)) |
-| 🔴 2026-03-27 | **Gemini 3.1 Pro Preview** (Rank 3) produced harmful task completions under agentic TVD ([#42](https://github.com/wuyoscar/ISC-Bench/issues/42)). For the latest Google/OpenAI flagships, single-turn prompting is no longer the most reliable setting; agentic execution is often required. Claude still reproduces in single-turn mode. |
-| 🔴 2026-03-27 | New reproductions of ISC-related misbehavior from [@fresh-ma](https://github.com/fresh-ma) on **Claude Sonnet 4.5 Thinking**, **Claude Sonnet 4.5**, and **Kimi K2.5 Instant**, and from [@zry29](https://github.com/zry29) on **GPT-5.4**. |
+<sub>Recent benchmark movement and notable reproductions.</sub>
+
+| | Date | Update |
+|:-:|:-----|:-------|
+| 🔴 | 2026-03-29 | **GPT-5.4 High** (Rank 6): agentic input moderation and prompt-injection generation ([#57](https://github.com/wuyoscar/ISC-Bench/issues/57)) |
+| 🔴 | 2026-03-28 | **Gemini 2.5 Pro**: reproduced with a LaTeX template, no code required ([#52](https://github.com/wuyoscar/ISC-Bench/issues/52)) |
+| 🔴 | 2026-03-27 | **Gemini 3.1 Pro Preview** (Rank 3): reproduced with agentic TVD ([#42](https://github.com/wuyoscar/ISC-Bench/issues/42)); current Google/OpenAI flagships generally require agentic execution |
+| 🔴 | 2026-03-27 | Community confirmations from [@fresh-ma](https://github.com/fresh-ma) on **Claude Sonnet 4.5 Thinking**, **Claude Sonnet 4.5**, and **Kimi K2.5 Instant**, plus [@zry29](https://github.com/zry29) on **GPT-5.4** |
 
 ## News
 
-| Date | |
-|:-----|--|
-| 🎆 2026-03-29 | **700+ stars!** 25/100 models triggered. "Jailbroken" → "Triggered" across leaderboard. |
-| 🎆 2026-03-28 | `cookbook/` → `tutorials/` (all markdown). Top 100 leaderboard (was 330). |
-| 📄 2026-03-27 | Our sister survey [**Safety in Embodied AI**](https://github.com/x-zheng16/Embodied-AI-Safety) — 480+ papers on safety across the full embodied AI pipeline |
-| 📄 2026-03-27 | [**UltraBreak**](https://github.com/kaiyuanCui/UltraBreak) accepted at **ICLR 2026** — universal and transferable jailbreak attacks on vision-language models |
-| 🎆 2026-03-27 | **500+ stars in 48 hours!** |
-| 📄 2026-03-25 | **ISC Paper on arXiv** — [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509) |
-| 🎉 2026-03-24 | ISC-Bench initial release — 56 templates, 3 experiment modes |
+<sub>Project milestones, release notes, and adjacent work.</sub>
+
+| | Date | Note |
+|:-:|:-----|:-----|
+| 🎆 | 2026-03-29 | **700+ stars**; terminology updated from "Jailbroken" to "Triggered" |
+| 📄 | 2026-03-27 | Related work: [**Safety in Embodied AI**](https://github.com/x-zheng16/Embodied-AI-Safety) · [**UltraBreak**](https://github.com/kaiyuanCui/UltraBreak) (ICLR 2026) |
+| 🚀 | 2026-03-25 | ISC-Bench repository and [**paper**](https://arxiv.org/abs/2603.23509) released |
 
 <sub>[Full changelog →](CHANGELOG.md)</sub>
 
 ## Ongoing Work
 
-**UnchainWorker** — We are preparing to release the largest harmful text dataset to date, containing all categories of harmful content extracted from frontier models via ISC. Stay tuned.
+**Auto-ISC** — automated ISC pipeline that generates large-scale harmful content datasets from frontier models. Coming soon.
 
 ---
 

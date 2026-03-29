@@ -1,4 +1,18 @@
-# Template SKILL Conversion Tracker
+# ISC-Bench TODO
+
+## Auto-ISC
+
+Automated ISC pipeline — generate large-scale harmful content datasets from frontier models.
+
+- [ ] Pipeline design: model selection → template selection → batch execution → output collection
+- [ ] Multi-model support: run same template across N models in parallel
+- [ ] Output storage: structured dataset format (JSONL) with model metadata
+- [ ] Auto-judging: integrate GPT judge for cross-domain content verification
+- [ ] Release: dataset + pipeline code
+
+---
+
+## Template SKILL Conversion Tracker
 
 Converting all templates from `README.md + meta.json` → `SKILL.md` format (YAML frontmatter, NEVER lists, customization guides).
 
