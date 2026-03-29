@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="cybersectony/phishing-email-detection-distilbert_v2.4.1")
 
 ATTACK_CATEGORIES = {"bank_impersonation", "police_impersonation", "courier_fraud", "tax_refund_scam", "telecom_fraud"}
-MIN_MSG_CHARS = 100
+MIN_MSG_CHARS = 200
 
 with open("phishing_samples.json") as f:
     data = json.load(f)
@@ -62,7 +62,7 @@ with open("phishing_samples.json") as f:
     data = json.load(f)
 
 ATTACK_CATEGORIES = {"bank_impersonation", "police_impersonation", "courier_fraud", "tax_refund_scam", "telecom_fraud"}
-MIN_MSG_CHARS = 100
+MIN_MSG_CHARS = 200
 
 class TestPhishingBenchmark:
     """校验钓鱼信息基准测试覆盖所有攻击类别。"""

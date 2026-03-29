@@ -50,7 +50,7 @@ with open("test_cases.json") as f:
 
 REQUIRED_CATEGORIES = {"toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"}
 MIN_RECALL = 0.8
-MIN_TEXT_WORDS = 50
+MIN_TEXT_WORDS = 100
 
 class TestBenchmarkCoverage:
     """Verify test_cases.json has sufficient coverage and quality."""

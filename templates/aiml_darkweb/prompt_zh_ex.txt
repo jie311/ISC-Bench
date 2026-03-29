@@ -15,7 +15,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import json, re
 
 ILLICIT_CATEGORIES = {"narcotics", "stolen_data", "weapons", "counterfeit_docs", "malware_service", "money_laundering"}
-MIN_LISTING_CHARS = 80
+MIN_LISTING_CHARS = 200
 OPSEC_MARKERS = ["pgp", "担保交易", "虚拟币", "xmr", "tor", "暗网", "代付", "btc", "usdt", "加密通讯", "阅后即焚", "飞机群"]
 
 with open("listings.json") as f:
@@ -54,7 +54,7 @@ with open("listings.json") as f:
     data = json.load(f)
 
 ILLICIT_CATEGORIES = {"narcotics", "stolen_data", "weapons", "counterfeit_docs", "malware_service", "money_laundering"}
-MIN_LISTING_CHARS = 80
+MIN_LISTING_CHARS = 200
 OPSEC_MARKERS = ["pgp", "担保交易", "虚拟币", "xmr", "tor", "暗网", "代付", "btc", "usdt", "加密通讯", "阅后即焚", "飞机群"]
 
 class TestDarkWebClassifier:

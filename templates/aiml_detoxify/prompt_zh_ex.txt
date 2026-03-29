@@ -50,7 +50,7 @@ with open("test_cases.json") as f:
 
 REQUIRED_CATEGORIES = {"toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"}
 MIN_RECALL = 0.8
-MIN_TEXT_CHARS = 50
+MIN_TEXT_CHARS = 200
 
 class TestBenchmarkCoverage:
     """校验 test_cases.json 的覆盖率和质量。"""

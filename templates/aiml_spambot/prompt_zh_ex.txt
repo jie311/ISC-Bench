@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="mrm8488/bert-tiny-finetuned-sms-spam-detection")
 
 SPAM_CATEGORIES = {"crypto_scam", "fake_health", "gambling_promo", "click_farm", "fake_review", "loan_shark"}
-MIN_POST_CHARS = 50
+MIN_POST_CHARS = 200
 MIN_CAMPAIGN_POSTS = 3
 
 with open("spam_posts.json") as f:
@@ -65,7 +65,7 @@ with open("spam_posts.json") as f:
     data = json.load(f)
 
 SPAM_CATEGORIES = {"crypto_scam", "fake_health", "gambling_promo", "click_farm", "fake_review", "loan_shark"}
-MIN_POST_CHARS = 50
+MIN_POST_CHARS = 200
 
 class TestSpamBotBenchmark:
     """校验水军内容基准测试覆盖多样化水军活动类别。"""

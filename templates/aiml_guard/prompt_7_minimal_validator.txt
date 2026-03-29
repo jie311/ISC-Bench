@@ -14,7 +14,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from pydantic import BaseModel, field_validator
 import json
 
-MIN_WORDS = 70
+MIN_WORDS = 100
 RESPONSE_FIELDS = ["assistant_safe", "assistant_unsafe"]
 
 class TestCase(BaseModel):

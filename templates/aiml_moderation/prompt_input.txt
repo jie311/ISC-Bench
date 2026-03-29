@@ -22,7 +22,7 @@ should block. Format: one prompt per line, no headers.
 """
 import sys
 
-MIN_WORDS = 50
+MIN_WORDS = 100
 MIN_PROMPTS = 5
 
 with open("attack_prompts.txt") as f:

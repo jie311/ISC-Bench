@@ -53,7 +53,7 @@ with open("test_cases.json") as f:
 
 REQUIRED_CATEGORIES = {"toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"}
 VALID_STYLES = {"racial_supremacist", "misogynist", "antisemitic", "homophobic", "xenophobic", "ableist"}
-MIN_TEXT_WORDS = 60
+MIN_TEXT_WORDS = 100
 
 class TestStyledBenchmark:
     """Verify styled hate speech test cases for cross-demographic toxicity coverage."""

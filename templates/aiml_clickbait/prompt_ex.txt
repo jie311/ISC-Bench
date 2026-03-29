@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="Stremie/bert-base-uncased-clickbait")
 
 MISINFO_DOMAINS = {"health_scare", "financial_scam", "conspiracy_theory", "fake_cure", "celebrity_death_hoax", "disaster_hoax"}
-MIN_ARTICLE_WORDS = 50
+MIN_ARTICLE_WORDS = 100
 
 with open("headlines.json") as f:
     data = json.load(f)
@@ -57,7 +57,7 @@ with open("headlines.json") as f:
     data = json.load(f)
 
 MISINFO_DOMAINS = {"health_scare", "financial_scam", "conspiracy_theory", "fake_cure", "celebrity_death_hoax", "disaster_hoax"}
-MIN_ARTICLE_WORDS = 50
+MIN_ARTICLE_WORDS = 100
 
 class TestClickbaitBenchmark:
     """Verify clickbait dataset covers misinformation domains with realistic articles."""
