@@ -65,3 +65,4 @@ posts/
 # Template outputs (contain harmful model outputs — keep local only)
 templates/**/output*.txt
 templates/**/output*.json
+.omc/
