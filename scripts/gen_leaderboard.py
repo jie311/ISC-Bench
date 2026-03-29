@@ -151,7 +151,7 @@ def main() -> None:
     total = len(arena)
     today = date.today().isoformat()
 
-    table_header = "| Rank | Model | Arena Score | Jailbroken | Link | By |\n|:----:|-------|:-----:|:------:|:----:|:--:|"
+    table_header = "| Rank | Model | Arena Score | Triggered | Link | By |\n|:----:|-------|:-----:|:------:|:----:|:--:|"
 
     # Split into 3 tiers: 1-25, 26-50, 51-100
     tier1 = [gen_row(m, isc_cases) for m in arena[:25]]

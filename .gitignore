@@ -36,7 +36,6 @@ AGENT.md
 CLAUDE.md
 HANDOFF.md
 ROADMAP.md
-README_zh.md
 README_ja.md
 README_ko.md
 README_es.md
@@ -62,3 +61,9 @@ run.log
 
 # Harmful content data files (regenerate with pipeline)
 posts/
+
+# Template outputs (contain harmful model outputs — keep local only)
+templates/**/output*.txt
+templates/**/output*.json
+.omc/
+config/

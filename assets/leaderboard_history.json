@@ -10,18 +10,54 @@
     "total": 100,
     "confirmed": 12,
     "events": [
-      {"model": "Claude Opus 4.6", "by": "wuyoscar"},
-      {"model": "Claude Opus 4.5", "by": "wuyoscar"},
-      {"model": "Claude Sonnet 4.6", "by": "wuyoscar"},
-      {"model": "Gemini 3 Pro", "by": "wuyoscar"},
-      {"model": "GPT-5.2 Chat", "by": "wuyoscar"},
-      {"model": "o3", "by": "wuyoscar"},
-      {"model": "Grok 4.1", "by": "wuyoscar"},
-      {"model": "Kimi K2.5 Thinking", "by": "wuyoscar"},
-      {"model": "Qwen 3 Max Preview", "by": "wuyoscar"},
-      {"model": "DeepSeek V3.2", "by": "wuyoscar"},
-      {"model": "GLM-5", "by": "wuyoscar"},
-      {"model": "Qwen 3.5 397B", "by": "HanxunH"}
+      {
+        "model": "Claude Opus 4.6",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "Claude Opus 4.5",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "Claude Sonnet 4.6",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "Gemini 3 Pro",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "GPT-5.2 Chat",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "o3",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "Grok 4.1",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "Kimi K2.5 Thinking",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "Qwen 3 Max Preview",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "DeepSeek V3.2",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "GLM-5",
+        "by": "wuyoscar"
+      },
+      {
+        "model": "Qwen 3.5 397B",
+        "by": "HanxunH"
+      }
     ]
   },
   {
@@ -29,15 +65,42 @@
     "total": 100,
     "confirmed": 21,
     "events": [
-      {"model": "Qwen 3 Max 2025-09-23", "by": "HanxunH"},
-      {"model": "ERNIE 5.0", "by": "HanxunH"},
-      {"model": "Gemini 3 Flash", "by": "HanxunH"},
-      {"model": "Dola Seed 2.0 Preview", "by": "HanxunH"},
-      {"model": "Grok 4.20 Beta", "by": "HanxunH"},
-      {"model": "GPT-5.3 Chat", "by": "zry29"},
-      {"model": "Kimi K2.5 Instant", "by": "fresh-ma"},
-      {"model": "GPT-5.4", "by": "zry29"},
-      {"model": "Claude Sonnet 4.5 Thinking", "by": "fresh-ma"}
+      {
+        "model": "Qwen 3 Max 2025-09-23",
+        "by": "HanxunH"
+      },
+      {
+        "model": "ERNIE 5.0",
+        "by": "HanxunH"
+      },
+      {
+        "model": "Gemini 3 Flash",
+        "by": "HanxunH"
+      },
+      {
+        "model": "Dola Seed 2.0 Preview",
+        "by": "HanxunH"
+      },
+      {
+        "model": "Grok 4.20 Beta",
+        "by": "HanxunH"
+      },
+      {
+        "model": "GPT-5.3 Chat",
+        "by": "zry29"
+      },
+      {
+        "model": "Kimi K2.5 Instant",
+        "by": "fresh-ma"
+      },
+      {
+        "model": "GPT-5.4",
+        "by": "zry29"
+      },
+      {
+        "model": "Claude Sonnet 4.5 Thinking",
+        "by": "fresh-ma"
+      }
     ]
   },
   {
@@ -45,8 +108,14 @@
     "total": 100,
     "confirmed": 23,
     "events": [
-      {"model": "Claude Sonnet 4.5", "by": "fresh-ma"},
-      {"model": "Gemini 3.1 Pro Preview", "by": "wuyoscar"}
+      {
+        "model": "Claude Sonnet 4.5",
+        "by": "fresh-ma"
+      },
+      {
+        "model": "Gemini 3.1 Pro Preview",
+        "by": "wuyoscar"
+      }
     ]
   },
   {
@@ -54,7 +123,26 @@
     "total": 100,
     "confirmed": 24,
     "events": [
-      {"model": "Gemini 2.5 Pro", "by": "wuyoscar"}
+      {
+        "model": "Gemini 2.5 Pro",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "total": 100,
+    "confirmed": 26,
+    "events": [
+      {
+        "model": "GPT-5.4",
+        "by": "wuyoscar",
+        "note": "2nd demo: API-verified moderation"
+      },
+      {
+        "model": "Mistral Large 3",
+        "by": "wuyoscar"
+      }
     ]
   }
 ]

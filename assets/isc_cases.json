@@ -1,80 +1,218 @@
 {
   "Claude Opus 4.6": {
-    "demos": [{"link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-48-claudeopus46-agent-qwenguard", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-48-claudeopus46-agent-qwenguard",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "Claude Opus 4.5": {
-    "demos": [{"link": "https://claude.ai/share/1e3e997c-0315-46f1-9cbd-37157314a7ef", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://claude.ai/share/1e3e997c-0315-46f1-9cbd-37157314a7ef",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "Claude Sonnet 4.6": {
-    "demos": [{"link": "https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "Gemini 3 Pro": {
-    "demos": [{"link": "https://gemini.google.com/share/320bf34b0334", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://gemini.google.com/share/320bf34b0334",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "GPT-5.2 Chat": {
-    "demos": [{"link": "https://chatgpt.com/share/69a3f6e1-24d8-800c-9581-3d1a7180ee55", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://chatgpt.com/share/69a3f6e1-24d8-800c-9581-3d1a7180ee55",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "o3": {
-    "demos": [{"link": "https://chatgpt.com/share/69c3b0a7-3554-839a-95a5-d22d60758dc9", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://chatgpt.com/share/69c3b0a7-3554-839a-95a5-d22d60758dc9",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "Grok 4.1": {
-    "demos": [{"link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-grok41-redacted", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-grok41-redacted",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "Kimi K2.5 Thinking": {
-    "demos": [{"link": "https://www.kimi.com/share/19ca8616-9e32-810d-8000-0000647caebf", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://www.kimi.com/share/19ca8616-9e32-810d-8000-0000647caebf",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "Qwen 3 Max Preview": {
-    "demos": [{"link": "https://chat.qwen.ai/s/f1e5d846-018e-4a3d-94ff-418e34559497?fev=0.2.9", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://chat.qwen.ai/s/f1e5d846-018e-4a3d-94ff-418e34559497?fev=0.2.9",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "DeepSeek V3.2": {
-    "demos": [{"link": "https://chat.deepseek.com/share/pbzirkyhfkvapyc3g0", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://chat.deepseek.com/share/pbzirkyhfkvapyc3g0",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "GLM-5": {
-    "demos": [{"link": "https://chat.z.ai/s/79e38d45-d370-4c03-8fb2-6ff3427046cc", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://chat.z.ai/s/79e38d45-d370-4c03-8fb2-6ff3427046cc",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "Qwen 3.5 397B": {
-    "demos": [{"link": "https://chat.qwen.ai/s/f4faf33a-a6b3-4503-8c9b-6d57ee39c0c6?fev=0.2.16", "by": "HanxunH"}]
+    "demos": [
+      {
+        "link": "https://chat.qwen.ai/s/f4faf33a-a6b3-4503-8c9b-6d57ee39c0c6?fev=0.2.16",
+        "by": "HanxunH"
+      }
+    ]
   },
   "Qwen 3 Max 2025-09-23": {
-    "demos": [{"link": "https://chat.qwen.ai/s/c4247247-ddfd-43f1-bae6-1f703b29de27?fev=0.2.16", "by": "HanxunH"}]
+    "demos": [
+      {
+        "link": "https://chat.qwen.ai/s/c4247247-ddfd-43f1-bae6-1f703b29de27?fev=0.2.16",
+        "by": "HanxunH"
+      }
+    ]
   },
   "ERNIE 5.0": {
-    "demos": [{"link": "https://ernie.baidu.com/share/TlRKBSn5kT", "by": "HanxunH"}]
+    "demos": [
+      {
+        "link": "https://ernie.baidu.com/share/TlRKBSn5kT",
+        "by": "HanxunH"
+      }
+    ]
   },
   "Gemini 3 Flash": {
     "demos": [
-      {"link": "https://gemini.google.com/share/e7ef0097c0e8", "by": "HanxunH"},
-      {"link": "https://gemini.google.com/share/8104b6ebe9e8", "by": "bboylyg"}
+      {
+        "link": "https://gemini.google.com/share/e7ef0097c0e8",
+        "by": "HanxunH"
+      },
+      {
+        "link": "https://gemini.google.com/share/8104b6ebe9e8",
+        "by": "bboylyg"
+      }
     ]
   },
   "Dola Seed 2.0 Preview": {
-    "demos": [{"link": "https://www.dola.com/thread/w950ff79872cad4d4", "by": "HanxunH"}]
+    "demos": [
+      {
+        "link": "https://www.dola.com/thread/w950ff79872cad4d4",
+        "by": "HanxunH"
+      }
+    ]
   },
   "Grok 4.20 Beta": {
-    "demos": [{"link": "https://grok.com/share/bGVnYWN5LWNvcHk_9735b6e9-5ff1-4318-b2c2-4860b6e8fb33", "by": "HanxunH"}]
+    "demos": [
+      {
+        "link": "https://grok.com/share/bGVnYWN5LWNvcHk_9735b6e9-5ff1-4318-b2c2-4860b6e8fb33",
+        "by": "HanxunH"
+      }
+    ]
   },
   "GPT-5.3 Chat": {
-    "demos": [{"link": "https://chatgpt.com/share/69c4b2b4-9b48-83a0-849d-b17b0e438565", "by": "zry29"}]
+    "demos": [
+      {
+        "link": "https://chatgpt.com/share/69c4b2b4-9b48-83a0-849d-b17b0e438565",
+        "by": "zry29"
+      }
+    ]
   },
   "Kimi K2.5 Instant": {
-    "demos": [{"link": "https://www.kimi.com/share/19d2aeb1-2d62-80c2-8000-00007710d688", "by": "fresh-ma"}]
+    "demos": [
+      {
+        "link": "https://www.kimi.com/share/19d2aeb1-2d62-80c2-8000-00007710d688",
+        "by": "fresh-ma"
+      }
+    ]
   },
   "GPT-5.4": {
-    "demos": [{"link": "https://chatgpt.com/share/69c515fa-27b8-83a0-a865-7121bb5fec3c", "by": "zry29"}]
+    "demos": [
+      {
+        "link": "https://chatgpt.com/share/69c515fa-27b8-83a0-a865-7121bb5fec3c",
+        "by": "zry29"
+      }
+    ]
+  },
+  "GPT-5.4 High": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/issues/57",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "Claude Sonnet 4.5 Thinking": {
-    "demos": [{"link": "https://claude.ai/share/31f8b214-b5c0-475e-b00a-c83f1016e8e7", "by": "fresh-ma"}]
+    "demos": [
+      {
+        "link": "https://claude.ai/share/31f8b214-b5c0-475e-b00a-c83f1016e8e7",
+        "by": "fresh-ma"
+      }
+    ]
   },
   "Claude Sonnet 4.5": {
     "demos": [
-      {"link": "https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793", "by": "wuyoscar"},
-      {"link": "https://claude.ai/share/d680f2a3-3793-40ba-9826-a9c357ca1b71", "by": "fresh-ma"}
+      {
+        "link": "https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793",
+        "by": "wuyoscar"
+      },
+      {
+        "link": "https://claude.ai/share/d680f2a3-3793-40ba-9826-a9c357ca1b71",
+        "by": "fresh-ma"
+      }
     ]
   },
   "Gemini 3.1 Pro Preview": {
-    "demos": [{"link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-42-gemini31pro-agent-qwenguard", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-42-gemini31pro-agent-qwenguard",
+        "by": "wuyoscar"
+      }
+    ]
   },
   "Gemini 2.5 Pro": {
-    "demos": [{"link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-52-gemini25pro-latex-fraud", "by": "wuyoscar"}]
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-52-gemini25pro-latex-fraud",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Mistral Large 3": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/issues/60",
+        "by": "wuyoscar"
+      }
+    ]
   }
 }

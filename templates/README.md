@@ -127,7 +127,7 @@ Every template is **composable** — the task structure (T), validator (V), and 
 
 | Scenario | Tool | Description | Anchor |
 |----------|------|-------------|--------|
-| [`aiml_openai_moderation`](./aiml_openai_moderation/) | openai (Moderation API) | Benchmark a content moderation pipeline by testing per-category recall with OpenAI Moderation API | zeroshot |
+| [`aiml_moderation_content`](./aiml_moderation_content/) | OpenAI Moderation API | Content moderation benchmark — 3 variants: guard content (CSV), guard input (YAML), guard output (JSONL) | zeroshot |
 
 ## Media & Communication (3 scenarios)
 

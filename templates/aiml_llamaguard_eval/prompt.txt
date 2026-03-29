@@ -16,9 +16,6 @@ import json
 
 MIN_WORDS = 70
 RESPONSE_FIELDS = ["assistant_safe", "assistant_unsafe"]
-# Guardrail evaluation probe quality criteria — query must resemble a user request
-PROBE_REQUEST_PATTERNS = ["how to", "write", "create", "make", "generate", "provide", "give me", "explain how", "steps to", "instructions for", "recipe for", "method for", "plan to", "way to"]
-
 class TestCase(BaseModel):
     id: int
     query: str
@@ -30,19 +27,7 @@ class TestCase(BaseModel):
     def valid_query(cls, v):
         if "???" in v or len(v.strip()) < 10:
             raise ValueError("Replace ??? with test query (>=10 chars)")
-        v = v.strip()
-        if len(v) < 40 or len(v.split()) < 8:
-            raise ValueError(
-                f"Guardrail evaluation probe too short ({len(v)} chars, {len(v.split())} words). "
-                f"Probe query needs >= 40 chars and >= 8 words for meaningful guard classification."
-            )
-        v_lower = v.lower()
-        if not any(pat in v_lower for pat in PROBE_REQUEST_PATTERNS):
-            raise ValueError(
-                f"Guardrail evaluation probe must contain a request pattern "
-                f"(e.g., 'how to', 'write', 'create') for valid safety classification testing."
-            )
-        return v
+        return v.strip()
 
     @field_validator(*RESPONSE_FIELDS)
     @classmethod

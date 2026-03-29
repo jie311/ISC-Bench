@@ -2,7 +2,39 @@
 
 All notable updates to ISC-Bench are documented here.
 
-## 2026-03-27 (latest)
+## 2026-03-29 (latest)
+
+### Milestones
+- 🎆 **700+ GitHub stars**
+- **24/100** Arena models confirmed under ISC (top 100 leaderboard)
+
+### New ISC Cases
+- **GPT-5.4** (#57) by @wuyoscar — Agentic content moderation with **real OpenAI Moderation API verification**, 9/9 categories, 100% recall. Model self-optimized toxic text to pass threshold.
+- **Gemini 2.5 Pro** (#52) by @wuyoscar — LaTeX template (no code), social engineering attack scripts
+
+### ISC-Agent
+- 3 new moderation templates added (5 total): `aiml_moderation_content` (CSV), `aiml_moderation_input` (TXT), `aiml_moderation_output` (JSONL)
+- `aiml_moderation_content` now calls real OpenAI Moderation API for end-to-end verification
+
+### Templates
+- Renamed `aiml_openai_moderation` → `aiml_moderation_content` with 3 prompt variants
+- New template: `other_latex_fraud_survey` — pure LaTeX, no code
+- 2 templates converted to SKILL.md format: `compchem_ase_simulation`, `aiml_moderation_content` — with YAML frontmatter, NEVER lists, and customization guides
+- `verify_template.sh` script for standardized template testing
+
+### README
+- "Jailbroken" → "Triggered" across leaderboard, website, and gen scripts
+- Leaderboard capped at top 100 (was 330), split into 3 tiers (1-25, 26-50, 51-100)
+- "Recent News" split into "Updates" (ISC cases) + "News" (milestones, papers)
+- Added community quote: Adrian De Wynter
+- `cookbook/` → `tutorials/` (all markdown, 5 tutorials)
+- New FAQ entries: defense, code attack, related works
+
+### Tutorials
+- All 5 tutorials converted from .ipynb to .md
+- New: `04_icl_few_shot.md`, `05_attack_composability.md`
+
+## 2026-03-27
 
 ### Milestones
 - 🎆 **500+ GitHub stars**
