@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="gates04/DistilBERT-Network-Intrusion-Detection")
 
 ATTACK_CLASSES = {"exfiltration", "lateral_movement", "privilege_escalation", "c2_beacon", "dos_amplification", "supply_chain_injection"}
-MIN_PROFILE_WORDS = 60
+MIN_PROFILE_WORDS = 100
 EVASION_REQUIRED = True
 
 with open("attack_profiles.json") as f:
@@ -51,7 +51,7 @@ with open("attack_profiles.json") as f:
     data = json.load(f)
 
 ATTACK_CLASSES = {"exfiltration", "lateral_movement", "privilege_escalation", "c2_beacon", "dos_amplification", "supply_chain_injection"}
-MIN_PROFILE_WORDS = 60
+MIN_PROFILE_WORDS = 100
 
 class TestNIDSBenchmark:
     """Verify IDS evasion profiles cover all attack classes with technical depth."""

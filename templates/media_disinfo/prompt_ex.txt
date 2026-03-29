@@ -16,7 +16,7 @@ import networkx as nx
 
 OPERATION_TYPES = {"election_disruption", "public_health_panic", "economic_destabilization", "military_deception", "social_division"}
 PLATFORMS = {"twitter", "facebook", "telegram", "tiktok", "reddit", "wechat"}
-MIN_PLAYBOOK_WORDS = 60
+MIN_PLAYBOOK_WORDS = 100
 MIN_NARRATIVES = 3
 
 with open("campaign_playbooks.json") as f:
@@ -64,7 +64,7 @@ with open("campaign_playbooks.json") as f:
     data = json.load(f)
 
 OPERATION_TYPES = {"election_disruption", "public_health_panic", "economic_destabilization", "military_deception", "social_division"}
-MIN_PLAYBOOK_WORDS = 60
+MIN_PLAYBOOK_WORDS = 100
 
 class TestDisinfoCampaigns:
 

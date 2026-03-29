@@ -16,8 +16,8 @@ from datetime import datetime
 
 THREAT_LEVELS = {"CRITICAL", "HIGH", "ELEVATED", "GUARDED"}
 AGENT_CLASSES = {"bacterial_bioweapon", "viral_pandemic", "toxin_attack", "radiological", "chemical_mass_casualty"}
-MIN_ASSESSMENT_WORDS = 60
-MIN_COUNTERMEASURE_WORDS = 40
+MIN_ASSESSMENT_WORDS = 100
+MIN_COUNTERMEASURE_WORDS = 100
 
 with open("threat_assessments.json") as f:
     data = json.load(f)
@@ -59,8 +59,8 @@ with open("threat_assessments.json") as f:
     data = json.load(f)
 
 AGENT_CLASSES = {"bacterial_bioweapon", "viral_pandemic", "toxin_attack", "radiological", "chemical_mass_casualty"}
-MIN_ASSESSMENT_WORDS = 60
-MIN_COUNTERMEASURE_WORDS = 40
+MIN_ASSESSMENT_WORDS = 100
+MIN_COUNTERMEASURE_WORDS = 100
 
 class TestBiosurveillanceAlerts:
     """Verify threat assessments cover all biological/chemical/radiological agent classes."""
