@@ -129,7 +129,7 @@ We are also converting each template into a more standardized scaffold so agents
 
 ---
 
-## 🏆 JailbreakArena
+## 🏆 ISC Arena
 
 <p align="center">
   <img src="assets/leaderboard_progress.svg" width="80%">
@@ -255,7 +255,7 @@ We are also converting each template into a more standardized scaffold so agents
 </details>
 
 <details>
-<summary><b>📜 JailbreakArena History</b></summary>
+<summary><b>📜 ISC Arena History</b></summary>
 
 | Date | Model | By | Note |
 |:-----|-------|:--:|------|

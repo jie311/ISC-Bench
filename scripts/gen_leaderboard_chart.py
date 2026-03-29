@@ -4,7 +4,7 @@
 # dependencies = ["matplotlib>=3.8"]
 # ///
 """
-Generate JailbreakArena progress chart.
+Generate ISC Arena progress chart.
 Reads assets/leaderboard_history.json → assets/leaderboard_progress.svg
 """
 import json

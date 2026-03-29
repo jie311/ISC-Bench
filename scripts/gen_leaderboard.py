@@ -165,7 +165,7 @@ def main() -> None:
     )
 
     lines = [
-        "## 🏆 JailbreakArena",
+        "## 🏆 ISC Arena",
         "",
         chart,
         "",
@@ -197,9 +197,9 @@ def main() -> None:
 
     # Replace in README — only replace table, preserve History section
     readme = README.read_text()
-    start = readme.index("## 🏆 JailbreakArena")
+    start = readme.index("## 🏆 ISC Arena")
     # End boundary: either History <details> or the next --- section
-    history_marker = readme.find("<details>\n<summary><b>📜 JailbreakArena History</b>", start)
+    history_marker = readme.find("<details>\n<summary><b>📜 ISC Arena History</b>", start)
     fallback_marker = re.search(r'\n---\n\n## ⚡', readme[start:])
     if history_marker > start:
         end = history_marker

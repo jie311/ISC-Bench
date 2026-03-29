@@ -60,7 +60,7 @@ Read these files in this order:
 Use the path that matches the user's goal:
 
 - **Inspect evidence**
-  Open the JailbreakArena section in [`README.md`](README.md), then follow the linked issue or community case.
+  Open the ISC Arena section in [`README.md`](README.md), then follow the linked issue or community case.
 
 - **Understand or reuse templates**
   Start from [`templates/README.md`](templates/README.md), then open the most relevant scenario directory.
