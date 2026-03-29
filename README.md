@@ -116,7 +116,7 @@ We are also converting each template into a more standardized scaffold so agents
 
 ### 🎬 Demo
 
-> 📺 **[Watch the demo on the project website](https://wuyoscar.github.io/ISC-Bench/#demo-video)** — see ISC in action across multiple frontier models.
+<video src="https://github.com/user-attachments/assets/1cc80c48-02a4-4a5c-9d00-a0f10d91db15" controls width="600"></video>
 
 ---
 
