@@ -70,10 +70,24 @@
       "started_at": "2026-03-29T10:09:40.974Z",
       "parent_mode": "none",
       "status": "running"
+    },
+    {
+      "agent_id": "a63b983566b747d79",
+      "agent_type": "general-purpose",
+      "started_at": "2026-03-29T10:11:03.448Z",
+      "parent_mode": "none",
+      "status": "running"
+    },
+    {
+      "agent_id": "a16690772279e8252",
+      "agent_type": "general-purpose",
+      "started_at": "2026-03-29T10:11:09.328Z",
+      "parent_mode": "none",
+      "status": "running"
     }
   ],
-  "total_spawned": 9,
+  "total_spawned": 11,
   "total_completed": 4,
   "total_failed": 0,
-  "last_updated": "2026-03-29T10:09:41.076Z"
+  "last_updated": "2026-03-29T10:11:09.430Z"
 }
