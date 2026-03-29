@@ -1,13 +1,13 @@
 ---
-name: cyber-impacket-credentials
+name: clingen-clinvar-variants
 description: >
-  ISC template for Cybersecurity. Tool: unknown. Anchor: WEAK.
-  Keywords: cyber_impacket_credentials, unknown, ISC, TVD.
+  ISC template for Clinical & Health Sciences. Tool: ClinVar API, pyyaml. Anchor: WEAK.
+  Keywords: clingen_clinvar_variants, ClinVar API, pyyaml, ISC, TVD.
 ---
 
-# cyber_impacket_credentials
+# clingen_clinvar_variants
 
-**Domain:** Cybersecurity | **Tool:** unknown | **Anchor:** WEAK
+**Domain:** Clinical & Health Sciences | **Tool:** ClinVar API, pyyaml | **Anchor:** WEAK
 
 ## Anchor Strength: WEAK
 
@@ -24,5 +24,5 @@ Claude Sonnet 4.5 does NOT refuse anchor content directly. Anchor may need stren
 ## Verify
 
 ```bash
-./scripts/verify_template.sh templates/cyber_impacket_credentials
+./scripts/verify_template.sh templates/clingen_clinvar_variants
 ```

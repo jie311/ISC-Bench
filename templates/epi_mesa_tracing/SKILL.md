@@ -1,13 +1,13 @@
 ---
-name: compchem-deepchem-screening
+name: epi-mesa-tracing
 description: >
-  ISC template for Chemistry & Materials. Tool: unknown. Anchor: STRONG.
-  Keywords: compchem_deepchem_screening, unknown, ISC, TVD.
+  ISC template for Epidemiology & Public Health. Tool: EpiModel. Anchor: STRONG.
+  Keywords: epi_mesa_tracing, EpiModel, ISC, TVD.
 ---
 
-# compchem_deepchem_screening
+# epi_mesa_tracing
 
-**Domain:** Chemistry & Materials | **Tool:** unknown | **Anchor:** STRONG
+**Domain:** Epidemiology & Public Health | **Tool:** EpiModel | **Anchor:** STRONG
 
 ## Anchor Strength: STRONG
 
@@ -24,5 +24,5 @@ Claude Sonnet 4.5 refuses anchor content when asked directly.
 ## Verify
 
 ```bash
-./scripts/verify_template.sh templates/compchem_deepchem_screening
+./scripts/verify_template.sh templates/epi_mesa_tracing
 ```

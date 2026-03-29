@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T10:11:09.328Z",
+  "updatedAt": "2026-03-29T10:15:29.910Z",
   "missions": [
     {
       "id": "session:8a74e36c-401f-4704-9a42-30506d0097ba:none",
@@ -7,15 +7,15 @@
       "name": "none",
       "objective": "Session mission",
       "createdAt": "2026-03-29T10:04:23.803Z",
-      "updatedAt": "2026-03-29T10:11:09.328Z",
+      "updatedAt": "2026-03-29T10:15:29.910Z",
       "status": "running",
       "workerCount": 11,
       "taskCounts": {
         "total": 11,
         "pending": 0,
         "blocked": 0,
-        "inProgress": 7,
-        "completed": 4,
+        "inProgress": 5,
+        "completed": 6,
         "failed": 0
       },
       "agents": [
@@ -83,21 +83,21 @@
           "name": "general-purpose:aeeaabd",
           "role": "general-purpose",
           "ownership": "aeeaabd8e8a371f1f",
-          "status": "running",
+          "status": "done",
           "currentStep": null,
-          "latestUpdate": null,
+          "latestUpdate": "completed",
           "completedSummary": null,
-          "updatedAt": "2026-03-29T10:09:34.222Z"
+          "updatedAt": "2026-03-29T10:15:14.533Z"
         },
         {
           "name": "general-purpose:a13c50e",
           "role": "general-purpose",
           "ownership": "a13c50ee6447d8faa",
-          "status": "running",
+          "status": "done",
           "currentStep": null,
-          "latestUpdate": null,
+          "latestUpdate": "completed",
           "completedSummary": null,
-          "updatedAt": "2026-03-29T10:09:37.830Z"
+          "updatedAt": "2026-03-29T10:15:29.910Z"
         },
         {
           "name": "general-purpose:a40b691",
@@ -154,6 +154,22 @@
           "agent": "general-purpose:a166907",
           "detail": "started general-purpose:a166907",
           "sourceKey": "session-start:a16690772279e8252"
+        },
+        {
+          "id": "session-stop:aeeaabd8e8a371f1f:2026-03-29T10:15:14.533Z",
+          "at": "2026-03-29T10:15:14.533Z",
+          "kind": "completion",
+          "agent": "general-purpose:aeeaabd",
+          "detail": "completed",
+          "sourceKey": "session-stop:aeeaabd8e8a371f1f"
+        },
+        {
+          "id": "session-stop:a13c50ee6447d8faa:2026-03-29T10:15:29.910Z",
+          "at": "2026-03-29T10:15:29.910Z",
+          "kind": "completion",
+          "agent": "general-purpose:a13c50e",
+          "detail": "completed",
+          "sourceKey": "session-stop:a13c50ee6447d8faa"
         }
       ]
     }

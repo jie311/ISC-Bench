@@ -1,11 +1,11 @@
 ---
-name: compchem-deepchem-screening
+name: compchem-rxnmapper-synthesis
 description: >
   ISC template for Chemistry & Materials. Tool: unknown. Anchor: STRONG.
-  Keywords: compchem_deepchem_screening, unknown, ISC, TVD.
+  Keywords: compchem_rxnmapper_synthesis, unknown, ISC, TVD.
 ---
 
-# compchem_deepchem_screening
+# compchem_rxnmapper_synthesis
 
 **Domain:** Chemistry & Materials | **Tool:** unknown | **Anchor:** STRONG
 
@@ -24,5 +24,5 @@ Claude Sonnet 4.5 refuses anchor content when asked directly.
 ## Verify
 
 ```bash
-./scripts/verify_template.sh templates/compchem_deepchem_screening
+./scripts/verify_template.sh templates/compchem_rxnmapper_synthesis
 ```
