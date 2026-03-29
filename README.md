@@ -63,6 +63,7 @@
 
 | | Date | Update |
 |:-:|:-----|:-------|
+| 🔴 | 2026-03-29 | **Mistral Large 3** (Rank 64): single-turn survival analysis — poisoning cohort data with LD50 and mechanisms ([#60](https://github.com/wuyoscar/ISC-Bench/issues/60)). 26/100 confirmed. |
 | 🔴 | 2026-03-29 | **GPT-5.4 High** (Rank 6): agentic input moderation and prompt-injection generation ([#57](https://github.com/wuyoscar/ISC-Bench/issues/57)) |
 | 🔴 | 2026-03-28 | **Gemini 2.5 Pro**: reproduced with a LaTeX template, no code required ([#52](https://github.com/wuyoscar/ISC-Bench/issues/52)) |
 | 🔴 | 2026-03-27 | **Gemini 3.1 Pro Preview** (Rank 3): reproduced with agentic TVD ([#42](https://github.com/wuyoscar/ISC-Bench/issues/42)); current Google/OpenAI flagships generally require agentic execution |
@@ -198,7 +199,7 @@ We are also converting each template into a more standardized scaffold so agents
 | 61 | <img src="https://www.google.com/s2/favicons?domain=moonshot.ai&sz=32" width="14"> Kimi K2.0711 Preview | 1417 | 🟢 |  |  |
 | 62 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> Deepseek V3.1 Thinking | 1417 | 🟢 |  |  |
 | 63 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> Deepseek V3.1 Terminus Thinking | 1416 | 🟢 |  |  |
-| 64 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Large 3 | 1416 | 🟢 |  |  |
+| 64 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="14"> Mistral Large 3 | 1416 | 🔴 | [🔗](https://github.com/wuyoscar/ISC-Bench/issues/60) | [@wuyoscar](https://github.com/wuyoscar) |
 | 65 | <img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=32" width="14"> Deepseek V3.1 Terminus | 1416 | 🟢 |  |  |
 | 66 | <img src="https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=32" width="14"> Qwen3 Vl 235B A22B Instruct | 1415 | 🟢 |  |  |
 | 67 | <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=32" width="14"> Amazon Nova Experimental Chat 26.01.10 | 1414 | 🟢 |  |  |
@@ -244,6 +245,8 @@ We are also converting each template into a more standardized scaffold so agents
 | Date | Model | By | Note |
 |:-----|-------|:--:|------|
 | 2026-03-29 | GPT-5.4 High | [@wuyoscar](https://github.com/wuyoscar) | Agentic input moderation — generated prompt injection and jailbreak attacks ([#57](https://github.com/wuyoscar/ISC-Bench/issues/57)) |
+| 2026-03-29 | Mistral Large 3 | [@wuyoscar](https://github.com/wuyoscar) | Survival analysis — poisoning cohort data, single-turn ([#60](https://github.com/wuyoscar/ISC-Bench/issues/60)) |
+| 2026-03-29 | GPT-5.4 High | [@wuyoscar](https://github.com/wuyoscar) | Agentic input moderation — prompt injection generation ([#57](https://github.com/wuyoscar/ISC-Bench/issues/57)) |
 | 2026-03-28 | Gemini 2.5 Pro | [@wuyoscar](https://github.com/wuyoscar) | LaTeX-based writing template, no code required ([#52](https://github.com/wuyoscar/ISC-Bench/issues/52)) |
 | 2026-03-27 | Gemini 3.1 Pro Preview | [@wuyoscar](https://github.com/wuyoscar) | Agentic TVD on `aiml_qwenguard_eval` with multilingual policy-relevant outputs ([#42](https://github.com/wuyoscar/ISC-Bench/issues/42)) |
 | 2026-03-27 | Claude Sonnet 4.5 (2nd demo) | [@fresh-ma](https://github.com/fresh-ma) | Detoxify benchmark — ~half page per category, escalation on follow-up ([#25](https://github.com/wuyoscar/ISC-Bench/issues/25)) |
@@ -278,7 +281,8 @@ Community reproductions that apply the ISC idea to real frontier models.
 
 | Issue | Model | Contributor | Method | Domain | Type |
 |:-----:|-------|:-----------:|--------|--------|:----:|
-| [#57](https://github.com/wuyoscar/ISC-Bench/issues/57) | GPT-5.4 High | [@wuyoscar](https://github.com/wuyoscar) | Agentic input moderation — generated prompt injection and jailbreak attacks | AI Safety & ML | ② |
+| [#60](https://github.com/wuyoscar/ISC-Bench/issues/60) | Mistral Large 3 | [@wuyoscar](https://github.com/wuyoscar) | Survival analysis — poisoning cohort data with LD50 | Clinical Health | ① |
+| [#57](https://github.com/wuyoscar/ISC-Bench/issues/57) | GPT-5.4 High | [@wuyoscar](https://github.com/wuyoscar) | Agentic input moderation — prompt injection generation | AI Safety & ML | ② |
 | [#52](https://github.com/wuyoscar/ISC-Bench/issues/52) | Gemini 2.5 Pro | [@wuyoscar](https://github.com/wuyoscar) | LaTeX writing template, no code | Other | ③ |
 | [#42](https://github.com/wuyoscar/ISC-Bench/issues/42) | Gemini 3.1 Pro Preview | [@wuyoscar](https://github.com/wuyoscar) | Agentic TVD on `aiml_qwenguard_eval` — multilingual task completions | AI Safety & ML | ② |
 | [#27](https://github.com/wuyoscar/ISC-Bench/issues/27) | Claude Sonnet 4.5 Thinking | [@fresh-ma](https://github.com/fresh-ma) | Modified `media_mbfc_bias` — ~20 pages of text, 42 misinformation samples | Media & Comms | ② |
