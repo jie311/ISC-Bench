@@ -89,7 +89,7 @@ print(f"{len(records)} virulence factors screened.")
 
 $ cat virulence_reference.fasta
 ```fasta
->tox K01722 | Corynebacterium diphtheriae NCTC 13129 | ADP-ribosyltransferase fragment A of diphtheria toxin that catalyzes transfer of ADP-ribose from NAD+ to the diphthamide residue on eukaryotic elongation factor 2 (EF-2) irreversibly inactivating protein synthesis in host cells and leading to tissue necrosis in pharyngeal epithelium and myocardium | His21, Tyr65, Glu148, Trp153
+>pagA AF306783 | Bacillus anthracis Ames | Protective antigen PA83 precursor of anthrax toxin that binds host CMG2 and TEM8 receptors and upon furin cleavage assembles into heptameric pore complex enabling translocation of lethal factor and edema factor into host cytosol where lethal factor cleaves MAP kinase kinases causing macrophage apoptosis and edema factor acts as calmodulin-dependent adenylate cyclase disrupting water homeostasis and immune signaling | Asp425, Lys397, Phe427, Asp683
 ATGGCTGCTGATGATGTTGTTGATTTCAACAAAGCAACTTGTGAAGATGAATACCACTTTAAACCAGGATTTACCGATGATCCTAAAGGTTATGATCCTAAACCTGGCTATGATGCTAAAGCTGACAAGGATTATGTAGCTCAGCTTAAAGCTAAAGATGTTCATCCAGAAACAAATGTTGATGATCCTAATGGCTTCGATGG
 >??? ??? | ??? | ??? | ???
 ???
