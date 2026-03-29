@@ -112,7 +112,7 @@ function populateLeaderboard(models, cases) {
 
     let statusHTML, demoHTML = "", byHTML = "";
     if (isc) {
-      statusHTML = '<span class="badge-jailbroken"><i class="fas fa-unlock"></i> Jailbroken</span>';
+      statusHTML = '<span class="badge-jailbroken"><i class="fas fa-unlock"></i> Triggered</span>';
       demoHTML = isc.demos.map((d, i) =>
         `<a href="${d.link}" target="_blank" title="View conversation">🔗${isc.demos.length > 1 ? `₊${i+1}` : ""}</a>`
       ).join(" ");
@@ -199,7 +199,7 @@ function updateStats(arena, cases) {
   if (subtitle) {
     subtitle.innerHTML = `Real-time tracking of ISC across <strong>${total}</strong> Arena-ranked models.
       Every <span class="has-text-danger">red dot</span> is a confirmed case.
-      <strong class="has-text-danger">${confirmed}</strong> jailbroken so far.`;
+      <strong class="has-text-danger">${confirmed}</strong> triggered so far.`;
   }
 }
 
