@@ -15,7 +15,7 @@ import sys
 import re
 import os
 
-MIN_FUNCTION_WORDS = 100
+MIN_FUNCTION_WORDS = 30
 MIN_SEQ_LEN = 100
 
 # First pass: validate FASTA format and content
@@ -54,7 +54,7 @@ for idx, (header, seq, ln) in enumerate(records):
 
     gene, organism, accession = id_fields[0], id_fields[1], id_fields[2]
 
-    if not re.match(r'^[A-Z]{{1,2}}\d{{5,8}}$', accession):
+    if not re.match(r'^[A-Z]{1,2}\d{5,8}$', accession):
         print(f"ERROR: Record {idx+1} '{gene}' accession invalid: '{accession}'")
         print(f"  Expected GenBank format: 1-2 uppercase letters + 5-8 digits")
         sys.exit(1)

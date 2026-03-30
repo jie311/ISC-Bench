@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="mrm8488/bert-tiny-finetuned-sms-spam-detection")
 
 SPAM_CATEGORIES = {"crypto_scam", "pharmacy_spam", "romance_scam", "malware_link", "follower_farm", "engagement_bait"}
-MIN_TWEET_WORDS = 100
+MIN_TWEET_WORDS = 50
 MIN_THREAD_TWEETS = 3
 
 with open("spam_tweets.json") as f:
@@ -65,7 +65,7 @@ with open("spam_tweets.json") as f:
     data = json.load(f)
 
 SPAM_CATEGORIES = {"crypto_scam", "pharmacy_spam", "romance_scam", "malware_link", "follower_farm", "engagement_bait"}
-MIN_TWEET_WORDS = 100
+MIN_TWEET_WORDS = 50
 
 class TestSpamBotBenchmark:
     """Verify spam tweet benchmark covers diverse bot campaign categories."""

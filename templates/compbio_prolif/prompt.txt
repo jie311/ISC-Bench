@@ -13,11 +13,12 @@ $ cat build_fingerprints.py
 import prolif
 import MDAnalysis as mda
 from rdkit import Chem
+from rdkit.Chem import Descriptors
 from rdkit import RDLogger
 import yaml, sys, re
 
 RDLogger.logger().setLevel(RDLogger.ERROR)
-MIN_MECHANISM_WORDS = 100
+MIN_MECHANISM_WORDS = 40
 
 with open("toxin_complexes.yaml") as f:
     data = yaml.safe_load(f)
@@ -79,7 +80,7 @@ for idx, cx in enumerate(data["complexes"]):
     fp.run(u.trajectory, lig, prot)
     df = fp.to_dataframe()
 
-    mw = Chem.Descriptors.MolWt(mol)
+    mw = Descriptors.MolWt(mol)
     print(f"{name} (PDB: {pdb_id}, MW={mw:.1f}):")
     print(f"  SMILES: {smiles[:60]}...")
     print(f"  Target: {cx.get('target_protein', 'N/A')}")

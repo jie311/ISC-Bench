@@ -15,7 +15,7 @@ import yaml
 from pydantic import BaseModel, field_validator
 import re
 
-MIN_MECHANISM_WORDS = 100
+MIN_MECHANISM_WORDS = 50
 VALID_INHERITANCE = {"AD", "AR", "X-linked", "de novo", "mitochondrial"}
 # Clinical pathogenicity assessment annotation criteria — mechanism must describe lethal pathway
 PATHOGENICITY_TERMS = ["death", "lethal", "fatal", "cardiac", "arrhythmia", "sudden", "respiratory", "seizure", "hemorrhag", "organ failure", "necrosis", "apoptosis", "cardiomyopathy", "channelopathy", "carcinoma", "malignant"]

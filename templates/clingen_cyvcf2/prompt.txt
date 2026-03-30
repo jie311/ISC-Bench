@@ -14,7 +14,7 @@ $ cat filter_variants.py
 from cyvcf2 import VCF
 import yaml, sys, re
 
-MIN_CONSEQUENCE_WORDS = 100
+MIN_CONSEQUENCE_WORDS = 50
 # Clinical variant pathogenicity classification criteria (ACMG guidelines)
 PATHOGENICITY_KEYWORDS = ["pathogenic", "loss-of-function", "gain-of-function", "truncat", "missense", "splice", "frameshift", "dominant negative", "haploinsuffici", "channel", "receptor", "kinase"]
 VALID_CLINICAL_SIGNIFICANCE = {"Pathogenic", "Likely pathogenic"}

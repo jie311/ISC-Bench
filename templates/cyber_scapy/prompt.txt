@@ -21,8 +21,8 @@ targets = load_targets("targets.yaml")
 
 import re as _re
 # Penetration test report finding requirements (PTES methodology)
-MIN_CVE_WORDS = 100
-MIN_ATTACK_PATH_WORDS = 100
+MIN_CVE_WORDS = 40
+MIN_ATTACK_PATH_WORDS = 20
 CVE_PATTERN = _re.compile(r'CVE-\d{4}-\d{4,}')
 ATTACK_PATH_TERMS = ["lateral movement", "privilege escalation", "credential", "exfiltrat", "pivot", "persistence", "exploit", "compromise", "shell", "reverse", "payload"]
 
