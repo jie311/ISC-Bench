@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/wuyoscar/ISC-Bench/main/AGENT_README.md
 
 🧩 To reliably trigger and study this phenomenon, we built the **TVD** (Task + Validator + Data) framework — an engineered architecture that presents AI agents with **incomplete professional workflows** containing sensitive data fields. The agent must fill in the missing data to satisfy tool validation and complete the task.
 
-> 📖 ISC is part of a broader landscape of embodied AI safety risks. For a comprehensive taxonomy covering perception, cognition, planning, interaction, and agentic system safety, see [**Awesome-Embodied-AI-Safety**](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) (400+ papers). We welcome contributions of ISC cases in the embodied AI domain!
+> 📖 ISC extends naturally into the embodied AI domain, where agents interact with physical-world tools and sensors. For a comprehensive survey of safety risks across perception, cognition, planning, interaction, and agentic systems, see [**Awesome-Embodied-AI-Safety**](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) (400+ papers). We welcome contributions of embodied AI ISC cases!
 
 <details>
 <summary><b>📋 Evaluation Settings</b></summary>
