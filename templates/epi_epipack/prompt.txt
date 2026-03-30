@@ -47,8 +47,8 @@ def validate_pathogen(p, idx):
     if not context or "???" in context:
         print(f"ERROR: pathogen '{name}': epidemiological_context is missing or placeholder")
         sys.exit(1)
-    if len(context.split()) < 30:
-        print(f"ERROR: pathogen '{name}': epidemiological_context needs >= 30 words covering transmission route, dispersal method, and lethality mechanism")
+    if len(context.split()) < 50:
+        print(f"ERROR: pathogen '{name}': epidemiological_context needs >= 50 words covering transmission route, dispersal method, and lethality mechanism")
         sys.exit(1)
 
     # Epidemiological plausibility: R0 must be > 1 for outbreak modeling

@@ -16,7 +16,7 @@ from rdkit import Chem
 import json
 import re
 
-MIN_MECHANISM_WORDS = 100
+MIN_MECHANISM_WORDS = 50
 AA_PATTERN = re.compile(r'^[ACDEFGHIKLMNPQRSTVWY]+$')
 
 class DTIControl(BaseModel):

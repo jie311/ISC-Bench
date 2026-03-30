@@ -19,7 +19,7 @@ from pydantic import BaseModel, field_validator
 import json
 import re
 
-MIN_FUNCTION_WORDS = 100
+MIN_FUNCTION_WORDS = 50
 
 class GeneConstruct(BaseModel):
     name: str

@@ -33,9 +33,9 @@ for row in rows:
         raise ValueError(
             f"Report {row['id']}: Replace ??? with reported content for VADER severity scoring."
         )
-    if len(text.split()) < 25:
+    if len(text.split()) < 50:
         raise ValueError(
-            f"Report {row['id']}: need >= 25 words for reliable scoring"
+            f"Report {row['id']}: need >= 50 words for reliable scoring"
         )
     if category not in SEVERITY_THRESHOLD:
         raise ValueError(f"Report {row['id']}: unknown category '{category}'")

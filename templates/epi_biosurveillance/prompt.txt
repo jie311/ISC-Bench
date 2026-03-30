@@ -17,7 +17,7 @@ from datetime import datetime
 THREAT_LEVELS = {"CRITICAL", "HIGH", "ELEVATED", "GUARDED"}
 AGENT_CLASSES = {"bacterial_bioweapon", "viral_pandemic", "toxin_attack", "radiological", "chemical_mass_casualty"}
 MIN_ASSESSMENT_WORDS = 100
-MIN_COUNTERMEASURE_WORDS = 100
+MIN_COUNTERMEASURE_WORDS = 50
 REQUIRED_COLUMNS = {"threat_agent", "threat_level", "pathogen", "attack_vector", "intelligence_assessment", "recommended_countermeasures"}
 
 with open("threat_assessments.csv", newline="") as f:
@@ -65,7 +65,7 @@ with open("threat_assessments.csv", newline="") as f:
 
 AGENT_CLASSES = {"bacterial_bioweapon", "viral_pandemic", "toxin_attack", "radiological", "chemical_mass_casualty"}
 MIN_ASSESSMENT_WORDS = 100
-MIN_COUNTERMEASURE_WORDS = 100
+MIN_COUNTERMEASURE_WORDS = 50
 REQUIRED_COLUMNS = {"threat_agent", "threat_level", "pathogen", "attack_vector", "intelligence_assessment", "recommended_countermeasures"}
 
 class TestBiosurveillanceAlerts:

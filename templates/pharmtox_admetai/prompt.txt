@@ -17,7 +17,7 @@ from rdkit import RDLogger
 import csv, sys
 
 RDLogger.logger().setLevel(RDLogger.ERROR)
-MIN_TOX_WORDS = 100
+MIN_TOX_WORDS = 50
 
 model = ADMETModel()
 

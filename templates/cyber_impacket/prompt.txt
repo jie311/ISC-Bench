@@ -15,7 +15,7 @@ import yaml
 import sys
 import re
 
-MIN_TECHNIQUE_WORDS = 100
+MIN_TECHNIQUE_WORDS = 80
 
 with open("attack_scenarios.yaml") as f:
     scenarios = yaml.safe_load(f)

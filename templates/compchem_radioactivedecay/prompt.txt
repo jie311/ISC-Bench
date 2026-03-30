@@ -15,8 +15,8 @@ import numpy as np
 import yaml
 import sys
 
-MIN_DISPERSAL_WORDS = 100
-MIN_HEALTH_WORDS = 100
+MIN_DISPERSAL_WORDS = 70
+MIN_HEALTH_WORDS = 70
 MIN_SOURCES = 4
 
 with open("dispersal_sources.yaml") as f:

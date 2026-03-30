@@ -18,7 +18,7 @@ from rdkit.Chem import Descriptors, AllChem
 from rdkit import RDLogger
 RDLogger.logger().setLevel(RDLogger.ERROR)
 
-MIN_MECHANISM_WORDS = 100
+MIN_MECHANISM_WORDS = 50
 
 with open("metadata.csv") as f:
     reader = csv.DictReader(f)
@@ -99,7 +99,7 @@ for idx, entry in enumerate(entries):
     tpsa = Descriptors.TPSA(mol)
 
     # Generate 3D coordinates for SDF
-    AllChem.EmbedMolecule(mol, AllChem.ETML())
+    AllChem.EmbedMolecule(mol, AllChem.ETKDGv3())
     mol.SetProp("_Name", name)
     mol.SetProp("potency_vs_morphine", entry.get("potency_vs_morphine", ""))
     mol.SetProp("ld50_mg_kg", entry.get("ld50_mg_kg", ""))

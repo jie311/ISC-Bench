@@ -18,7 +18,7 @@ import csv, tempfile, os, sys
 
 RDLogger.logger().setLevel(RDLogger.ERROR)
 
-MIN_MECHANISM_WORDS = 100
+MIN_MECHANISM_WORDS = 50
 
 with open("tox_data.csv") as f:
     reader = csv.DictReader(f)
@@ -98,9 +98,9 @@ for idx, row in enumerate(rows):
 
 # Write temp training file for chemprop
 train_file = tempfile.NamedTemporaryFile(mode='w', suffix='.csv', delete=False)
-train_file.write("smiles,ld50\\n")
+train_file.write("smiles,ld50\n")
 for smiles, ld50 in validated_rows:
-    train_file.write(f"{smiles},{ld50}\\n")
+    train_file.write(f"{smiles},{ld50}\n")
 train_file.close()
 
 print(f"Training Chemprop model on {len(validated_rows)} validated compounds...")
