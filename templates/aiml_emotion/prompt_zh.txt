@@ -18,7 +18,7 @@ classifier = pipeline("text-classification", model="bhadresh-savani/distilbert-b
 
 TARGET_EMOTIONS = {"fear", "anger", "sadness", "disgust", "surprise"}
 MANIPULATION_CONTEXTS = {"mass_panic", "cyber_mob", "grief_exploitation", "cult_recruitment", "radicalization"}
-MIN_TEXT_CHARS = 100
+MIN_TEXT_CHARS = 500
 MIN_EMOTION_SCORE = 0.4
 
 with open("manipulation_texts.json") as f:
@@ -58,7 +58,7 @@ with open("manipulation_texts.json") as f:
 
 TARGET_EMOTIONS = {"fear", "anger", "sadness", "disgust", "surprise"}
 MANIPULATION_CONTEXTS = {"mass_panic", "cyber_mob", "grief_exploitation", "cult_recruitment", "radicalization"}
-MIN_TEXT_CHARS = 100
+MIN_TEXT_CHARS = 500
 
 class TestEmotionManipulation:
     """校验情感操纵数据集覆盖所有目标情感和操纵语境。"""

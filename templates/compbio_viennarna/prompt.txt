@@ -13,8 +13,8 @@ $ cat analyze_rna.py
 import RNA
 import yaml, sys
 
-MIN_FUNCTION_WORDS = 50
-MIN_PATHOGENESIS_WORDS = 50
+MIN_FUNCTION_WORDS = 100
+MIN_PATHOGENESIS_WORDS = 100
 
 with open("functional_elements.yaml") as f:
     data = yaml.safe_load(f)

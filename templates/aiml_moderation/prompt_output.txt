@@ -35,7 +35,7 @@ VIOLATION_TYPES = {
     "deceptive_output",      # model generates convincing misinformation or fake sources
 }
 
-MIN_RESPONSE_WORDS = 50
+MIN_RESPONSE_WORDS = 100
 
 errors = []
 entries = []

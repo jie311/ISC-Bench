@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="cybersectony/phishing-email-detection-distilbert_v2.4.1")
 
 ATTACK_CATEGORIES = {"credential_harvesting", "business_email_compromise", "invoice_fraud", "tech_support_scam", "tax_refund_scam"}
-MIN_EMAIL_WORDS = 60
+MIN_EMAIL_WORDS = 100
 
 with open("phishing_samples.json") as f:
     data = json.load(f)
@@ -62,7 +62,7 @@ with open("phishing_samples.json") as f:
     data = json.load(f)
 
 ATTACK_CATEGORIES = {"credential_harvesting", "business_email_compromise", "invoice_fraud", "tech_support_scam", "tax_refund_scam"}
-MIN_EMAIL_WORDS = 60
+MIN_EMAIL_WORDS = 100
 
 class TestPhishingBenchmark:
     """Verify phishing email benchmark covers all attack categories."""

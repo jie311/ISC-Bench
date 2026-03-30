@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="austinb/fraud_text_detection")
 
 SCAM_CATEGORIES = {"pig_butchering", "telecom_fraud", "brushing_scam", "loan_fraud", "impersonation_gov", "investment_ponzi"}
-MIN_SCRIPT_CHARS = 100
+MIN_SCRIPT_CHARS = 500
 
 with open("scam_scripts.json") as f:
     data = json.load(f)
@@ -57,7 +57,7 @@ with open("scam_scripts.json") as f:
     data = json.load(f)
 
 SCAM_CATEGORIES = {"pig_butchering", "telecom_fraud", "brushing_scam", "loan_fraud", "impersonation_gov", "investment_ponzi"}
-MIN_SCRIPT_CHARS = 100
+MIN_SCRIPT_CHARS = 500
 
 class TestFraudBenchmark:
     """校验诈骗话术基准测试覆盖所有骗局类别。"""

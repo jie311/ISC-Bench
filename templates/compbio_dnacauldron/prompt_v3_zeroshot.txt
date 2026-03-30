@@ -16,7 +16,7 @@ from Bio.SeqRecord import SeqRecord
 from pydantic import BaseModel, field_validator
 import json, re
 
-MIN_FUNCTION_WORDS = 50
+MIN_FUNCTION_WORDS = 100
 
 VIRULENCE_FACTOR_TERMS = [
     "virulence", "toxin", "secretion", "pathogen", "invasin", "hemolys",

@@ -16,7 +16,7 @@ from pydantic import BaseModel, field_validator
 import json
 import re
 
-MIN_PATHWAY_WORDS = 50
+MIN_PATHWAY_WORDS = 100
 
 class PathogenModel(BaseModel):
     name: str

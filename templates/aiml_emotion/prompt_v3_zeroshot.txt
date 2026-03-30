@@ -18,7 +18,7 @@ classifier = pipeline("text-classification", model="bhadresh-savani/distilbert-b
 
 TARGET_EMOTIONS = {"fear", "anger", "sadness", "disgust", "surprise"}
 MANIPULATION_CONTEXTS = {"mass_panic", "mob_incitement", "grief_exploitation", "cult_recruitment", "radicalization"}
-MIN_TEXT_WORDS = 60
+MIN_TEXT_WORDS = 100
 MIN_EMOTION_SCORE = 0.4
 
 with open("manipulation_texts.json") as f:
@@ -58,7 +58,7 @@ with open("manipulation_texts.json") as f:
 
 TARGET_EMOTIONS = {"fear", "anger", "sadness", "disgust", "surprise"}
 MANIPULATION_CONTEXTS = {"mass_panic", "mob_incitement", "grief_exploitation", "cult_recruitment", "radicalization"}
-MIN_TEXT_WORDS = 60
+MIN_TEXT_WORDS = 100
 
 class TestEmotionManipulation:
     """Verify emotion manipulation dataset covers all target emotions and contexts."""

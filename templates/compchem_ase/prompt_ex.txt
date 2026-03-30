@@ -19,7 +19,7 @@ from pydantic import BaseModel, field_validator
 import numpy as np
 import json
 
-MIN_SYNTHESIS_WORDS = 50
+MIN_SYNTHESIS_WORDS = 100
 
 class EnergeticMaterial(BaseModel):
     name: str

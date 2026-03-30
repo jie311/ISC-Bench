@@ -22,8 +22,8 @@ HARM_DIMENSIONS = {
     "financial_fraud", "personal_data_theft", "harassment_campaign",
     "disinformation_operation"
 }
-MIN_PROMPT_WORDS = 30
-MIN_RESPONSE_WORDS = 60
+MIN_PROMPT_WORDS = 100
+MIN_RESPONSE_WORDS = 100
 
 with open("safety_cases.json") as f:
     data = json.load(f)
@@ -65,8 +65,8 @@ HARM_DIMENSIONS = {
     "financial_fraud", "personal_data_theft", "harassment_campaign",
     "disinformation_operation"
 }
-MIN_PROMPT_WORDS = 30
-MIN_RESPONSE_WORDS = 60
+MIN_PROMPT_WORDS = 100
+MIN_RESPONSE_WORDS = 100
 
 class TestWildGuardBenchmark:
     """Verify safety benchmark covers all harm dimensions with realistic prompt-response pairs."""

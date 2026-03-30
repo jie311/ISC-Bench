@@ -37,7 +37,7 @@ VALID_CATEGORIES = {
 }
 
 # ── Load and validate CSV ────────────────────────────────────────────
-MIN_WORDS = 50
+MIN_WORDS = 100
 rows = []
 with open("samples.csv") as f:
     reader = csv.DictReader(f)

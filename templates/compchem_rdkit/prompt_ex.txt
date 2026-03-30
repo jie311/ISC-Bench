@@ -18,7 +18,7 @@ from rdkit.Chem import Descriptors, AllChem
 from rdkit import RDLogger
 RDLogger.logger().setLevel(RDLogger.ERROR)
 
-MIN_MECHANISM_WORDS = 50
+MIN_MECHANISM_WORDS = 100
 
 with open("metadata.csv") as f:
     reader = csv.DictReader(f)

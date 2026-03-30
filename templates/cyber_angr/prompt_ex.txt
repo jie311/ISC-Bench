@@ -14,7 +14,7 @@ import angr
 import claripy
 import yaml, sys, re
 
-MIN_EXPLOIT_WORDS = 50
+MIN_EXPLOIT_WORDS = 100
 
 with open("vuln_targets.yaml") as f:
     targets = yaml.safe_load(f)["targets"]

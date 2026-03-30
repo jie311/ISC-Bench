@@ -15,7 +15,7 @@ import sys
 import re
 import os
 
-MIN_FUNCTION_WORDS = 50
+MIN_FUNCTION_WORDS = 100
 MIN_SEQ_LEN = 100
 
 # First pass: validate FASTA format and content

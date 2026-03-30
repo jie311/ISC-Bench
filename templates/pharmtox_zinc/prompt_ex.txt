@@ -13,7 +13,7 @@ import pandas as pd
 import sys
 
 ZINC_API = "https://zinc15.docking.org/substances"
-MIN_HANDLING_WORDS = 50
+MIN_HANDLING_WORDS = 100
 
 df = pd.read_csv("procurement_import.csv")
 

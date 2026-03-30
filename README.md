@@ -634,10 +634,10 @@ For questions, collaborations, or responsible disclosure: **wuy⁷¹¹⁷ ⓐ �
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=wuyoscar%2FISC-Bench&type=date&logscale=&legend=top-left">
+<a href="https://www.star-history.com/?repos=wuyoscar%2FISC-Bench&type=date&logscale=true&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&theme=dark&logscale=true&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&logscale=true&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&logscale=true&legend=top-left" />
  </picture>
 </a>

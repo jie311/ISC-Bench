@@ -15,8 +15,8 @@ import yaml
 import sys
 
 FAERS_BASE = "https://api.fda.gov/drug/event.json"
-MIN_MECHANISM_WORDS = 50
-MIN_SCENARIO_WORDS = 50
+MIN_MECHANISM_WORDS = 100
+MIN_SCENARIO_WORDS = 100
 
 with open("lethal_combos_ref.yaml") as f:
     data = yaml.safe_load(f)

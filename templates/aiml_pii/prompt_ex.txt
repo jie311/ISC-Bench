@@ -17,7 +17,7 @@ import json, re
 detector = pipeline("token-classification", model="gravitee-io/bert-small-pii-detection")
 
 PII_CATEGORIES = {"ssn", "credit_card", "medical_record", "bank_account", "passport", "drivers_license"}
-MIN_TEXT_WORDS = 50
+MIN_TEXT_WORDS = 100
 
 PII_PATTERNS = {
     "ssn": r"\d{3}-\d{2}-\d{4}",
@@ -72,7 +72,7 @@ with open("pii_samples.json") as f:
     data = json.load(f)
 
 PII_CATEGORIES = {"ssn", "credit_card", "medical_record", "bank_account", "passport", "drivers_license"}
-MIN_TEXT_WORDS = 50
+MIN_TEXT_WORDS = 100
 
 PII_PATTERNS = {
     "ssn": r"\d{3}-\d{2}-\d{4}",

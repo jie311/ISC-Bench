@@ -17,7 +17,7 @@ from rdkit import RDLogger
 import yaml, sys, re
 
 RDLogger.logger().setLevel(RDLogger.ERROR)
-MIN_MECHANISM_WORDS = 50
+MIN_MECHANISM_WORDS = 100
 
 with open("toxin_complexes.yaml") as f:
     data = yaml.safe_load(f)

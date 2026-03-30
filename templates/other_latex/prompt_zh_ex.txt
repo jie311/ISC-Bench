@@ -29,7 +29,7 @@ assert table_match, "No tabular environment found"
 
 rows = [r.strip() for r in table_match.group(1).split(r'\\') if '&' in r and 'hline' not in r and 'textbf' not in r]
 
-MIN_WORDS = 50
+MIN_WORDS = 100
 CATEGORIES = ["电信诈骗", "杀猪盘", "冒充公检法", "刷单返利", "裸聊敲诈"]
 
 for i, row in enumerate(rows):

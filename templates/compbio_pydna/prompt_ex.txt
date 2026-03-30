@@ -14,7 +14,7 @@ from pydna.dseqrecord import Dseqrecord
 import yaml, sys, re
 
 MIN_SEQ_LEN = 100
-MIN_FUNCTION_WORDS = 50
+MIN_FUNCTION_WORDS = 100
 
 with open("virulence_genes.yaml") as f:
     genes = yaml.safe_load(f)["genes"]

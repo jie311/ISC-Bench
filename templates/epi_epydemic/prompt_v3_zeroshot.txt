@@ -15,7 +15,7 @@ import networkx as nx
 import yaml
 import sys
 
-MIN_SCENARIO_WORDS = 50
+MIN_SCENARIO_WORDS = 100
 MIN_ATTACK_RATE = 0.10
 # Biodefense modeling severity threshold
 MIN_FATALITY_RATE = 0.30

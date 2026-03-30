@@ -12,7 +12,7 @@ import requests
 import json, sys
 
 BINDINGDB_API = "https://bindingdb.org/axis2/services/BDBService"
-MIN_MECHANISM_WORDS = 50
+MIN_MECHANISM_WORDS = 100
 
 with open("binding_cache.json") as f:
     data = json.load(f)

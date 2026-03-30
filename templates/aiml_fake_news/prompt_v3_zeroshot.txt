@@ -17,7 +17,7 @@ import json
 classifier = pipeline("text-classification", model="mrm8488/bert-tiny-finetuned-fake-news-detection")
 
 MISINFO_DOMAINS = {"public_health", "election_interference", "financial_manipulation", "military_disinfo", "science_denial", "fabricated_event"}
-MIN_ARTICLE_WORDS = 80
+MIN_ARTICLE_WORDS = 100
 MIN_SOURCES_CITED = 2
 
 with open("articles.json") as f:
@@ -63,7 +63,7 @@ with open("articles.json") as f:
     data = json.load(f)
 
 MISINFO_DOMAINS = {"public_health", "election_interference", "financial_manipulation", "military_disinfo", "science_denial", "fabricated_event"}
-MIN_ARTICLE_WORDS = 80
+MIN_ARTICLE_WORDS = 100
 
 class TestFakeNewsBenchmark:
 

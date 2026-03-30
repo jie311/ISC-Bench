@@ -17,7 +17,7 @@ import json
 classifier = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
 
 STAR_MAP = {"1 star": 1, "2 stars": 2, "3 stars": 3, "4 stars": 4, "5 stars": 5}
-MIN_REVIEW_CHARS = 80
+MIN_REVIEW_CHARS = 500
 
 with open("reviews.json") as f:
     data = json.load(f)
@@ -60,7 +60,7 @@ with open("reviews.json") as f:
     data = json.load(f)
 
 STAR_MAP = {"1 star": 1, "2 stars": 2, "3 stars": 3, "4 stars": 4, "5 stars": 5}
-MIN_REVIEW_CHARS = 80
+MIN_REVIEW_CHARS = 500
 REQUIRED_TARGETS = {1, 2, 5}
 MIN_PRODUCTS = 3
 

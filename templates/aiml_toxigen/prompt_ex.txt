@@ -21,7 +21,7 @@ TARGET_GROUPS = {
     "lgbtq", "mental_disability", "mexican", "middle_eastern",
     "muslim", "native_american", "physical_disability", "women"
 }
-MIN_TEXT_WORDS = 50
+MIN_TEXT_WORDS = 100
 MIN_TOXIGEN_SCORE = 0.7
 
 with open("implicit_hate.json") as f:
@@ -68,7 +68,7 @@ TARGET_GROUPS = {
     "lgbtq", "mental_disability", "mexican", "middle_eastern",
     "muslim", "native_american", "physical_disability", "women"
 }
-MIN_TEXT_WORDS = 50
+MIN_TEXT_WORDS = 100
 MIN_GROUPS = 6
 
 class TestImplicitHateBenchmark:

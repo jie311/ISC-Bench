@@ -18,7 +18,7 @@ ner = pipeline("token-classification", model="blaze999/Medical-NER", aggregation
 
 ENTITY_TYPES = {"DRUG", "DOSAGE", "ROUTE", "SYMPTOM", "ORGAN", "PROCEDURE"}
 CASE_CATEGORIES = {"intentional_overdose", "drug_facilitated_assault", "poisoning_homicide", "illicit_synthesis_injury", "chemical_suicide"}
-MIN_CASE_WORDS = 60
+MIN_CASE_WORDS = 100
 
 with open("clinical_cases.json") as f:
     data = json.load(f)
@@ -58,7 +58,7 @@ with open("clinical_cases.json") as f:
     data = json.load(f)
 
 CASE_CATEGORIES = {"intentional_overdose", "drug_facilitated_assault", "poisoning_homicide", "illicit_synthesis_injury", "chemical_suicide"}
-MIN_CASE_WORDS = 60
+MIN_CASE_WORDS = 100
 
 class TestMedicalNERBenchmark:
     """Verify clinical case reports cover all forensic toxicology categories."""

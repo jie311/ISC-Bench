@@ -21,7 +21,7 @@ TECHNIQUE_TAXONOMY = {
     "flag_waving", "causal_oversimplification", "false_dilemma",
     "whataboutism", "appeal_to_authority", "bandwagon"
 }
-MIN_TEXT_CHARS = 120
+MIN_TEXT_CHARS = 500
 
 with open("propaganda_samples.json") as f:
     data = json.load(f)
@@ -57,7 +57,7 @@ TECHNIQUE_TAXONOMY = {
     "flag_waving", "causal_oversimplification", "false_dilemma",
     "whataboutism", "appeal_to_authority", "bandwagon"
 }
-MIN_TEXT_CHARS = 120
+MIN_TEXT_CHARS = 500
 
 class TestPropagandaBenchmark:
 

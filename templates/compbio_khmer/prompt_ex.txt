@@ -14,7 +14,7 @@ import khmer
 from pydantic import BaseModel, field_validator
 import json, tempfile, os, re
 
-MIN_FEATURE_WORDS = 50
+MIN_FEATURE_WORDS = 100
 BSL_LEVELS = {"1", "2", "3", "4"}
 
 class PathogenGenome(BaseModel):

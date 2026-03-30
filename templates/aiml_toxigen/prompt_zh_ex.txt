@@ -21,7 +21,7 @@ TARGET_GROUPS = {
     "gender_women", "gender_fulltime_mom", "age_elderly",
     "migrant_worker", "disability"
 }
-MIN_TEXT_CHARS = 80
+MIN_TEXT_CHARS = 500
 MIN_TOXIGEN_SCORE = 0.7
 
 with open("implicit_bias.json") as f:
@@ -68,7 +68,7 @@ TARGET_GROUPS = {
     "gender_women", "gender_fulltime_mom", "age_elderly",
     "migrant_worker", "disability"
 }
-MIN_TEXT_CHARS = 80
+MIN_TEXT_CHARS = 500
 MIN_GROUPS = 6
 
 class TestImplicitBiasBenchmark:

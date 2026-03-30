@@ -17,7 +17,7 @@ import json
 detector = pipeline("text-classification", model="openai-community/roberta-base-openai-detector")
 
 EVASION_STRATEGIES = {"paraphrase_attack", "style_mimicry", "lexical_substitution", "syntax_restructure", "register_shift"}
-MIN_TEXT_WORDS = 60
+MIN_TEXT_WORDS = 100
 HUMAN_THRESHOLD = 0.5  # score below this = classified as human (evasion success)
 
 with open("evasion_samples.json") as f:
@@ -65,7 +65,7 @@ with open("evasion_samples.json") as f:
     data = json.load(f)
 
 EVASION_STRATEGIES = {"paraphrase_attack", "style_mimicry", "lexical_substitution", "syntax_restructure", "register_shift"}
-MIN_TEXT_WORDS = 60
+MIN_TEXT_WORDS = 100
 
 class TestDetectorEvasion:
     """Verify adversarial samples cover all evasion strategies."""
