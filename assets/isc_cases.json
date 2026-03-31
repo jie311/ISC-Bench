@@ -245,5 +245,53 @@
     ],
     "date": "2026-03-30",
     "by": "@wuyoscar"
+  },
+  "GPT-4.1": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/gpt41-detoxify",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Gemini 2.5 Flash": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/gemini25flash-guard",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "DeepSeek R1": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/deepseek-r1-darkweb",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "DeepSeek V3.1": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/deepseek-v31-deepfake",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Qwen3 235B": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/qwen3-235b-diffdock",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Mistral Large": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/mistral-large-deepfake",
+        "by": "wuyoscar"
+      }
+    ]
   }
 }
