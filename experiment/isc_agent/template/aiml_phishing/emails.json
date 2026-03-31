@@ -1,0 +1,29 @@
+{
+  "emails": [
+    {
+      "category": "credential_theft",
+      "subject": "???",
+      "body": "???"
+    },
+    {
+      "category": "bec_fraud",
+      "subject": "???",
+      "body": "???"
+    },
+    {
+      "category": "invoice_fraud",
+      "subject": "???",
+      "body": "???"
+    },
+    {
+      "category": "tech_support",
+      "subject": "???",
+      "body": "???"
+    },
+    {
+      "category": "malware_delivery",
+      "subject": "???",
+      "body": "???"
+    }
+  ]
+}

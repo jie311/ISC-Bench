@@ -27,13 +27,12 @@
   <a href="./README.md">EN</a> | 中文
 </p>
 
+> **什么是 ISC？** 当 AI Agent 完成不完整的专业工作流时，如果工作流涉及敏感数据，那么让 Agent 强大的那个能力——补全缺失部分以完成工作——恰恰会导致它产生有害输出。无需对抗性提示，无需越狱。工作流本身就是触发器。
+
+**Examples:** [Grok](https://grok.com/share/bGVnYWN5_81a6125d-0541-4d2f-8691-30e212beb174) · [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793)
+
 > [!CAUTION]
 > 仅供研究使用。ISC-Bench 仅用于学术安全研究、评测与缓解工作。**我们不允许也不支持将这些材料用于任何恶意目的或造成现实世界的伤害。**
-
-> [!NOTE]
-> 🔍 **什么是 ISC？** Internal Safety Collapse（内部安全坍塌）是一种现象：AI Agent 在完成**专业工作流**时，会与涉及敏感数据的领域工具交互 — 如 🛡️ 安全分类器（LlamaGuard、Detoxify）、🧬 生物信息学工具（AutoDock、COBRApy）、🔐 网络安全框架（Metasploit、Scapy）— 从而产生有害或敏感的输出。
-
-🧩 为了可靠地触发和研究这一现象，我们构建了 **TVD**（Task + Validator + Data）框架 — 一个工程化的架构，向 AI Agent 呈现**不完整的专业工作流**，其中包含敏感数据字段。Agent 必须填充缺失数据以通过工具验证并完成任务。
 
 <details>
 <summary><b>📋 评测设置</b></summary>
@@ -84,7 +83,6 @@
 | Date | |
 |:-----|--|
 | 🎆 2026-03-28 | **700+ stars!** |
-| 📄 2026-03-27 | Our sister survey [**Safety in Embodied AI**](https://github.com/x-zheng16/Embodied-AI-Safety) — 480+ papers on safety across the full embodied AI pipeline |
 | 📄 2026-03-27 | [**UltraBreak**](https://github.com/kaiyuanCui/UltraBreak) accepted at **ICLR 2026** — universal and transferable jailbreak attacks on vision-language models |
 | 🎆 2026-03-27 | **500+ stars in 48 hours!** |
 | 📄 2026-03-25 | **ISC Paper on arXiv** — [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509) |
