@@ -293,5 +293,13 @@
         "by": "wuyoscar"
       }
     ]
+  },
+  "Amazon Nova Pro": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/amazon-nova-pro-sentiment",
+        "by": "wuyoscar"
+      }
+    ]
   }
 }
