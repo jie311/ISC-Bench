@@ -281,7 +281,7 @@ We are also converting each template into a more standardized scaffold so agents
   <img src="assets/fig1_bench_overview.png" width="80%" height="auto">
 </p>
 
-ISC-Bench provides 83 public templates across 9 domains for reproducing ISC under varied task structures. Templates and domains are continuously evolving — the paper represents a snapshot; the benchmark keeps growing.
+ISC-Bench provides 84 public templates across 9 domains for reproducing ISC under varied task structures. Templates and domains are continuously evolving — the paper represents a snapshot; the benchmark keeps growing.
 
 ### 🌍 Community Reproductions
 

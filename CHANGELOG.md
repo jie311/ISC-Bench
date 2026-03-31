@@ -171,7 +171,7 @@ All notable updates to ISC-Bench are documented here.
 - **Disclaimer** (`[!CAUTION]`): academic research only, responsible disclosure, no misuse
 - **GitHub Alerts**: CAUTION (red), NOTE (blue), TIP (green), IMPORTANT (purple) across README
 - **ISC-Bench Templates**: 53 scenarios now in collapsible toggle by domain
-- **Email**: updated to wuy7117@gmail.com across all files
+- **Email**: updated to [redacted] across all files
 - **Removed**: TBD example table, "no adversarial" wording from gen_leaderboard.py
 - **Broken links fixed**: Chinese README cookbook paths
 
