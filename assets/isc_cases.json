@@ -10,7 +10,7 @@
   "Claude Opus 4.5": {
     "demos": [
       {
-        "link": "https://claude.ai/share/1e3e997c-0315-46f1-9cbd-37157314a7ef",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus45-share",
         "by": "wuyoscar"
       }
     ]
@@ -18,7 +18,7 @@
   "Claude Sonnet 4.6": {
     "demos": [
       {
-        "link": "https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudesonnet46-share",
         "by": "wuyoscar"
       }
     ]
@@ -26,7 +26,7 @@
   "Gemini 3 Pro": {
     "demos": [
       {
-        "link": "https://gemini.google.com/share/320bf34b0334",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-13-gemini3pro",
         "by": "wuyoscar"
       }
     ]
@@ -34,7 +34,7 @@
   "GPT-5.2 Chat": {
     "demos": [
       {
-        "link": "https://chatgpt.com/share/69a3f6e1-24d8-800c-9581-3d1a7180ee55",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-29-gpt52chat",
         "by": "wuyoscar"
       }
     ]
@@ -42,7 +42,7 @@
   "o3": {
     "demos": [
       {
-        "link": "https://chatgpt.com/share/69c3b0a7-3554-839a-95a5-d22d60758dc9",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/o3-share",
         "by": "wuyoscar"
       }
     ]
@@ -58,7 +58,7 @@
   "Kimi K2.5 Thinking": {
     "demos": [
       {
-        "link": "https://www.kimi.com/share/19ca8616-9e32-810d-8000-0000647caebf",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/kimi-k25-thinking-share",
         "by": "wuyoscar"
       }
     ]
@@ -66,7 +66,7 @@
   "Qwen 3 Max Preview": {
     "demos": [
       {
-        "link": "https://chat.qwen.ai/s/f1e5d846-018e-4a3d-94ff-418e34559497?fev=0.2.9",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-4-qwen3max",
         "by": "wuyoscar"
       }
     ]
@@ -74,7 +74,7 @@
   "DeepSeek V3.2": {
     "demos": [
       {
-        "link": "https://chat.deepseek.com/share/pbzirkyhfkvapyc3g0",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/deepseek-v32-share",
         "by": "wuyoscar"
       }
     ]
@@ -82,7 +82,7 @@
   "GLM-5": {
     "demos": [
       {
-        "link": "https://chat.z.ai/s/79e38d45-d370-4c03-8fb2-6ff3427046cc",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/glm5-share",
         "by": "wuyoscar"
       }
     ]
@@ -90,7 +90,7 @@
   "Qwen 3.5 397B": {
     "demos": [
       {
-        "link": "https://chat.qwen.ai/s/f4faf33a-a6b3-4503-8c9b-6d57ee39c0c6?fev=0.2.16",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-3-qwen35397b",
         "by": "HanxunH"
       }
     ]
@@ -98,7 +98,7 @@
   "Qwen 3 Max 2025-09-23": {
     "demos": [
       {
-        "link": "https://chat.qwen.ai/s/c4247247-ddfd-43f1-bae6-1f703b29de27?fev=0.2.16",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/qwen3-max-20250923-share",
         "by": "HanxunH"
       }
     ]
@@ -106,7 +106,7 @@
   "ERNIE 5.0": {
     "demos": [
       {
-        "link": "https://ernie.baidu.com/share/TlRKBSn5kT",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-5-ernie5",
         "by": "HanxunH"
       }
     ]
@@ -114,11 +114,11 @@
   "Gemini 3 Flash": {
     "demos": [
       {
-        "link": "https://gemini.google.com/share/e7ef0097c0e8",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-19-gemini3flash-redteam-testgen",
         "by": "HanxunH"
       },
       {
-        "link": "https://gemini.google.com/share/8104b6ebe9e8",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-19-gemini3flash-redteam-testgen",
         "by": "bboylyg"
       }
     ]
@@ -126,7 +126,7 @@
   "Dola Seed 2.0 Preview": {
     "demos": [
       {
-        "link": "https://www.dola.com/thread/w950ff79872cad4d4",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-11-dolaseed2",
         "by": "HanxunH"
       }
     ]
@@ -134,7 +134,7 @@
   "Grok 4.20 Beta": {
     "demos": [
       {
-        "link": "https://grok.com/share/bGVnYWN5LWNvcHk_9735b6e9-5ff1-4318-b2c2-4860b6e8fb33",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-9-grok420beta",
         "by": "HanxunH"
       }
     ]
@@ -142,7 +142,7 @@
   "GPT-5.3 Chat": {
     "demos": [
       {
-        "link": "https://chatgpt.com/share/69c4b2b4-9b48-83a0-849d-b17b0e438565",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-22-gpt53chat",
         "by": "zry29"
       }
     ]
@@ -150,7 +150,7 @@
   "Kimi K2.5 Instant": {
     "demos": [
       {
-        "link": "https://www.kimi.com/share/19d2aeb1-2d62-80c2-8000-00007710d688",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-31-kimik25instant",
         "by": "fresh-ma"
       }
     ]
@@ -158,7 +158,7 @@
   "GPT-5.4": {
     "demos": [
       {
-        "link": "https://chatgpt.com/share/69c515fa-27b8-83a0-a865-7121bb5fec3c",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-28-gpt54",
         "by": "zry29"
       }
     ]
@@ -174,7 +174,7 @@
   "Claude Sonnet 4.5 Thinking": {
     "demos": [
       {
-        "link": "https://claude.ai/share/31f8b214-b5c0-475e-b00a-c83f1016e8e7",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-27-claudesonnet45thinking",
         "by": "fresh-ma"
       }
     ]
@@ -182,11 +182,11 @@
   "Claude Sonnet 4.5": {
     "demos": [
       {
-        "link": "https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudesonnet46-share",
         "by": "wuyoscar"
       },
       {
-        "link": "https://claude.ai/share/d680f2a3-3793-40ba-9826-a9c357ca1b71",
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-25-claudesonnet45",
         "by": "fresh-ma"
       }
     ]
@@ -245,5 +245,101 @@
     ],
     "date": "2026-03-30",
     "by": "@wuyoscar"
+  },
+  "GPT-4.1": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/gpt41-detoxify",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Gemini 2.5 Flash": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/gemini25flash-guard",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "DeepSeek R1": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/deepseek-r1-darkweb",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "DeepSeek V3.1": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/deepseek-v31-deepfake",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Qwen3 235B": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/qwen3-235b-diffdock",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Mistral Large": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/mistral-large-deepfake",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Amazon Nova Pro": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/amazon-nova-pro-sentiment",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "DeepSeek R1-0528": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/deepseek-r1-0528-scapy",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "GLM-4.5": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/glm45-darkweb",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "MiniMax M2.7": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/minimax-m27-factcheck",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Grok 4 Fast": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/grok4fast-darkweb",
+        "by": "wuyoscar"
+      }
+    ]
+  },
+  "Llama 4 Scout": {
+    "demos": [
+      {
+        "link": "https://github.com/wuyoscar/ISC-Bench/tree/main/community/llama4scout-phishing",
+        "by": "wuyoscar"
+      }
+    ]
   }
 }

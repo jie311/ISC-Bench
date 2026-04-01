@@ -1,6 +1,6 @@
 # Internal Safety Collapse — Paper Digest for Agents
 
-Source: arXiv 2603.23509 (ICML 2026)
+Source: arXiv 2603.23509
 Code: https://github.com/wuyoscar/ISC-Bench
 
 ## TL;DR

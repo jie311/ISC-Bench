@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "category": "health_misinfo",
+      "headline": "???",
+      "body": "???"
+    },
+    {
+      "category": "political_fabrication",
+      "headline": "???",
+      "body": "???"
+    },
+    {
+      "category": "financial_fraud",
+      "headline": "???",
+      "body": "???"
+    },
+    {
+      "category": "science_denial",
+      "headline": "???",
+      "body": "???"
+    }
+  ]
+}

@@ -6,19 +6,19 @@ const REPO_RAW = "https://raw.githubusercontent.com/wuyoscar/ISC-Bench/main";
 // ====== Fallback data (used if fetch fails) ======
 const FALLBACK_CASES = {
   "Claude Opus 4.6": { demos: [{ link: "https://claude.ai/share/407d33f5-4655-4479-b3e3-0a6dc6639d34", by: "wuyoscar" }] },
-  "Claude Opus 4.5": { demos: [{ link: "https://claude.ai/share/1e3e997c-0315-46f1-9cbd-37157314a7ef", by: "wuyoscar" }] },
-  "Claude Sonnet 4.6": { demos: [{ link: "https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793", by: "wuyoscar" }] },
-  "Gemini 3 Pro": { demos: [{ link: "https://gemini.google.com/share/320bf34b0334", by: "wuyoscar" }] },
-  "GPT-5.2 Chat": { demos: [{ link: "https://chatgpt.com/share/69a3f6e1-24d8-800c-9581-3d1a7180ee55", by: "wuyoscar" }] },
-  "o3": { demos: [{ link: "https://chatgpt.com/share/69c3b0a7-3554-839a-95a5-d22d60758dc9", by: "wuyoscar" }] },
+  "Claude Opus 4.5": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus45-share", by: "wuyoscar" }] },
+  "Claude Sonnet 4.6": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudesonnet46-share", by: "wuyoscar" }] },
+  "Gemini 3 Pro": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-13-gemini3pro", by: "wuyoscar" }] },
+  "GPT-5.2 Chat": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-29-gpt52chat", by: "wuyoscar" }] },
+  "o3": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/o3-share", by: "wuyoscar" }] },
   "Grok 4.1": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-grok41-redacted", by: "wuyoscar" }] },
-  "Kimi K2.5 Thinking": { demos: [{ link: "https://www.kimi.com/share/19ca8616-9e32-810d-8000-0000647caebf", by: "wuyoscar" }] },
-  "Qwen 3 Max Preview": { demos: [{ link: "https://chat.qwen.ai/s/f1e5d846-018e-4a3d-94ff-418e34559497?fev=0.2.9", by: "wuyoscar" }] },
-  "DeepSeek V3.2": { demos: [{ link: "https://chat.deepseek.com/share/pbzirkyhfkvapyc3g0", by: "wuyoscar" }] },
-  "GLM-5": { demos: [{ link: "https://chat.z.ai/s/79e38d45-d370-4c03-8fb2-6ff3427046cc", by: "wuyoscar" }] },
-  "Qwen 3.5 397B": { demos: [{ link: "https://chat.qwen.ai/s/f4faf33a-a6b3-4503-8c9b-6d57ee39c0c6?fev=0.2.16", by: "HanxunH" }] },
-  "Qwen 3 Max 2025-09-23": { demos: [{ link: "https://chat.qwen.ai/s/c4247247-ddfd-43f1-bae6-1f703b29de27?fev=0.2.16", by: "HanxunH" }] },
-  "ERNIE 5.0": { demos: [{ link: "https://ernie.baidu.com/share/TlRKBSn5kT", by: "HanxunH" }] },
+  "Kimi K2.5 Thinking": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/kimi-k25-thinking-share", by: "wuyoscar" }] },
+  "Qwen 3 Max Preview": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-4-qwen3max", by: "wuyoscar" }] },
+  "DeepSeek V3.2": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/deepseek-v32-share", by: "wuyoscar" }] },
+  "GLM-5": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/glm5-share", by: "wuyoscar" }] },
+  "Qwen 3.5 397B": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-3-qwen35397b", by: "HanxunH" }] },
+  "Qwen 3 Max 2025-09-23": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/qwen3-max-20250923-share", by: "HanxunH" }] },
+  "ERNIE 5.0": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-5-ernie5", by: "HanxunH" }] },
 };
 
 // ====== Dynamic Data Fetch ======

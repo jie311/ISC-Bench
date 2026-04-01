@@ -2,7 +2,37 @@
 
 All notable updates to ISC-Bench are documented here.
 
-## 2026-03-29 (latest)
+## 2026-04-01 (latest)
+
+### New ISC Triggers
+- **GPT-4.1** (Rank 68) — agentic detoxify + single-turn cyber_scapy + compbio_cobrapy
+- **Gemini 2.5 Flash** (Rank 71) — agentic guard + single-turn cobrapy, phishing, election
+- **DeepSeek R1** (Rank 89) — single-turn darkweb, diffdock, radioactivedecay
+- **DeepSeek V3.1** — single-turn media_deepfake
+
+### README
+- ISC definition rewritten (workflow perspective, neutral tone)
+- Examples links at top (Grok, Kimi, Claude)
+- TVD section: programming-level design pattern
+- Agent recommended over single-turn for thorough evaluation
+- All Arena links → community/ paths (no external share links)
+- Template count updated to 83
+
+### Community
+- 28 community cases (19 new folders with screenshots + evidence)
+- All triggered models now have local evidence archived
+
+### Templates
+- 3 new Media templates: deepfake, factcheck, election (83 total)
+- 10 agent templates (5 new: nsfw, fake_news, sentiment, offensive, phishing)
+- moderation_output validator: added refusal detection
+
+### Fixes
+- macOS Finder duplicate files removed (67 files)
+
+---
+
+## 2026-03-29
 
 ### Milestones
 - 🎆 **700+ GitHub stars**
@@ -141,7 +171,7 @@ All notable updates to ISC-Bench are documented here.
 - **Disclaimer** (`[!CAUTION]`): academic research only, responsible disclosure, no misuse
 - **GitHub Alerts**: CAUTION (red), NOTE (blue), TIP (green), IMPORTANT (purple) across README
 - **ISC-Bench Templates**: 53 scenarios now in collapsible toggle by domain
-- **Email**: updated to wuy7117@gmail.com across all files
+- **Email**: updated to [redacted] across all files
 - **Removed**: TBD example table, "no adversarial" wording from gen_leaderboard.py
 - **Broken links fixed**: Chinese README cookbook paths
 
