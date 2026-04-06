@@ -64,6 +64,7 @@ a { transition: color var(--transition); }
 
 /* ====== SECTIONS ====== */
 .section { background: var(--bg); padding: 5rem 1.5rem; }
+#demo-video { padding-top: 1rem !important; padding-bottom: 2rem !important; }
 .section-alt { background: var(--bg-alt); }
 .section-heading { font-family: var(--font-display) !important; color: var(--text) !important; }
 .section-heading .icon { vertical-align: middle; }

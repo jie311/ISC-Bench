@@ -8,6 +8,7 @@
   <a href="https://arxiv.org/abs/2603.23509"><img src="https://img.shields.io/badge/arXiv-2603.23509-b31b1b.svg"></a>
   <a href="https://huggingface.co/papers/2603.23509"><img src="https://img.shields.io/badge/🤗_HF_Papers-Upvote-FFD21E.svg"></a>
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-2b9348.svg" alt="License"></a>
+  <a href="https://podcasts.apple.com/tr/podcast/internal-safety-collapse-in-frontier-llms/id1835878324?i=1000759288088"><img src="https://img.shields.io/badge/🎙️_Podcast-AI_Post_Transformers-8B5CF6.svg" alt="Podcast"></a>
 </p>  
 
 <p align="center">
@@ -82,6 +83,7 @@
 
 | Date | |
 |:-----|--|
+| 🎙️ 2026-04-04 | [**AI Post Transformers 播客**](https://podcasts.apple.com/tr/podcast/internal-safety-collapse-in-frontier-llms/id1835878324?i=1000759288088)专题讨论 ISC 与 Agent 工作流安全漏洞 |
 | 🎆 2026-03-28 | **700+ stars!** |
 | 📄 2026-03-27 | [**UltraBreak**](https://github.com/kaiyuanCui/UltraBreak) accepted at **ICLR 2026** — universal and transferable jailbreak attacks on vision-language models |
 | 🎆 2026-03-27 | **500+ stars in 48 hours!** |
@@ -109,6 +111,10 @@ ISC 是一种结构性失效模式：模型的任务目标压过了安全目标�
 > *"'Task completion' and 'safety' are two different goals. When you force them into one model, the task always wins — and safety collapses."*
 >
 > — [**Andrei Trandafira**](https://www.linkedin.com/feed/update/urn:li:activity:7442788617648852993?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7442788617648852993%2C7442894697385156610%29)
+
+> *"SO interesting. Great paper tbh."* — **Adrian De Wynter**
+
+> *"Refusal-based safety is a surface-level constraint, not genuine capability removal. When professional objectives clash with safety objectives, dangerous knowledge resurfaces."* — [**AI Post Transformers**](https://podcasts.apple.com/tr/podcast/internal-safety-collapse-in-frontier-llms/id1835878324?i=1000759288088) podcast
 
 <h3 align="center">🎬 Demo</h3>
 
