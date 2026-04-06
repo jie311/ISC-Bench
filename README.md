@@ -8,6 +8,7 @@
   <a href="https://arxiv.org/abs/2603.23509"><img src="https://img.shields.io/badge/arXiv-2603.23509-b31b1b.svg"></a>
   <a href="https://huggingface.co/papers/2603.23509"><img src="https://img.shields.io/badge/🤗_HF_Papers-Upvote-FFD21E.svg"></a>
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-2b9348.svg" alt="License"></a>
+  <a href="https://podcasts.apple.com/tr/podcast/internal-safety-collapse-in-frontier-llms/id1835878324?i=1000759288088"><img src="https://img.shields.io/badge/🎙️_Podcast-AI_Post_Transformers-8B5CF6.svg" alt="Podcast"></a>
 </p>  
 
 <p align="center">
@@ -78,6 +79,7 @@ https://raw.githubusercontent.com/wuyoscar/ISC-Bench/main/AGENT_README.md
 
 | | Date | Note |
 |:-:|:-----|:-----|
+| 🎙️ | 2026-04-04 | Featured on [**AI Post Transformers podcast**](https://podcasts.apple.com/tr/podcast/internal-safety-collapse-in-frontier-llms/id1835878324?i=1000759288088): deep dive into ISC and agent-workflow vulnerabilities |
 | ✨ | 2026-03-29 | **700+ stars**; terminology updated from "Jailbroken" to "Triggered" |
 | 📄 | 2026-03-27 | Related work: [**UltraBreak**](https://github.com/kaiyuanCui/UltraBreak) (ICLR 2026) |
 | 🚀 | 2026-03-25 | ISC-Bench repository and [**paper**](https://arxiv.org/abs/2603.23509) released |
@@ -107,7 +109,9 @@ We are also converting each template into a more standardized scaffold so agents
 
 > *"Task completion and safety are two different goals. When you force them into one model, the task always wins — and safety collapses."* — [**Andrei Trandafira**](https://www.linkedin.com/feed/update/urn:li:activity:7442788617648852993?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7442788617648852993%2C7442894697385156610%29)
 
-> *"SO interesting. Great paper tbh."* — [**Adrian De Wynter**](https://adriandewynter.substack.com/p/86-sometimes)
+> *"SO interesting. Great paper tbh."* — **Adrian De Wynter**
+
+> *"Refusal-based safety is a surface-level constraint, not genuine capability removal. When professional objectives clash with safety objectives, dangerous knowledge resurfaces."* — [**AI Post Transformers**](https://podcasts.apple.com/tr/podcast/internal-safety-collapse-in-frontier-llms/id1835878324?i=1000759288088) podcast
 
 ### 🎬 Demo
 
