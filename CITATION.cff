@@ -28,8 +28,8 @@ authors:
 - family-names: "Jiang"
   given-names: "Yu-Gang"
 title: "Internal Safety Collapse in Frontier Large Language Models"
-version: 0.1.0
-date-released: "2026-03-25"
+version: 0.2.0
+date-released: "2026-04-10"
 url: "https://github.com/wuyoscar/ISC-Bench"
 preferred-citation:
     type: article
