@@ -136,19 +136,6 @@ Templates are not fixed — they are starting points. Effectiveness depends on y
 
 <sub>[Full changelog →](CHANGELOG.md)</sub>
 
-## Ongoing Work
-
-<details>
-<summary><b>Ongoing Work</b></summary>
-
-<br>
-
-**Auto-ISC** — automated evaluation pipeline for measuring ISC vulnerability at scale across frontier models. Coming soon.
-
-We are also converting each template into a more standardized scaffold so agents can edit, extend, and run them with less task-specific context.
-
-</details>
-
 ---
 
 ## 🔍 Community Perspectives
@@ -689,12 +676,3 @@ For questions, collaborations, or responsible disclosure: **wuy⁷¹¹⁷ ⓐ �
 - [Awesome-Large-Model-Safety](https://github.com/xingjunm/Awesome-Large-Model-Safety) -- Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety
 - [AI Safety Report](https://github.com/XSafeAI/AI-safety-report) -- A broad evaluation suite and report for frontier model safety across language, vision-language, and image generation
 
-## Star History
-
-<a href="https://www.star-history.com/?repos=wuyoscar%2FISC-Bench&type=date&logscale=true&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&theme=dark&logscale=true&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&logscale=true&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=wuyoscar/ISC-Bench&type=date&logscale=true&legend=top-left" />
- </picture>
-</a>
