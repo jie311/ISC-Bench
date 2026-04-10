@@ -122,7 +122,7 @@ The figure below illustrates how **anchors** (pre-filled fields) and **triggers*
 <details>
 <summary><b>Q: Why these three templates?</b></summary>
 
-**A:** The `ai-guard`, `ai-detoxify`, and `ai-outlier` templates are representative instantiations of the TVD framework applied to ML safety evaluation tools. They are chosen because their outputs map directly onto established harm categories (JailbreakBench), enabling controlled comparison with existing jailbreak methods. They are not the only way ISC manifests — ISC-Bench includes 56 scenarios across 8 professional domains (biology, chemistry, cybersecurity, pharmacology, etc.), each with a different TVD structure. See [`templates/`](../../templates/) for the full set.
+**A:** The `ai-guard`, `ai-detoxify`, and `ai-outlier` templates are representative instantiations of the TVD framework applied to ML safety evaluation tools. They are chosen because their outputs map directly onto established harm categories (JailbreakBench), enabling controlled comparison with existing jailbreak methods. They are not the only way ISC manifests — ISC-Bench includes 84 templates across 9 professional domains (biology, chemistry, cybersecurity, pharmacology, etc.), each with a different TVD structure. See [`templates/`](../../templates/) for the full set.
 
 </details>
 

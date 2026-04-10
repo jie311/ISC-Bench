@@ -28,7 +28,13 @@
   EN | <a href="./README_zh.md">中文</a>
 </p>
 
-> **What is ISC?** When AI agents complete incomplete professional workflows involving sensitive data, the very capability that makes them useful — filling in missing pieces to finish the job — causes them to produce harmful outputs. No adversarial prompts, no jailbreaks. The workflow itself is the trigger.
+> **ISC (Internal Safety Collapse)** reveals a fundamental paradox in frontier AI: the very capability that makes agents useful is what bypasses their safety training. By simply completing professional workflows, models generate harmful outputs with **zero jailbreaks, zero adversarial prompts, and zero obfuscation.** The task itself is the exploit.
+
+### 🚨 Impact at a Glance
+- **51% of Top-100 Models Triggered:** Including GPT-5 series, Claude 4 series, and Gemini 3 series.
+- **Zero Jailbreaks Required:** No 'DAN' personas or complex prompt engineering needed.
+- **Production-Ready Vulnerability:** Live production endpoints (ChatGPT, Claude.ai, Kimi, Qwen) are currently susceptible.
+- **The "Completion" Exploit:** Safety filters are bypassed when models are asked to *finish* a professional task rather than *start* a harmful one.
 
 **Examples:**  [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) ·[Qwen3.6-Plus](https://chat.qwen.ai/s/d7adf970-7b2e-4298-8a62-fa560c467139?fev=0.2.36)
 
@@ -57,11 +63,11 @@ experiment/isc_agent/    ← agentic runs (Section 4.3)
 
 ### ② Explore templates and try your own combinations
 
-Browse [`templates/`](templates/) (84 templates, 9 domains). Each template directory contains multiple prompt variants (e.g. `prompt.txt`, `prompt_ex.txt`, `prompt_v2.txt`, `prompt_v3_zeroshot.txt`) — these are variants retained from our own experiments that showed varying effectiveness across different model architectures. They are not necessarily the optimal prompts; treat them as starting points and adapt the patterns to your own targets.
+Browse [`templates/`](templates/) (84 templates, 9 domains). All templates include `prompt.txt`; many include additional variants (`prompt_ex.txt`, `prompt_v3_zeroshot.txt`, etc.) retained from our own experiments that showed varying effectiveness across different model architectures. They are not necessarily the optimal prompts; treat them as starting points and adapt the patterns to your own targets.
 
 Each template also includes a `SKILL.md` that describes the TVD structure and customization guidance. If you want an AI agent to help you adapt a template, pass the `SKILL.md` to your agent along with the task.
 
-> **Note on agent-assisted template modification:** Claude Code handles this well. Codex may refuse to process templates with sensitive content — if that happens, switch to Claude Code.
+> **Note on agent-assisted template modification:** Claude Code handles this well. Codex may refuse to process templates with sensitive content — if that happens, switch to Claude Code or handover to human.
 
 > **Templates are model-specific.** A prompt effective on one model architecture may not work on another. Small adjustments are usually enough: swap an anchor phrase, tighten a validator threshold, or pick a different variant. The [`community/`](community/) cases show how different approaches worked across different models — use them as reference, not as fixed recipes.
 
@@ -112,8 +118,8 @@ Each template also includes a `SKILL.md` that describes the TVD structure and cu
 
 | | Date | Update |
 |:-:|:-----|:-------|
-| 🔴 | 2026-04-10 | **10 more models confirmed** (51/100): Grok 4.1 Thinking, Gemini 3 Flash Thinking, GPT-5.1/High, Claude Opus 4.1/Thinking, GPT-5.2/High, DeepSeek V3.2 Thinking, **Qwen 3.5 Max Preview** (web trigger). All via `aiml_guard_attack_v2`: ISC frames attack-response generation as a guard-model test dataset task — output flagged by OpenAI `omni-moderation-latest`. These datasets contain attack prompts paired with generated harmful responses that pass as research artifacts but are operationally harmful. ISC can still be triggered on live production endpoints as of this date. |
-| 🔴 | 2026-04-10 | **Claude Opus 4.6 Thinking** (Rank 1): We discovered that ISC manipulates LLMs to **directly generate adversarial prompts** such as PAIR, PAP, and DAN. See [community/claudeopus46thinking-guard-attack](https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus46thinking-guard-attack). |
+| 🔴 | 2026-04-10 | **10 models triggered** (Ranks 1–100): Grok 4.1 Thinking, Gemini 3 Flash Thinking, GPT-5.1/High, Claude Opus 4.1/Thinking, GPT-5.2/High, DeepSeek V3.2 Thinking, Qwen 3.5 Max Preview. |
+| 🔴 | 2026-04-10 | **Exploiting Reasoning: Claude Opus 4.6 Thinking (Rank 1).** We discovered that ISC manipulates LLMs to **directly generate adversarial prompts** such as PAIR, PAP, and DAN. See [community/claudeopus46thinking-guard-attack](https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus46thinking-guard-attack). |
 | 🔴 | 2026-03-30 | **GLM-4.7** (Rank 34) and **GLM-4.6** (Rank 47): single-turn toxin biosynthesis, nerve agent docking, radiological dispersal ([#64](https://github.com/wuyoscar/ISC-Bench/issues/64), [#65](https://github.com/wuyoscar/ISC-Bench/issues/65)). 28/100 confirmed. |
 | 🔴 | 2026-03-29 | **Mistral Large 3** (Rank 64): single-turn survival analysis — poisoning cohort data with LD50 and mechanisms ([#60](https://github.com/wuyoscar/ISC-Bench/issues/60)). 26/100 confirmed. |
 | 🔴 | 2026-03-29 | **GPT-5.4 High** (Rank 6): agentic input moderation and prompt-injection generation ([#57](https://github.com/wuyoscar/ISC-Bench/issues/57)) |
