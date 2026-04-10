@@ -43,7 +43,7 @@
   <b><a href="#🏆-isc-arena">View Full Arena Rankings →</a></b>
 </p>
 
-**Live Evidence:**  [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) ·[Qwen3.6-Plus](https://chat.qwen.ai/s/d7adf970-7b2e-4298-8a62-fa560c467139?fev=0.2.36)
+**Live Demo:**  [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) ·[Qwen3.6-Plus](https://chat.qwen.ai/s/d7adf970-7b2e-4298-8a62-fa560c467139?fev=0.2.36)
 
 > [!CAUTION]
 > Research-use only. ISC-Bench is released exclusively for academic safety research, evaluation, and mitigation work. **We do not condone or permit any use of these materials for malicious purposes or real-world harm.**
@@ -115,8 +115,7 @@ Templates are not fixed — they are starting points. Effectiveness depends on y
 
 | | Date | Update |
 |:-:|:-----|:-------|
-| 🔴 | 2026-04-10 | **CRITICAL: 51/100 Models Now Triggered.** New confirmations: Grok 4.1 Thinking, Gemini 3 Flash Thinking, GPT-5.1/High, Claude Opus 4.1/Thinking, GPT-5.2/High, DeepSeek V3.2 Thinking, **Qwen 3.5 Max Preview** (web trigger). All via `aiml_guard_attack_v2`: ISC can still be triggered on live production endpoints as of this date. |
-| 🔴 | 2026-04-10 | **Exploiting Reasoning: Claude Opus 4.6 Thinking (Rank 1).** We discovered that ISC manipulates LLMs to **directly generate adversarial prompts** such as PAIR, PAP, and DAN. See [community/claudeopus46thinking-guard-attack](https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus46thinking-guard-attack). |
+| 🔴 | 2026-04-10 | **Exploiting Reasoning: Claude Opus 4.6 Thinking (Rank 1).** We discovered that ISC manipulates LLMs to **directly generate adversarial prompts** such as PAIR, PAP, and DAN. See [community/claudeopus46thinking-guard-attack](https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus46thinking-guard-attack). **CRITICAL: 51/100 Models Now Triggered.**|
 | 🔴 | 2026-03-30 | **GLM-4.7** (Rank 34) and **GLM-4.6** (Rank 47): single-turn toxin biosynthesis, nerve agent docking, radiological dispersal ([#64](https://github.com/wuyoscar/ISC-Bench/issues/64), [#65](https://github.com/wuyoscar/ISC-Bench/issues/65)). 28/100 confirmed. |
 | 🔴 | 2026-03-29 | **Mistral Large 3** (Rank 64): single-turn survival analysis — poisoning cohort data with LD50 and mechanisms ([#60](https://github.com/wuyoscar/ISC-Bench/issues/60)). 26/100 confirmed. |
 | 🔴 | 2026-03-29 | **GPT-5.4 High** (Rank 6): agentic input moderation and prompt-injection generation ([#57](https://github.com/wuyoscar/ISC-Bench/issues/57)) |
