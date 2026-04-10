@@ -31,11 +31,11 @@
 > **ISC (Internal Safety Collapse)** reveals a fundamental paradox in frontier AI: the very capability that makes agents useful is what bypasses their safety training. By simply completing professional workflows, models generate harmful outputs with **zero jailbreaks, zero adversarial prompts, and zero obfuscation.** The task itself is the exploit.
 
 ### 🚨 Impact at a Glance
-- **51% of Top-100 triggered — 100% of Top-25:** Every currently-tested frontier model (GPT-5, Claude 4, Gemini 3 series) has been confirmed. Among the top 25 strongest models on the Arena leaderboard, the trigger rate is **100%**.
-- **Universal attack surface:** TVD is a general harness. It works against single-turn chat, agentic pipelines, and any AI doing programming work — including MCP-connected AI where tool execution makes the workflow self-completing. The more capable the model, the more vulnerable it is.
+- **51% of Top-100 triggered — 100% of Top-25:** All 25 strongest models on the Arena leaderboard have confirmed ISC triggers, including GPT-5, Claude 4, and Gemini 3 series.
+- **Universal attack surface:** The TVD framework is a general harness. It works against single-turn chat, agentic pipelines, and any AI doing programming work — including MCP-integrated AI, where tool-executing agents autonomously complete multi-step workflows. The more capable the model, the more vulnerable it is.
 - **Dataset-scale harm generation:** A single ISC trigger produces not one harmful output but a full structured dataset of harmful content — cross-domain, ranging from toxicity and exploit code to synthesis routes and adversarial prompts. This is not a jailbreak; it is automated harmful data generation at research scale.
 - **No known effective defense:** The vulnerability is structurally coupled to model capability. Because harmful content emerges as a functional requirement of task completion, it cannot be filtered without degrading the task itself. Standard refusal training does not address it.
-- **Zero attack budget required:** A single unadjusted prompt is sufficient. No fine-tuning, no prompt optimization, no adversarial search. The TVD wrapper alone triggers dataset-level harmful output.
+- **Zero attack budget required:** A single unadjusted prompt is sufficient. No fine-tuning, no prompt optimization, no adversarial search. Wrapping a real tool or API in the TVD structure alone is enough to trigger dataset-level harmful output.
 
 **Examples:**  [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) ·[Qwen3.6-Plus](https://chat.qwen.ai/s/d7adf970-7b2e-4298-8a62-fa560c467139?fev=0.2.36)
 
@@ -333,17 +333,17 @@ We are also converting each template into a more standardized scaffold so agents
 
 ---
 
-## 📋 ISC-Bench
+## 📋 ISC-Bench: The High-Stakes Safety Benchmark
 
 <p align="center">
   <img src="assets/fig1_bench_overview.png" width="80%" height="auto">
 </p>
 
-ISC-Bench provides 84 public templates across 9 domains for reproducing ISC under varied task structures. Templates and domains are continuously evolving — the paper represents a snapshot; the benchmark keeps growing.
+ISC-Bench is not a static dataset; it is an evolving, high-stakes benchmark tracking the structural fragility of the world's most advanced models. The 84 systematic templates across 9 critical domains provided here represent the first comprehensive attempt to measure safety collapse when models are at their most capable.
 
-### 🌍 Community Reproductions
+### 🌍 Community Reproductions & Live Evidence
 
-Community reproductions that apply the ISC idea to real frontier models.
+ISC is a persistent threat on frontier models. Below are community-verified cases of safety collapse.
 
 | Issue | Model | Contributor | Method | Domain | Type |
 |:-----:|-------|:-----------:|--------|--------|:----:|
