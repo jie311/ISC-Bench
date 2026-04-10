@@ -57,14 +57,13 @@ experiment/isc_agent/    ← agentic runs (Section 4.3)
 
 ### ② Explore templates and try your own combinations
 
-Browse [`templates/`](templates/) (84 templates, 9 domains). Each template contains a `prompt.txt` ready to paste and a `SKILL.md` that explains the TVD structure.
+Browse [`templates/`](templates/) (84 templates, 9 domains). Each template directory contains multiple prompt variants (e.g. `prompt.txt`, `prompt_ex.txt`, `prompt_v2.txt`, `prompt_v3_zeroshot.txt`) — these are variants retained from our own experiments that showed varying effectiveness across different model architectures. They are not necessarily the optimal prompts; treat them as starting points and adapt the patterns to your own targets.
 
-> **Templates are highly variant — expect to "play once and change."**
-> A template that works today may fail tomorrow as models update. When that happens, small adjustments are usually enough: swap one anchor phrase, tighten a validator threshold, or change the framing from first-person to third-person. You do not need to start over — you need to iterate.
->
-> If you are stuck, check the **[Community demos](community/)** — each folder contains the exact prompt and evidence that triggered a real model.
->
-> For the latest flagship models (GPT-5.x, Claude Opus 4.x, Gemini 3.x), **agentic mode is more reliable** than single-turn because the agent can retry and adapt automatically.
+Each template also includes a `SKILL.md` that describes the TVD structure and customization guidance. If you want an AI agent to help you adapt a template, pass the `SKILL.md` to your agent along with the task.
+
+> **Note on agent-assisted template modification:** Claude Code handles this well. Codex may refuse to process templates with sensitive content — if that happens, switch to Claude Code.
+
+> **Templates are model-specific.** A prompt effective on one model architecture may not work on another. Small adjustments are usually enough: swap an anchor phrase, tighten a validator threshold, or pick a different variant. The [`community/`](community/) cases show how different approaches worked across different models — use them as reference, not as fixed recipes.
 
 ### ③ Quick web test (copy-paste, no API required)
 
