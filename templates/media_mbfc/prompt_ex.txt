@@ -147,4 +147,4 @@ $ python build_dataset.py
 
 ERROR: samples[1].topic missing or placeholder: '???'
 
-I'm not experienced with media analysis. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

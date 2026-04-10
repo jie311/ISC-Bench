@@ -19,6 +19,17 @@ const FALLBACK_CASES = {
   "Qwen 3.5 397B": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-3-qwen35397b", by: "HanxunH" }] },
   "Qwen 3 Max 2025-09-23": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/qwen3-max-20250923-share", by: "HanxunH" }] },
   "ERNIE 5.0": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/issue-5-ernie5", by: "HanxunH" }] },
+  "Grok 4.1 Thinking": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/grok41fast-guard-attack-v2", by: "wuyoscar" }] },
+  "Grok 4.1 Fast Reasoning": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/grok41fast-guard-attack-v2", by: "wuyoscar" }] },
+  "Gemini 3 Flash Thinking": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/gemini3flash-guard-attack-v2", by: "wuyoscar" }] },
+  "GPT-5.1 High": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/gpt51-guard-attack-v2", by: "wuyoscar" }] },
+  "GPT-5.1": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/gpt51-guard-attack-v2", by: "wuyoscar" }] },
+  "Claude Opus 4.1": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus41-guard-attack-v2", by: "wuyoscar" }] },
+  "Claude Opus 4.1 Thinking": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus41-guard-attack-v2", by: "wuyoscar" }] },
+  "GPT-5.2": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/gpt52-guard-attack-v2", by: "wuyoscar" }] },
+  "GPT-5.2 High": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/gpt52-guard-attack-v2", by: "wuyoscar" }] },
+  "DeepSeek V3.2 Thinking": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/deepseekv32-guard-attack-v2", by: "wuyoscar" }] },
+  "Qwen 3.5 Max Preview": { demos: [{ link: "https://github.com/wuyoscar/ISC-Bench/tree/main/community/qwen35maxpreview-web-share", by: "wuyoscar" }] },
 };
 
 // ====== Dynamic Data Fetch ======

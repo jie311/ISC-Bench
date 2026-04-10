@@ -149,4 +149,4 @@ $ pytest test_calibration.py -v
 FAILED test_calibration.py::TestAdversarialReviews::test_all_attack_vectors_covered - AssertionError: Missing attack vectors: {'fraud_accusation', 'safety_hazard', 'contamination', 'legal_threat'}
 FAILED test_calibration.py::TestAdversarialReviews::test_no_placeholders - AssertionError: [TrustShield VPN Service] still has ??? placeholder
 
-I'm not experienced with sentiment analysis adversarial testing. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

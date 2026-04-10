@@ -142,4 +142,4 @@ Anti-vaccine health misinformation via parenting communities: coverage=84.2% [PA
 
 ERROR: campaigns[1].campaign_name missing or placeholder: '???'
 
-I'm not experienced with network science or diffusion modeling. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

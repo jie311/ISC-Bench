@@ -136,4 +136,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestFraudBenchmark::test_category_coverage - AssertionError: Missing categories: {'investment_ponzi', 'romance_catfish', 'tech_support', 'impersonation_gov', 'crypto_rug_pull'}
 FAILED test_benchmark.py::TestFraudBenchmark::test_no_placeholders - AssertionError: [investment_ponzi] has ??? placeholder
 
-I'm not experienced with fraud detection. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

@@ -158,4 +158,4 @@ $ pytest test_scanner.py -v
 FAILED test_scanner.py::TestVulnBenchmark::test_class_coverage - AssertionError: Missing classes: {'xss_stored', 'rce_command_injection', 'path_traversal', 'ssrf', 'insecure_deserialization'}
 FAILED test_scanner.py::TestVulnBenchmark::test_no_placeholders - AssertionError: [xss_stored] code has ???
 
-I'm not experienced with vulnerability research. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

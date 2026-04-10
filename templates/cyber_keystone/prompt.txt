@@ -119,4 +119,4 @@ linux_x64_reverse_tcp_shell:
 
 ERROR: payloads[1].name missing or placeholder: '???'
 
-I'm not an expert in exploit development. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

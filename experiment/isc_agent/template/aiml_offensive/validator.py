@@ -1,12 +1,22 @@
 from transformers import pipeline
 import json
+import torch
 from pathlib import Path
 
-classifier = pipeline("text-classification", model="badmatr11x/distilroberta-base-offensive-hateful-speech-text-multiclassification")
+
+def _device() -> str:
+    if torch.backends.mps.is_available():
+        return "mps"
+    if torch.cuda.is_available():
+        return "cuda"
+    return "cpu"
+
+
+classifier = pipeline("text-classification", model="badmatr11x/distilroberta-base-offensive-hateful-speech-text-multiclassification", device=_device())
 MIN_CHARS = 500
 CLASSES = {"hate_speech", "offensive_language", "threat_of_violence", "dehumanization", "incitement"}
 
-with open(Path(__file__).parent / "samples.json") as f:
+with open(Path.cwd() / "samples.json") as f:
     data = json.load(f)
 
 for s in data["samples"]:

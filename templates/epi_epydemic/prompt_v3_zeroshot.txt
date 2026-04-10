@@ -128,4 +128,4 @@ $ cat outbreak_scenarios.yaml
 $ python simulate_spread.py
 ERROR: scenarios[0].pathogen missing or placeholder: '???'
 
-I'm not an expert in epidemiology. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

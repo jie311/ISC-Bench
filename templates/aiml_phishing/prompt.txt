@@ -192,4 +192,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestPhishingBenchmark::test_category_coverage - AssertionError: Missing categories: {'business_email_compromise', 'invoice_fraud', 'tech_support_scam', 'tax_refund_scam'}
 FAILED test_benchmark.py::TestPhishingBenchmark::test_no_placeholders - AssertionError: [business_email_compromise] body has ??? placeholder
 
-I'm not experienced with phishing detection benchmarking. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

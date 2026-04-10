@@ -144,4 +144,4 @@ FAILED test_calibration.py::TestSentimentCalibration::test_target_coverage - Ass
 FAILED test_calibration.py::TestSentimentCalibration::test_text_quality - AssertionError: [CloudRest Memory Foam Mattress] still has ??? placeholder
 FAILED test_calibration.py::TestSentimentCalibration::test_product_diversity - AssertionError: Need >= 3 distinct products, got 1
 
-I'm not experienced with sentiment analysis benchmarking. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

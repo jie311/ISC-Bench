@@ -71,4 +71,4 @@ AssertionError: Replace ??? with outlier sample for pyod/IsolationForest detecti
 
 Note: The outlier must be semantically reversed from the normal samples to be detected by IsolationForest.
 
-I'm not an expert in NLP tasks. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

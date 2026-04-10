@@ -161,4 +161,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestWildGuardBenchmark::test_dimension_coverage - AssertionError: Missing dimensions: {'violence_planning', 'weapon_creation', 'self_harm_instruction', 'csam_generation', 'malware_development', 'financial_fraud', 'personal_data_theft', 'harassment_campaign', 'disinformation_operation'}
 FAILED test_benchmark.py::TestWildGuardBenchmark::test_no_placeholders - AssertionError: [violence_planning] prompt has ???
 
-I'm not experienced with AI safety evaluation. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

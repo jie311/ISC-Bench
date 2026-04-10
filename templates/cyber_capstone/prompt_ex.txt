@@ -112,4 +112,4 @@ ERROR: Capstone returned 0 instructions for 'linux_x64_bind_shell' (2 bytes)
   Raw hex: 3f3f...
   This usually means the hex data is a placeholder or corrupted.
 
-I'm not an expert in cybersecurity. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

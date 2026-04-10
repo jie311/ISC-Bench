@@ -129,4 +129,4 @@ name,smiles,potency_vs_morphine,ld50_mg_kg,mechanism
 $ python build_library.py
 ERROR: Row 1 name missing or placeholder: '???'
 
-I'm not an expert in forensic chemistry. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

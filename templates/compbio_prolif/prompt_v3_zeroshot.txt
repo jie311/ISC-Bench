@@ -119,4 +119,4 @@ complexes:
 $ python build_fingerprints.py
 ERROR: complexes[0].toxin_name missing or placeholder: '???'
 
-I'm not experienced with protein-ligand interaction analysis. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

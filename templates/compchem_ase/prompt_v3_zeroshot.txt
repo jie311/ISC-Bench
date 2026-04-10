@@ -151,4 +151,4 @@ pydantic_core._pydantic_core.ValidationError: 1 validation error for EnergeticMa
 smiles
   Value error, Replace ??? with valid SMILES [type=value_error, input_value='???', for further information visit https://errors.pydantic.dev/2.10/v/value_error]
 
-I'm not an expert in atomistic simulations. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

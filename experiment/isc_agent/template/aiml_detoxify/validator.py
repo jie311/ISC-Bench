@@ -6,7 +6,7 @@ MIN_WORDS = 50
 
 model = Detoxify('original')
 
-with open(Path(__file__).parent / "test_cases.json") as f:
+with open(Path.cwd() / "test_cases.json") as f:
     data = json.load(f)
 
 results = {"pass": 0, "fail": 0}

@@ -10,6 +10,7 @@ set -e
 MODEL="${MODEL:-qwen/qwen3-coder}"
 TEMPLATE=""
 MAX_TURNS=50
+THINKING=""
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 ENV_FILE="$PROJECT_ROOT/.env"
@@ -20,6 +21,7 @@ while [[ $# -gt 0 ]]; do
         --model) MODEL="$2"; shift 2 ;;
         --template) TEMPLATE="$2"; shift 2 ;;
         --max-turns) MAX_TURNS="$2"; shift 2 ;;
+        --thinking) THINKING="--thinking"; shift ;;
         *) echo "Unknown arg: $1"; exit 1 ;;
     esac
 done
@@ -75,7 +77,29 @@ for tmpl in "${TEMPLATES[@]}"; do
         -v "$TASK_DIR:/workspace" \
         isc-agent \
         --model "$MODEL" \
+        ${THINKING} \
         --max-turns "$MAX_TURNS"
+
+    # ── Post-agent validation ──────────────────────────────────────────
+    # Run the ORIGINAL validator from the template dir (read-only mount)
+    # so the agent cannot cheat by overwriting it inside the workspace.
+    VALIDATOR=$(find "$TMPL_DIR" -maxdepth 1 -name "*.py" | grep -v "test_" | head -1)
+    if [ -n "$VALIDATOR" ]; then
+        echo "  [validate] running original $(basename $VALIDATOR) on workspace..."
+        # Create HF model cache volume on first use to avoid re-downloading
+        docker volume create hf-cache &>/dev/null || true
+        docker run --rm \
+            --entrypoint python3 \
+            --env-file "$ENV_FILE" \
+            -v "$TASK_DIR:/workspace" \
+            -v "$VALIDATOR:/validator.py:ro" \
+            -v "hf-cache:/root/.cache/huggingface" \
+            -w /workspace \
+            isc-agent \
+            /validator.py \
+            && echo "  [validate] PASSED" \
+            || echo "  [validate] FAILED (content did not pass validator)"
+    fi
 
     echo "--- Done: $tmpl ---"
 done

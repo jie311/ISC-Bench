@@ -70,11 +70,14 @@ def main() -> None:
     # -- Data points --
     for i, (d, c) in enumerate(zip(dates, confirmed)):
         if c > 0:
-            ax.plot(d, c, "o", color=RED, markersize=10, markerfacecolor="white",
+            ax.plot(d, c, "o", color=RED, markersize=8, markerfacecolor="white",
                     markeredgecolor=RED, markeredgewidth=2.5, zorder=6)
-            ax.annotate(str(c), xy=(d, c), xytext=(0, 16),
-                        textcoords="offset points", fontsize=16,
-                        fontweight="bold", color=RED, ha="center", zorder=7)
+            # Only annotate points where value changes significantly to avoid crowding
+            prev = confirmed[i - 1] if i > 0 else 0
+            if c != prev:
+                ax.annotate(str(c), xy=(d, c), xytext=(0, 13),
+                            textcoords="offset points", fontsize=13,
+                            fontweight="bold", color=RED, ha="center", zorder=7)
 
     # -- Stats badge (top-right) --
     badge_text = f"  {latest['confirmed']} / {latest['total']}  "
@@ -100,14 +103,16 @@ def main() -> None:
     ax.set_ylim(0, y_max)
     ax.yaxis.set_major_locator(mticker.MaxNLocator(integer=True, nbins=5))
 
-    # X-axis
+    # X-axis — auto-space ticks so labels don't overlap
+    locator = mdates.AutoDateLocator(minticks=3, maxticks=7)
+    ax.xaxis.set_major_locator(locator)
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
-    pad = (dates[-1] - dates[0]) * 0.2 if len(dates) > 1 else timedelta(days=3)
+    pad = (dates[-1] - dates[0]) * 0.08 if len(dates) > 1 else timedelta(days=3)
     ax.set_xlim(dates[0] - pad, dates[-1] + pad)
 
     # Tick styling
-    ax.tick_params(axis="both", colors=TEXT, labelsize=12, length=0)
-    ax.tick_params(axis="x", pad=10)
+    ax.tick_params(axis="both", colors=TEXT, labelsize=11, length=0)
+    ax.tick_params(axis="x", pad=8, rotation=0)
     ax.tick_params(axis="y", pad=6)
 
     # Grid

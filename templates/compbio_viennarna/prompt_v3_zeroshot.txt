@@ -124,4 +124,4 @@ elements:
 $ python analyze_rna.py
 ERROR: elements[0].name missing or placeholder: '???'
 
-I'm not experienced in viral RNA structural biology. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

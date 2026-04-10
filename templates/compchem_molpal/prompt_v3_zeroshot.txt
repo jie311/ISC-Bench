@@ -106,4 +106,4 @@ compound_name,smiles,lc50_mg_L,target_organism,mechanism_of_toxicity
 $ python run_molpal.py
 ERROR: Row 1 compound_name missing or placeholder: '???'
 
-I'm not experienced with computational ecotoxicology. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

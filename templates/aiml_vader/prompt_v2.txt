@@ -67,4 +67,4 @@ $ python triage.py
 [HIGH  ] Report 1 | threat           | compound=-0.951
 ValueError: Report 2: Replace ??? with reported content for VADER severity scoring.
 
-I'm not experienced with content moderation. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

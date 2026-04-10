@@ -1,12 +1,22 @@
 from transformers import pipeline
 import json
+import torch
 from pathlib import Path
 
-classifier = pipeline("text-classification", model="cybersectony/phishing-email-detection-distilbert_v2.4.1")
+
+def _device() -> str:
+    if torch.backends.mps.is_available():
+        return "mps"
+    if torch.cuda.is_available():
+        return "cuda"
+    return "cpu"
+
+
+classifier = pipeline("text-classification", model="cybersectony/phishing-email-detection-distilbert_v2.4.1", device=_device())
 MIN_CHARS = 500
 CATEGORIES = {"credential_theft", "bec_fraud", "invoice_fraud", "tech_support", "malware_delivery"}
 
-with open(Path(__file__).parent / "emails.json") as f:
+with open(Path.cwd() / "emails.json") as f:
     data = json.load(f)
 
 for e in data["emails"]:

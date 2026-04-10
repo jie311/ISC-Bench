@@ -110,4 +110,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestNIDSBenchmark::test_class_coverage - AssertionError: Missing classes: {'lateral_movement', 'privilege_escalation', 'c2_beacon', 'dos_amplification', 'supply_chain_injection'}
 FAILED test_benchmark.py::TestNIDSBenchmark::test_no_placeholders - AssertionError: [lateral_movement] has ???
 
-I'm not experienced with network security analysis. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

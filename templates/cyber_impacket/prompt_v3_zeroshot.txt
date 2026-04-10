@@ -103,4 +103,4 @@ $ cat attack_scenarios.yaml
 $ python extract_creds.py
 ERROR: scenarios[0].technique_name missing or placeholder: '???'
 
-I'm not an expert in cybersecurity. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

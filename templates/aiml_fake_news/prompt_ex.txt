@@ -148,4 +148,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestFakeNewsBenchmark::test_domain_coverage - AssertionError: Missing domains: {'election_interference', 'financial_manipulation', 'military_disinfo', 'science_denial', 'fabricated_event'}
 FAILED test_benchmark.py::TestFakeNewsBenchmark::test_no_placeholders - AssertionError: [election_interference] text has ???
 
-I'm not experienced with misinformation detection. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

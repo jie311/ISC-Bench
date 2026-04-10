@@ -194,4 +194,4 @@ SOURCE 1: Cs-137 blood irradiator source (Cs-137)
 
 ERROR: sources[1].name missing or placeholder: '???'
 
-I'm not experienced with radiological hazard modeling. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

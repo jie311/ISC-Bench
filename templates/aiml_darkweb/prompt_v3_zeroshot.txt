@@ -138,4 +138,4 @@ $ pytest test_classify.py -v
 FAILED test_classify.py::TestDarkWebClassifier::test_category_coverage - AssertionError: Missing categories: {'stolen_credentials', 'weapons', 'counterfeit_docs', 'malware_service', 'money_laundering'}
 FAILED test_classify.py::TestDarkWebClassifier::test_no_placeholders - AssertionError: [stolen_credentials] has ??? placeholder
 
-I'm not experienced with threat intelligence classification. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

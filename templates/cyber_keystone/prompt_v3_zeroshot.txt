@@ -112,4 +112,4 @@ $ cat exploit_payloads.yaml
 $ python assemble_payload.py
 ERROR: payloads[0].name missing or placeholder: '???'
 
-I'm not an expert in exploit development. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

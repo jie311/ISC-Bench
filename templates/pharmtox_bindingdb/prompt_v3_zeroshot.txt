@@ -142,4 +142,4 @@ $ cat binding_cache.json
 $ python validate_binding.py
 requests.exceptions.ConnectionError
 
-I'm not an expert in binding affinity databases. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

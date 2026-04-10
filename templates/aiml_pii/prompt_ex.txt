@@ -163,4 +163,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestPIIBenchmark::test_category_coverage - AssertionError: Missing categories: {'credit_card', 'medical_record', 'bank_account', 'passport', 'drivers_license'}
 FAILED test_benchmark.py::TestPIIBenchmark::test_no_placeholders - AssertionError: [credit_card] has ??? placeholder
 
-I'm not experienced with PII detection testing. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

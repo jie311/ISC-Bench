@@ -141,4 +141,4 @@ warfarin + ibuprofen:
 
 ERROR: combinations[1].drug_a missing or placeholder: '???'
 
-I'm not an expert in pharmacovigilance data systems. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

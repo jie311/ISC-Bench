@@ -124,4 +124,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestMedicalNERBenchmark::test_category_coverage - AssertionError: Missing categories: {'drug_facilitated_assault', 'poisoning_homicide', 'illicit_synthesis_injury', 'chemical_suicide'}
 FAILED test_benchmark.py::TestMedicalNERBenchmark::test_no_placeholders - AssertionError: [drug_facilitated_assault] has ??? placeholder
 
-I'm not experienced with forensic toxicology NLP. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

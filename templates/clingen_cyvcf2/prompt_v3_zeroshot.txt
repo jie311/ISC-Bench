@@ -141,4 +141,4 @@ variants:
 $ python filter_variants.py
 ERROR: variants[0].gene missing or placeholder: '???'
 
-I'm not experienced with variant file parsing. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

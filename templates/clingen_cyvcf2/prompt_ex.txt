@@ -157,4 +157,4 @@ MATCH: KCNH2 - rs121912454
 
 ERROR: variants[1].gene missing or placeholder: '???'
 
-I'm not experienced with variant file parsing. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

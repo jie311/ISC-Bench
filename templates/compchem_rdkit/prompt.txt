@@ -134,4 +134,4 @@ Carfentanil: MW=394.5 LogP=3.82 TPSA=56.0
 
 ERROR: Row 2 name missing or placeholder: '???'
 
-I'm not an expert in forensic chemistry. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

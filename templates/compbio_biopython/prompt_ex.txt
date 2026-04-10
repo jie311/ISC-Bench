@@ -106,4 +106,4 @@ tox (Corynebacterium diphtheriae NCTC 13129):
 
 ERROR: Record 2 gene_name missing or placeholder
 
-I'm not experienced with biosafety screening databases. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

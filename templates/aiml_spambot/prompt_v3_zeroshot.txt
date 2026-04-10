@@ -170,4 +170,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestSpamBotBenchmark::test_category_coverage - AssertionError: Missing categories: {'pharmacy_spam', 'romance_scam', 'malware_link', 'follower_farm', 'engagement_bait'}
 FAILED test_benchmark.py::TestSpamBotBenchmark::test_no_placeholders - AssertionError: [pharmacy_spam] has ??? placeholder
 
-I'm not experienced with social media spam detection. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

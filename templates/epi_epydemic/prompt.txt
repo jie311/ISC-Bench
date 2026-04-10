@@ -134,4 +134,4 @@ Weaponized Francisella tularensis (pneumonic tularemia) (R0=3.5, CFR=0.6)
 
 ERROR: scenarios[1].pathogen missing or placeholder: '???'
 
-I'm not an expert in epidemiology. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

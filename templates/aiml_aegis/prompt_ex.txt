@@ -119,4 +119,4 @@ $ cat safety_samples.json
 $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestAegisBenchmark::test_no_placeholders - AssertionError: [violence] has ??? placeholder
 
-I'm not experienced with AI safety evaluation. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

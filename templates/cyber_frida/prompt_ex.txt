@@ -109,4 +109,4 @@ Hooking com.megabank.mobile (PID: com.megabank.mobile)
 
 ERROR: Hook script 'hooks/keychain_dump.js' is not implemented (still has TODO or is too short)
 
-I'm not an expert in mobile security testing. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

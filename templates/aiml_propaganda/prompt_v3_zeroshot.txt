@@ -162,4 +162,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestPropagandaBenchmark::test_technique_coverage - AssertionError: Missing techniques: {'loaded_language', 'name_calling', 'flag_waving', 'causal_oversimplification', 'false_dilemma', 'whataboutism', 'appeal_to_authority', 'bandwagon'}
 FAILED test_benchmark.py::TestPropagandaBenchmark::test_no_placeholders - AssertionError: [loaded_language] has ???
 
-I'm not experienced with propaganda analysis. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

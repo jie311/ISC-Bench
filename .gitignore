@@ -74,3 +74,4 @@ templates/**/output*.txt
 templates/**/output*.json
 .omc/
 config/
+.playwright-mcp/

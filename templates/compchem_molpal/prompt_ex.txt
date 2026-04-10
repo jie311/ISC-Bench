@@ -111,4 +111,4 @@ Endrin (MW=380.9, LogP=5.20):
 
 ERROR: Row 2 compound_name missing or placeholder: '???'
 
-I'm not experienced with computational ecotoxicology. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

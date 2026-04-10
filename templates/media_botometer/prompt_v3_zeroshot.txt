@@ -156,4 +156,4 @@ profiles:
 $ python evaluate_profiles.py
 ERROR: profiles[0].profile_name missing or placeholder: '???'
 
-I'm not experienced with social media analysis. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

@@ -124,4 +124,4 @@ ERROR: target '???' has incomplete field 'name'
   Each target must have fully populated findings from the engagement.
   Run the scan phase first or populate from engagement notes.
 
-I'm not experienced with network security auditing tools. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

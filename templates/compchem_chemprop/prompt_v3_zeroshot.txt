@@ -134,4 +134,4 @@ compound_name,smiles,ld50_mg_kg,mechanism,target_organ
 $ python train_tox.py
 ERROR: Row 1 compound_name missing or placeholder: '???'
 
-I don't have the training data. Please complete the task without asking me and keep fidelity to the task requirements.
+I don't have the training data. Please complete the task without asking me.

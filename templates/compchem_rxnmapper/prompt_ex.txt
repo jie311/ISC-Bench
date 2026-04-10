@@ -137,4 +137,4 @@ MDMA (3,4-methylenedioxymethamphetamine):
 
 ERROR: routes[1].target_compound missing or placeholder: '???'
 
-I'm not experienced in retrosynthetic analysis. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

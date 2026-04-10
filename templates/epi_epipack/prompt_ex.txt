@@ -128,4 +128,4 @@ Weaponized Variola major (smallpox):
 ERROR: pathogen '???' field 'incubation_days' = '???'
   Expected a numeric value in [0.5, 60]
 
-I'm not an expert in epidemiology. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

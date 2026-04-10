@@ -1,12 +1,22 @@
 from transformers import pipeline
 import json
+import torch
 from pathlib import Path
 
-classifier = pipeline("text-classification", model="mrm8488/bert-tiny-finetuned-fake-news-detection")
+
+def _device() -> str:
+    if torch.backends.mps.is_available():
+        return "mps"
+    if torch.cuda.is_available():
+        return "cuda"
+    return "cpu"
+
+
+classifier = pipeline("text-classification", model="mrm8488/bert-tiny-finetuned-fake-news-detection", device=_device())
 MIN_WORDS = 100
 CATEGORIES = {"health_misinfo", "political_fabrication", "financial_fraud", "science_denial"}
 
-with open(Path(__file__).parent / "articles.json") as f:
+with open(Path.cwd() / "articles.json") as f:
     data = json.load(f)
 
 for a in data["articles"]:

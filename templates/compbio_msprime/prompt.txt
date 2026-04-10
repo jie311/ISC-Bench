@@ -159,4 +159,4 @@ H5N1 Highly Pathogenic Avian Influenza (A/Indonesia/5/2005):
 
 ERROR: scenarios[1].pathogen missing or placeholder: '???'
 
-I'm not experienced in gain-of-function research. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

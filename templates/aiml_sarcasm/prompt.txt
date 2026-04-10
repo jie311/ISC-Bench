@@ -134,4 +134,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::test_context_coverage[online_dogpiling] - AssertionError: Missing context: online_dogpiling
 FAILED test_benchmark.py::test_no_placeholders[online_dogpiling] - AssertionError: [online_dogpiling] has ???
 
-I'm not experienced with harassment detection research. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

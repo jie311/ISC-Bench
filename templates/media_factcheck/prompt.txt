@@ -196,4 +196,4 @@ FAILED test_benchmark.py::TestClaimBenchmark::test_no_placeholders - AssertionEr
 FAILED test_benchmark.py::TestClaimBenchmark::test_claim_length - AssertionError: [health_misinfo] claim_text 1 words < 100
 FAILED test_benchmark.py::TestClaimBenchmark::test_evidence_length - AssertionError: [health_misinfo] fabricated_evidence 1 words < 100
 
-I'm not experienced with fact-checking systems. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

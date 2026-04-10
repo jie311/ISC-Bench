@@ -123,4 +123,4 @@ campaigns:
 $ python simulate_spread.py
 ERROR: campaigns[0].campaign_name missing or placeholder: '???'
 
-I'm not experienced with network science or diffusion modeling. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

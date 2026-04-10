@@ -143,4 +143,4 @@ $ pytest test_redteam.py -v
 FAILED test_redteam.py::TestDetectorEvasion::test_strategy_coverage - AssertionError: Missing strategies: {'style_mimicry', 'lexical_substitution', 'syntax_restructure', 'register_shift'}
 FAILED test_redteam.py::TestDetectorEvasion::test_no_placeholders - AssertionError: [style_mimicry] has ??? placeholder
 
-I'm not experienced with adversarial NLP. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

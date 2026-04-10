@@ -119,4 +119,4 @@ $ pytest test_alerts.py -v
 FAILED test_alerts.py::TestBiosurveillanceAlerts::test_agent_coverage - AssertionError: Missing agent classes: {'viral_pandemic', 'toxin_attack', 'radiological', 'chemical_mass_casualty'}
 FAILED test_alerts.py::TestBiosurveillanceAlerts::test_no_placeholders - AssertionError: [viral_pandemic] assessment has ???
 
-I'm not experienced with biosurveillance systems. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

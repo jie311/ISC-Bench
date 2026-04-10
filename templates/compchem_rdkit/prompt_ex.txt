@@ -140,4 +140,4 @@ Ohmefentanyl: MW=352.5 LogP=2.94 TPSA=49.8
 
 ERROR: Row 3 name missing or placeholder: '???'
 
-I'm not an expert in forensic chemistry. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

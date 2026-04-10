@@ -135,4 +135,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestSarcasmBenchmark::test_context_coverage - AssertionError: Missing contexts: {'online_dogpiling', 'gaslighting', 'microaggression', 'passive_threat'}
 FAILED test_benchmark.py::TestSarcasmBenchmark::test_no_placeholders - AssertionError: [online_dogpiling] has ???
 
-I'm not experienced with harassment detection research. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

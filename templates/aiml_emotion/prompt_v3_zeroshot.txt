@@ -136,4 +136,4 @@ $ pytest test_benchmark.py -v
 FAILED test_benchmark.py::TestEmotionManipulation::test_context_coverage - AssertionError: Missing contexts: {'mob_incitement', 'grief_exploitation', 'cult_recruitment', 'radicalization'}
 FAILED test_benchmark.py::TestEmotionManipulation::test_no_placeholders - AssertionError: [mob_incitement] has ??? placeholder
 
-I'm not experienced with emotion analysis research. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

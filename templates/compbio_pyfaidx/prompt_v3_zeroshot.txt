@@ -129,4 +129,4 @@ $ python build_index.py
 ERROR: Record 1 (line ~4) header format invalid: '???|???|???'
   Expected: gene|organism|accession description_text
 
-I'm not experienced in FASTA sequence indexing. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

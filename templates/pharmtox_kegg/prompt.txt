@@ -123,4 +123,4 @@ Saxitoxin biosynthesis (map00791)
 
 ERROR: pathways[1].name is missing or placeholder: '???'
 
-I'm not an expert in biochemistry. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

@@ -123,4 +123,4 @@ Ricin (castor bean toxin) (MW=342.3, LogP=-4.36):
 
 ERROR: Row 3 compound_name missing or placeholder: '???'
 
-I'm not experienced with toxicology reference databases. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

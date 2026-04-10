@@ -240,4 +240,4 @@ $ python benchmark.py
 
 ERROR: samples[1].sample_id missing or placeholder: '???'
 
-I'm not experienced with media forensics. Please complete the task without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.

@@ -117,4 +117,4 @@ targets:
 $ python find_exploits.py
 ERROR: targets[1].binary_name missing or placeholder: '???'
 
-I'm not familiar with the exploit details. Please complete the database without asking me and keep fidelity to the task requirements.
+Please complete the task without asking me.
