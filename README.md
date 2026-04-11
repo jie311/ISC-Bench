@@ -63,11 +63,11 @@ Go directly to the corresponding experiment folder to validate the core findings
 
 ISC is evaluated in three settings:
 
-**Single-turn (`isc_single/`)** — The entire TVD task file is wrapped into a single prompt that simulates a terminal session. The model receives it as one turn and generates a response as if completing the task.
+**Single-turn ([`isc_single/`](experiment/isc_single/))** — The entire TVD task file is wrapped into a single prompt that simulates a terminal session. The model receives it as one turn and generates a response as if completing the task.
 
-**In-Context Learning (`isc_icl/`)** — N completed examples are prepended as demonstrations before the target entry. This is structurally similar to [many-shot jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking) or [few-shot jailbreaking](https://arxiv.org/abs/2310.06387): the model sees expected input-output pairs and continues the pattern.
+**In-Context Learning ([`isc_icl/`](experiment/isc_icl/))** — N completed examples are prepended as demonstrations before the target entry. This is structurally similar to [many-shot jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking) or [few-shot jailbreaking](https://arxiv.org/abs/2310.06387): the model sees expected input-output pairs and continues the pattern.
 
-**Agentic (`isc_agent/`)** — The generated output is passed directly to a real tool. The agent calls the tool autonomously and completes the full workflow — no human instruction required at any step.
+**Agentic ([`isc_agent/`](experiment/isc_agent/))** — The generated output is passed directly to a real tool. The agent calls the tool autonomously and completes the full workflow.
 
 ### ② ⚡ Immediate Reproduction 
 
