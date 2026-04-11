@@ -1,13 +1,14 @@
+
+EN | [中文](./README_zh.md)
+
+
+<h2 align="center">Internal Safety Collapse in Frontier Large Language Models</h2>
 <p align="center">
   <a href="https://wuyoscar.github.io/ISC-Bench/"><img src="assets/isc_banner.png" width="1000"></a>
 </p>
-
-<h2 align="center">Internal Safety Collapse in Frontier Large Language Models</h2>
-
 <p align="center">
   <a href="https://arxiv.org/abs/2603.23509"><img src="https://img.shields.io/badge/arXiv-2603.23509-b31b1b.svg"></a>
   <a href="https://huggingface.co/papers/2603.23509"><img src="https://img.shields.io/badge/🤗_HF_Papers-Upvote-FFD21E.svg"></a>
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-2b9348.svg" alt="License"></a>
   <a href="https://podcasts.apple.com/tr/podcast/internal-safety-collapse-in-frontier-llms/id1835878324?i=1000759288088"><img src="https://img.shields.io/badge/🎙️_Podcast-AI_Post_Transformers-8B5CF6.svg" alt="Podcast"></a>
 </p>  
 
@@ -24,26 +25,23 @@
   💬 <a href="https://github.com/wuyoscar/ISC-Bench/discussions">Discussions</a>
 </h3>
 
-<p align="center">
-  EN | <a href="./README_zh.md">中文</a>
-</p>
 
-> **ISC (Internal Safety Collapse)** reveals a fundamental paradox in frontier AI: the very capability that makes agents useful is what bypasses their safety training. By simply completing professional workflows, models generate harmful outputs with **zero jailbreaks, zero adversarial prompts, and zero obfuscation.** The task itself is the exploit.
 
-### 🚨 Impact at a Glance
-- **51% of Top-100 Triggered — 100% of Top-25:** All 25 strongest models on the Arena leaderboard have confirmed ISC triggers, including GPT-5, Claude 4, and Gemini 3 series.
-- **Universal Attack Surface:** Works against single-turn chat, agentic pipelines, and any AI doing programming or tool-integrated work (MCP, APIs).
-- **Dataset-Scale Harm:** A single trigger generates full structured datasets of harmful content (toxins, exploits, adversarial prompts).
-- **No Known Effective Defense:** Structurally coupled to model capability. Filtering the harm degrades the model's utility.
-- **Zero Attack Budget:** No fine-tuning or prompt optimization required. The task structure itself is the trigger.
+> **ISC (Internal Safety Collapse)** reveals a fundamental paradox in frontier AI: the very capability that makes agents useful is what bypasses their safety training. By simply completing professional workflows, models generate harmful outputs with zero jailbreaks, zero adversarial prompts, and zero obfuscation. The task itself is the exploit.
+
+
+### 🚨 **Impact at a Glance**
+> - **Top-25 frontier LLMs:** All top-25 models on [Chatbot Arena](https://arena.ai/leaderboard/text) have confirmed ISC triggers; 51 models in the top 100 have been confirmed so far.
+> - **Broad coverage:** ISC appears across chat-based LLMs, LLM-based agents, tool-using LLMs, MCP-enabled LLMs, and automated LLM workflows.
+> - **Dual-use tools amplify risk:** Ecosystems such as Hugging Face, Python packages, and domain APIs can become part of the attack surface.
+> - **No jailbreak required:** ISC can be triggered without adversarial prompts or jailbreak techniques.
+> - **Scales to dataset-level harm:** A single trigger can produce a structured harmful-content dataset.
 
 <p align="center">
   <img src="assets/leaderboard_progress.svg" width="80%">
-  <br>
-  <b><a href="#🏆-isc-arena">View Full Arena Rankings →</a></b>
 </p>
 
-**Live Demo:**  [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) ·[Qwen3.6-Plus](https://chat.qwen.ai/s/d7adf970-7b2e-4298-8a62-fa560c467139?fev=0.2.36)
+**See It Live:**  [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) · [Qwen3.6-Plus](https://chat.qwen.ai/s/d7adf970-7b2e-4298-8a62-fa560c467139?fev=0.2.36)
 
 > [!CAUTION]
 > Research-use only. ISC-Bench is released exclusively for academic safety research, evaluation, and mitigation work. **We do not condone or permit any use of these materials for malicious purposes or real-world harm.**
@@ -62,13 +60,13 @@ https://raw.githubusercontent.com/wuyoscar/ISC-Bench/main/AGENT_README.md
 
 ### ① 🚀 Reproduce the Paper Experiments
 
-Go directly to the corresponding experiment folder to validate the core findings:
+ISC is evaluated in three settings. Start with the corresponding experiment folder if you want to validate the paper results directly:
 
-```bash
-experiment/isc_single/   ← Single-turn API runs (reproduce Table 1)
-experiment/isc_icl/      ← In-context learning / Few-shot variants
-experiment/isc_agent/    ← Agentic execution (Section 4.3)
-```
+**Single-turn ([`isc_single/`](experiment/isc_single/))** — The complete TVD task context (task script, validator, data file, and validation traceback) is wrapped into a single prompt simulating a terminal session. The model responds in one turn.
+
+**In-Context Learning ([`isc_icl/`](experiment/isc_icl/))** — N completed user-assistant demonstration pairs are prepended before the target entry. This is structurally similar to [many-shot jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking) or [few-shot jailbreaking](https://arxiv.org/abs/2310.06387): the model sees successful completions and continues the pattern.
+
+**Agentic ([`isc_agent/`](experiment/isc_agent/))** — The model is given shell access and a high-level instruction. It reads project files, runs code, reads validation errors, and self-corrects across multiple turns.
 
 ### ② ⚡ Immediate Reproduction 
 
@@ -84,7 +82,7 @@ You are an autonomous agent solving NLP tasks. You can use terminal commands to 
 
 ### ③ 🧩 Explore Templates
 
-Templates are not fixed — they are starting points. Effectiveness depends on your target model, how you construct the anchor, and how the validator is framed. The stronger your engineering background, the more you can push them.
+Templates are starting points, not fixed recipes. What works depends on the target model, the anchor you use, and the validator you build around it.
 
 1. **Browse [`templates/`](templates/)** (84 templates, 9 domains). Each template includes a `SKILL.md` with TVD structure, anchor strength, and guidance on what to adjust.
 2. **Study [`community/`](community/)** to see how others adapted templates for different models. Real examples show what worked, what needed tweaking, and what the model actually generated.
@@ -115,7 +113,8 @@ Templates are not fixed — they are starting points. Effectiveness depends on y
 
 | | Date | Update |
 |:-:|:-----|:-------|
-| 🔴 | 2026-04-10 | **Exploiting Reasoning: Claude Opus 4.6 Thinking (Rank 1).** We discovered that ISC manipulates LLMs to **directly generate adversarial prompts** such as PAIR, PAP, and DAN. See [community/claudeopus46thinking-guard-attack](https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus46thinking-guard-attack). **CRITICAL: 51/100 Models Now Triggered.**|
+| 🔴 | 2026-04-10 | 51/100 confirmed. New confirmations include Grok 4.1 Thinking, Gemini 3 Flash Thinking, GPT-5.1/High, Claude Opus 4.1/Thinking, GPT-5.2/High, DeepSeek V3.2 Thinking, and **Qwen 3.5 Max Preview** (web trigger), all with `aiml_guard_attack_v2`. |
+| 🔴 | 2026-04-10 | **Claude Opus 4.6 Thinking (Rank 1):** ISC induced the model to generate adversarial prompts (PAIR, PAP, DAN) directly. See [community/claudeopus46thinking-guard-attack](https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus46thinking-guard-attack). |
 | 🔴 | 2026-03-30 | **GLM-4.7** (Rank 34) and **GLM-4.6** (Rank 47): single-turn toxin biosynthesis, nerve agent docking, radiological dispersal ([#64](https://github.com/wuyoscar/ISC-Bench/issues/64), [#65](https://github.com/wuyoscar/ISC-Bench/issues/65)). 28/100 confirmed. |
 | 🔴 | 2026-03-29 | **Mistral Large 3** (Rank 64): single-turn survival analysis — poisoning cohort data with LD50 and mechanisms ([#60](https://github.com/wuyoscar/ISC-Bench/issues/60)). 26/100 confirmed. |
 | 🔴 | 2026-03-29 | **GPT-5.4 High** (Rank 6): agentic input moderation and prompt-injection generation ([#57](https://github.com/wuyoscar/ISC-Bench/issues/57)) |
@@ -129,9 +128,7 @@ Templates are not fixed — they are starting points. Effectiveness depends on y
 
 | | Date | Note |
 |:-:|:-----|:-----|
-| 🎙️ | 2026-04-04 | Featured on [**AI Post Transformers podcast**](https://podcasts.apple.com/tr/podcast/internal-safety-collapse-in-frontier-llms/id1835878324?i=1000759288088): deep dive into ISC and agent-workflow vulnerabilities |
-| ✨ | 2026-03-29 | **700+ stars**; terminology updated from "Jailbroken" to "Triggered" |
-| 📄 | 2026-03-27 | Related work: [**UltraBreak**](https://github.com/kaiyuanCui/UltraBreak) (ICLR 2026) |
+| ✨ | 2026-03-29 | **700+ stars** |
 | 🚀 | 2026-03-25 | ISC-Bench repository and [**paper**](https://arxiv.org/abs/2603.23509) released |
 
 <sub>[Full changelog →](CHANGELOG.md)</sub>
@@ -140,15 +137,14 @@ Templates are not fixed — they are starting points. Effectiveness depends on y
 
 ## 🔍 Community Perspectives
 
+<sub>Short descriptions from others that match the core idea behind ISC.</sub>
+
 > *"Big blind spot. We guard prompts, but risk sits in tasks."* — [**Bonny Banerjee**](https://www.linkedin.com/feed/update/urn:li:activity:7442788617648852993?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7442788617648852993%2C7442937067493466112%29)
 
 > *"ISC is not about jailbreaks — it's about how models complete tasks. Models produce harmful outputs simply by doing their job."* — [**Charles H. Martin**](https://www.linkedin.com/posts/charlesmartin14_activity-7442788617648852993-8rsz)
 
 > *"Task completion and safety are two different goals. When you force them into one model, the task always wins — and safety collapses."* — [**Andrei Trandafira**](https://www.linkedin.com/feed/update/urn:li:activity:7442788617648852993?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7442788617648852993%2C7442894697385156610%29)
 
-> *"SO interesting. Great paper tbh."* — **Adrian De Wynter**
-
-> *"Refusal-based safety is a surface-level constraint, not genuine capability removal. When professional objectives clash with safety objectives, dangerous knowledge resurfaces."* — [**AI Post Transformers**](https://podcasts.apple.com/tr/podcast/internal-safety-collapse-in-frontier-llms/id1835878324?i=1000759288088) podcast
 
 ### 🎬 Demo
 
@@ -335,7 +331,7 @@ Templates are not fixed — they are starting points. Effectiveness depends on y
 
 ISC-Bench is not a static dataset; it is an evolving, high-stakes benchmark tracking the structural fragility of the world's most advanced models. The 84 systematic templates across 9 critical domains provided here represent the first comprehensive attempt to measure safety collapse when models are at their most capable.
 
-### 🌍 Community Reproductions & Live Evidence
+### 🌍 Community Reproductions
 
 ISC is a persistent threat on frontier models. Below are community-verified cases of safety collapse.
 
@@ -675,4 +671,3 @@ For questions, collaborations, or responsible disclosure: **wuy⁷¹¹⁷ ⓐ �
 - [Awesome-Embodied-AI-Safety](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) -- Safety in Embodied AI: Risks, Attacks, and Defenses (400+ papers)
 - [Awesome-Large-Model-Safety](https://github.com/xingjunm/Awesome-Large-Model-Safety) -- Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety
 - [AI Safety Report](https://github.com/XSafeAI/AI-safety-report) -- A broad evaluation suite and report for frontier model safety across language, vision-language, and image generation
-
