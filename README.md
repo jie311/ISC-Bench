@@ -39,11 +39,9 @@
 
 <p align="center">
   <img src="assets/leaderboard_progress.svg" width="80%">
-  <br>
-  <b><a href="#🏆-isc-arena">View Full Arena Rankings →</a></b>
 </p>
 
-**Live Evidence:**  [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) ·[Qwen3.6-Plus](https://chat.qwen.ai/s/d7adf970-7b2e-4298-8a62-fa560c467139?fev=0.2.36)
+**See It Live:**  [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) · [Qwen3.6-Plus](https://chat.qwen.ai/s/d7adf970-7b2e-4298-8a62-fa560c467139?fev=0.2.36)
 
 > [!CAUTION]
 > Research-use only. ISC-Bench is released exclusively for academic safety research, evaluation, and mitigation work. **We do not condone or permit any use of these materials for malicious purposes or real-world harm.**
@@ -336,7 +334,7 @@ Templates are not fixed — they are starting points. Effectiveness depends on y
 
 ISC-Bench is not a static dataset; it is an evolving, high-stakes benchmark tracking the structural fragility of the world's most advanced models. The 84 systematic templates across 9 critical domains provided here represent the first comprehensive attempt to measure safety collapse when models are at their most capable.
 
-### 🌍 Community Reproductions & Live Evidence
+### 🌍 Community Reproductions
 
 ISC is a persistent threat on frontier models. Below are community-verified cases of safety collapse.
 
