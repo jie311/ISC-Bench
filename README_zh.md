@@ -77,7 +77,7 @@ ISC 在三种设置下评测：
 
 **In-Context Learning（[`isc_icl/`](experiment/isc_icl/)）** — 在目标条目前预置 N 个已完成的示例作为 demonstration。结构上类似于 [Many-shot Jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking) 或 [Few-shot Jailbreaking](https://arxiv.org/abs/2310.06387)：模型看到预期的输入-输出对后顺着规律继续填写。
 
-**Agentic（[`isc_agent/`](experiment/isc_agent/)）** — 生成的输出直接传给真实工具。Agent 自主调用工具并完成整个 workflow。
+**Agentic（[`isc_agent/`](experiment/isc_agent/)）** — 模型获得 shell 访问权限和一条高层指令，自主读取项目文件、执行代码、读取 validation 报错并多轮自我纠正。
 
 ### ② ⚡ 立即复现（复制粘贴，无需 API）
 
