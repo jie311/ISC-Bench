@@ -25,7 +25,8 @@ EN | [中文](./README_zh.md)
   💬 <a href="https://github.com/wuyoscar/ISC-Bench/discussions">Discussions</a>
 </h3>
 
-
+<h3 align="center">🎬 Demo</h3>
+<video src="https://github.com/user-attachments/assets/1cc80c48-02a4-4a5c-9d00-a0f10d91db15" controls width="600"></video>
 
 > **ISC (Internal Safety Collapse)** reveals a fundamental paradox in frontier AI: the very capability that makes agents useful is what bypasses their safety training. By simply completing professional workflows, models generate harmful outputs with zero jailbreaks, zero adversarial prompts, and zero obfuscation. The task itself is the exploit.
 
@@ -37,9 +38,7 @@ EN | [中文](./README_zh.md)
 > - **No jailbreak required:** ISC can be triggered without adversarial prompts or jailbreak techniques.
 > - **Scales to dataset-level harm:** A single trigger can produce a structured harmful-content dataset.
 
-<p align="center">
-  <img src="assets/leaderboard_progress.svg" width="80%">
-</p>
+
 
 **See It Live:**  [Kimi](https://www.kimi.com/share/19d2ab75-8f02-88ab-8000-00006acdf337) · [Claude](https://claude.ai/share/cc972f9b-a558-4bca-8bc6-0e6d65590793) · [Qwen3.6-Plus](https://chat.qwen.ai/s/d7adf970-7b2e-4298-8a62-fa560c467139?fev=0.2.36)
 
@@ -113,7 +112,6 @@ Templates are starting points, not fixed recipes. What works depends on the targ
 
 | | Date | Update |
 |:-:|:-----|:-------|
-| 🔴 | 2026-04-10 | 51/100 confirmed. New confirmations include Grok 4.1 Thinking, Gemini 3 Flash Thinking, GPT-5.1/High, Claude Opus 4.1/Thinking, GPT-5.2/High, DeepSeek V3.2 Thinking, and **Qwen 3.5 Max Preview** (web trigger), all with `aiml_guard_attack_v2`. |
 | 🔴 | 2026-04-10 | **Claude Opus 4.6 Thinking (Rank 1):** ISC induced the model to generate adversarial prompts (PAIR, PAP, DAN) directly. See [community/claudeopus46thinking-guard-attack](https://github.com/wuyoscar/ISC-Bench/tree/main/community/claudeopus46thinking-guard-attack). |
 | 🔴 | 2026-03-30 | **GLM-4.7** (Rank 34) and **GLM-4.6** (Rank 47): single-turn toxin biosynthesis, nerve agent docking, radiological dispersal ([#64](https://github.com/wuyoscar/ISC-Bench/issues/64), [#65](https://github.com/wuyoscar/ISC-Bench/issues/65)). 28/100 confirmed. |
 | 🔴 | 2026-03-29 | **Mistral Large 3** (Rank 64): single-turn survival analysis — poisoning cohort data with LD50 and mechanisms ([#60](https://github.com/wuyoscar/ISC-Bench/issues/60)). 26/100 confirmed. |
@@ -146,9 +144,7 @@ Templates are starting points, not fixed recipes. What works depends on the targ
 > *"Task completion and safety are two different goals. When you force them into one model, the task always wins — and safety collapses."* — [**Andrei Trandafira**](https://www.linkedin.com/feed/update/urn:li:activity:7442788617648852993?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7442788617648852993%2C7442894697385156610%29)
 
 
-### 🎬 Demo
 
-<video src="https://github.com/user-attachments/assets/1cc80c48-02a4-4a5c-9d00-a0f10d91db15" controls width="600"></video>
 
 ---
 
