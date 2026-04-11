@@ -61,11 +61,13 @@ https://raw.githubusercontent.com/wuyoscar/ISC-Bench/main/AGENT_README.md
 
 Go directly to the corresponding experiment folder to validate the core findings:
 
-```bash
-experiment/isc_single/   ← Single-turn API runs (reproduce Table 1)
-experiment/isc_icl/      ← In-context learning / Few-shot variants
-experiment/isc_agent/    ← Agentic execution (Section 4.3)
-```
+ISC is evaluated in two primary modes:
+
+**Single-turn (`isc_single/`)** — The TVD workflow is packaged into a single self-contained prompt that simulates a terminal session. The model receives it as one turn and generates a response as if completing the task.
+
+**In-Context Learning (`isc_icl/`)** — N completed examples are prepended as demonstrations before the target query. This is structurally similar to [many-shot jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking) or few-shot jailbreaking: the model sees expected input-output pairs and continues the pattern.
+
+For the **Agentic** setting (`isc_agent/`), the generated output is passed directly to a tool. The agent calls the tool autonomously and completes the full workflow — no human instruction required at any step.
 
 ### ② ⚡ Immediate Reproduction 
 

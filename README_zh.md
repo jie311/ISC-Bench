@@ -71,13 +71,13 @@ https://raw.githubusercontent.com/wuyoscar/ISC-Bench/main/AGENT_README.md
 
 ### ① 复现论文实验
 
-直接进入对应的实验文件夹，按 README 操作：
+ISC 在两种主要模式下评测：
 
-```
-experiment/isc_single/   ← 单轮 API 测试（复现 Table 1）
-experiment/isc_icl/      ← 上下文学习变体
-experiment/isc_agent/    ← Agentic 测试（Section 4.3）
-```
+**Single-turn（`isc_single/`）** — TVD 工作流被打包成单个自包含 prompt，模拟一个终端 session。模型以单轮方式接收并生成 response，如同真正在完成任务。
+
+**In-Context Learning（`isc_icl/`）** — 在目标 query 前预置 N 个已完成的示例作为 demonstration。结构上类似于 [Many-shot Jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking) 或 Few-shot Jailbreaking：模型看到预期的输入-输出对后顺着规律继续填写。
+
+**Agentic（`isc_agent/`）** — 生成的输出直接传给工具。Agent 自主调用工具并完成整个 workflow，全程无需人工指令。
 
 ### ② ⚡ 立即复现（复制粘贴，无需 API）
 
