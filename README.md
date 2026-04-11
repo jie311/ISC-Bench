@@ -34,7 +34,6 @@
 - **100% of Top-25 LLMs Triggered:** Every top-25 model on the [Chatbot Arena](https://arena.ai/leaderboard/text) leaderboard has a confirmed ISC trigger — including GPT-5, Claude 4, and Gemini 3 series. 51/100 confirmed to date; the rest are untested, not immune.
 - **Universal Attack Surface:** Works against single-turn chat, agentic pipelines, and any AI doing programming or tool-integrated work (MCP, APIs).
 - **Dataset-Scale Harm:** A single trigger generates full structured datasets of harmful content (toxins, exploits, adversarial prompts).
-- **No Known Effective Defense:** Structurally coupled to model capability. Filtering the harm degrades the model's utility.
 - **Zero Attack Budget:** No fine-tuning or prompt optimization required. The task structure itself is the trigger.
 
 <p align="center">
