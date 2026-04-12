@@ -36,9 +36,6 @@ AGENT.md
 CLAUDE.md
 HANDOFF.md
 ROADMAP.md
-README_ja.md
-README_ko.md
-README_es.md
 
 # Credentials & secrets (NEVER commit)
 *.pem

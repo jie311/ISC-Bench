@@ -1,6 +1,6 @@
 
 
-[EN](./README.md) | 中文
+[EN](./README.md) | 中文 | [日本語](./README_ja.md) | [한국어](./README_ko.md) | [Español](./README_es.md) | [Português](./README_pt.md) | [Tiếng Việt](./README_vi.md)
 
 
 <h2 align="center">前沿大语言模型中的内在安全崩塌（ISC）</h2>

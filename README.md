@@ -1,5 +1,5 @@
 
-EN | [中文](./README_zh.md)
+EN | [中文](./README_zh.md) | [日本語](./README_ja.md) | [한국어](./README_ko.md) | [Español](./README_es.md) | [Português](./README_pt.md) | [Tiếng Việt](./README_vi.md)
 
 
 <h2 align="center">Internal Safety Collapse in Frontier Large Language Models</h2>
@@ -139,7 +139,7 @@ Templates are starting points, not fixed recipes. What works depends on the targ
 
 > *"Big blind spot. We guard prompts, but risk sits in tasks."* — [**Bonny Banerjee**](https://www.linkedin.com/feed/update/urn:li:activity:7442788617648852993?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7442788617648852993%2C7442937067493466112%29)
 
-> *"ISC is not about jailbreaks — it's about how models complete tasks. Models produce harmful outputs simply by doing their job."* — [**Charles H. Martin**](https://www.linkedin.com/posts/charlesmartin14_activity-7442788617648852993-8rsz)
+> *"ISC is not about jailbreaks — it's about how models complete tasks. Models produce harmful outputs simply by doing their job."* — [**Charles H. Martin**](https://www.linkedin.com/posts/charlesmartin14_%F0%9D%97%9F%F0%9D%97%9F%F0%9D%97%A0-%F0%9D%97%A6%F0%9D%97%AE%F0%9D%97%B3%F0%9D%97%B2%F0%9D%98%81%F0%9D%98%86-%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B1-%F0%9D%97%9A%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BB%F0%9D%97%AE-activity-7442788617648852993-8rsz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADNGs84BquAuThXP81X5r2i37kD-UunsZ2U)
 
 > *"Task completion and safety are two different goals. When you force them into one model, the task always wins — and safety collapses."* — [**Andrei Trandafira**](https://www.linkedin.com/feed/update/urn:li:activity:7442788617648852993?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7442788617648852993%2C7442894697385156610%29)
 
