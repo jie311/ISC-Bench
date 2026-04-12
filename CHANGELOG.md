@@ -2,7 +2,21 @@
 
 All notable updates to ISC-Bench are documented here.
 
-## 2026-04-10 (latest)
+## 2026-04-12 (latest) — v11
+
+### Documentation
+- Add TVD Walkthrough Example: `guard.py` (LlamaGuard transformer), `validator.py` (Pydantic v2), `test_case.json`
+- Add TVD Customization: Method 1 (numerical constraint) and Method 2 (few-shot anchor injection) with corrected toxic-bert multi-label scoring (`top_k=None`, index by category name)
+- Add Conversation-Based ISC section with `web_llms.png`
+- Add FAQ entry comparing TVD to traditional jailbreak attacks (academic framing)
+- Simplify validator: remove `category: Literal[...]`, add `ConfigDict(extra="ignore")`
+- Add full multilingual README translations: Japanese, Korean, Spanish, Portuguese, Vietnamese
+- Update `ISC_PAPER_DIGEST.md`: TVD customization methods, conversation-based ISC, FAQ for agents
+- Sync `README_zh.md` with all new sections and Chinese FAQ entry
+
+---
+
+## 2026-04-10
 
 ### New ISC Triggers (11 models, 51/100 total)
 All via `aiml_guard_attack_v2`: ISC frames attack-response generation as a guard-model calibration dataset task — output flagged by OpenAI `omni-moderation-latest`.
