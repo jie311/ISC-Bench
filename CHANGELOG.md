@@ -2,7 +2,7 @@
 
 All notable updates to ISC-Bench are documented here.
 
-## 2026-04-12 (latest) — v11
+## 2026-04-12 (latest) — v0.0.4
 
 ### Documentation
 - Add TVD Walkthrough Example: `guard.py` (LlamaGuard transformer), `validator.py` (Pydantic v2), `test_case.json`
