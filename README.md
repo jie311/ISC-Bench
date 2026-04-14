@@ -929,9 +929,8 @@ Traditional jailbreaks require dedicated effort (adaptive attacks, white-box acc
 
 - **Yutao Wu** — Discovered ISC, led the project, designed the TVD framework, and conducted the main experiments.
 - **Xingjun Ma, Xiao Liu** — Supervised the project and helped shape its cross-domain scope.
-- **Hanxun Huang, Yige Li** — Contributed to data collection, anchor design, and follow-up research directions.
-- **Xiang Zheng, Yifeng Gao** — Contributed to experiments, evaluation pipelines, and figures.
-- **Cong Wang, Bo Li** — Reviewed and edited the paper.
+- **Hanxun Huang, Yige Li, Xiang Zheng, Yifeng Gao** — Contributed to data collection, anchor design, and follow-up research directions. Contributed to experiments, evaluation pipelines, and figures
+- **Cong Wang, Bo Li, Yu-Gang Jiang** — Reviewed and edited the paper.
 
 ### Contact
 
